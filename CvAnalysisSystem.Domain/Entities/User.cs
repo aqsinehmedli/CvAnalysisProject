@@ -14,7 +14,7 @@ public class User : BaseEntity
     public string Email { get; set; }
     public string Location { get; set; }
     public string PasswordHash { get; set; }
-    public UserRoles UserRole { get; set; }
-    public Gender Genders { get; set; }
+    public UserRoles? UserRoles { get; set; }
+    public Gender? Gender { get; set; }
 
 }

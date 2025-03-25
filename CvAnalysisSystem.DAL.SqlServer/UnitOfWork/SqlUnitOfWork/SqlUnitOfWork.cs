@@ -11,5 +11,5 @@ public class SqlUnitOfWork(string connectionString, AppDbContext context) : IUni
     private readonly AppDbContext _context = context;
     public SqlUserRepository _userRepository;
 
-    IUserRepository IUnitOfWork._userRepository => _userRepository ?? new SqlUserRepository(_context);
+    public IUserRepository UserRepository => _userRepository ?? new SqlUserRepository(_context);
 }

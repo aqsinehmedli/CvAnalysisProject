@@ -1,4 +1,5 @@
 using CvAnalysisSystem.DAL.SqlServer;
+using CvAnalysisSystem.Application;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -9,6 +10,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 var connectionString = builder.Configuration.GetConnectionString("MyConn");
 builder.Services.AddSqlServerServices(connectionString!);
+builder.Services.AddApplicationServices();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisProject\\CvAnalysisSystemProject.csproj": {}
+    "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisProject\\CvAnalysisSystemProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisProject\\CvAnalysisSystemProject.csproj": {
+    "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisProject\\CvAnalysisSystemProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisProject\\CvAnalysisSystemProject.csproj",
+        "projectUniqueName": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisProject\\CvAnalysisSystemProject.csproj",
         "projectName": "CvAnalysisSystemProject",
-        "projectPath": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisProject\\CvAnalysisSystemProject.csproj",
+        "projectPath": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisProject\\CvAnalysisSystemProject.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisProject\\obj\\",
+        "outputPath": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,8 +29,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.DAL.SqlServer\\CvAnalysisSystem.DAL.SqlServer.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.DAL.SqlServer\\CvAnalysisSystem.DAL.SqlServer.csproj"
+              "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Application\\CvAnalysisSystem.Application.csproj": {
+                "projectPath": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Application\\CvAnalysisSystem.Application.csproj"
+              },
+              "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.DAL.SqlServer\\CvAnalysisSystem.DAL.SqlServer.csproj": {
+                "projectPath": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.DAL.SqlServer\\CvAnalysisSystem.DAL.SqlServer.csproj"
               }
             }
           }
@@ -78,14 +81,96 @@
         }
       }
     },
-    "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj": {
+    "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Application\\CvAnalysisSystem.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj",
-        "projectName": "CvAnalysisSystem.Common",
-        "projectPath": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj",
+        "projectUniqueName": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Application\\CvAnalysisSystem.Application.csproj",
+        "projectName": "CvAnalysisSystem.Application",
+        "projectPath": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Application\\CvAnalysisSystem.Application.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.Common\\obj\\",
+        "outputPath": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj": {
+                "projectPath": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj"
+              },
+              "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Repository\\CvAnalysisSystem.Repository.csproj": {
+                "projectPath": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Repository\\CvAnalysisSystem.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[14.0.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj",
+        "projectName": "CvAnalysisSystem.Common",
+        "projectPath": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -139,14 +224,14 @@
         }
       }
     },
-    "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.DAL.SqlServer\\CvAnalysisSystem.DAL.SqlServer.csproj": {
+    "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.DAL.SqlServer\\CvAnalysisSystem.DAL.SqlServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.DAL.SqlServer\\CvAnalysisSystem.DAL.SqlServer.csproj",
+        "projectUniqueName": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.DAL.SqlServer\\CvAnalysisSystem.DAL.SqlServer.csproj",
         "projectName": "CvAnalysisSystem.DAL.SqlServer",
-        "projectPath": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.DAL.SqlServer\\CvAnalysisSystem.DAL.SqlServer.csproj",
+        "projectPath": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.DAL.SqlServer\\CvAnalysisSystem.DAL.SqlServer.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.DAL.SqlServer\\obj\\",
+        "outputPath": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.DAL.SqlServer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -164,14 +249,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj"
+              "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj": {
+                "projectPath": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj"
               },
-              "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj"
+              "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj": {
+                "projectPath": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj"
               },
-              "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.Repository\\CvAnalysisSystem.Repository.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.Repository\\CvAnalysisSystem.Repository.csproj"
+              "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Repository\\CvAnalysisSystem.Repository.csproj": {
+                "projectPath": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Repository\\CvAnalysisSystem.Repository.csproj"
               }
             }
           }
@@ -224,14 +309,14 @@
         }
       }
     },
-    "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj": {
+    "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj",
         "projectName": "CvAnalysisSystem.Domain",
-        "projectPath": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj",
+        "projectPath": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.Domain\\obj\\",
+        "outputPath": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -285,14 +370,14 @@
         }
       }
     },
-    "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.Repository\\CvAnalysisSystem.Repository.csproj": {
+    "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Repository\\CvAnalysisSystem.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.Repository\\CvAnalysisSystem.Repository.csproj",
+        "projectUniqueName": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Repository\\CvAnalysisSystem.Repository.csproj",
         "projectName": "CvAnalysisSystem.Repository",
-        "projectPath": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.Repository\\CvAnalysisSystem.Repository.csproj",
+        "projectPath": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Repository\\CvAnalysisSystem.Repository.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.Repository\\obj\\",
+        "outputPath": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -310,8 +395,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj"
+              "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj": {
+                "projectPath": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj"
               }
             }
           }

@@ -1,0 +1,604 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{80B5B192-565E-4EB8-8543-B77CF1BD59EB}|CvAnalysisSystem.Application\\CvAnalysisSystem.Application.csproj|c:\\users\\user\\source\\repos\\cvanalysisproject\\cvanalysissystem.application\\dependencyinjections.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80B5B192-565E-4EB8-8543-B77CF1BD59EB}|CvAnalysisSystem.Application\\CvAnalysisSystem.Application.csproj|solutionrelative:cvanalysissystem.application\\dependencyinjections.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C3AEC81-C139-4BA2-8502-3699D684E98A}|CvAnalysisProject\\CvAnalysisSystemProject.csproj|c:\\users\\user\\source\\repos\\cvanalysisproject\\cvanalysisproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C3AEC81-C139-4BA2-8502-3699D684E98A}|CvAnalysisProject\\CvAnalysisSystemProject.csproj|solutionrelative:cvanalysisproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC6C79C1-A60E-44D4-AE44-BFAD5E986771}|CvAnalysisSystem.DAL.SqlServer\\CvAnalysisSystem.DAL.SqlServer.csproj|c:\\users\\user\\source\\repos\\cvanalysisproject\\cvanalysissystem.dal.sqlserver\\dependencyinjections.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC6C79C1-A60E-44D4-AE44-BFAD5E986771}|CvAnalysisSystem.DAL.SqlServer\\CvAnalysisSystem.DAL.SqlServer.csproj|solutionrelative:cvanalysissystem.dal.sqlserver\\dependencyinjections.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC6C79C1-A60E-44D4-AE44-BFAD5E986771}|CvAnalysisSystem.DAL.SqlServer\\CvAnalysisSystem.DAL.SqlServer.csproj|c:\\users\\user\\source\\repos\\cvanalysisproject\\cvanalysissystem.dal.sqlserver\\unitofwork\\sqlunitofwork\\sqlunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC6C79C1-A60E-44D4-AE44-BFAD5E986771}|CvAnalysisSystem.DAL.SqlServer\\CvAnalysisSystem.DAL.SqlServer.csproj|solutionrelative:cvanalysissystem.dal.sqlserver\\unitofwork\\sqlunitofwork\\sqlunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C3AEC81-C139-4BA2-8502-3699D684E98A}|CvAnalysisProject\\CvAnalysisSystemProject.csproj|c:\\users\\user\\source\\repos\\cvanalysisproject\\cvanalysisproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5C3AEC81-C139-4BA2-8502-3699D684E98A}|CvAnalysisProject\\CvAnalysisSystemProject.csproj|solutionrelative:cvanalysisproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\source\\repos\\SQLQuery6.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBB1283B-35D8-4E94-8EEE-2885B8F139DD}|CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj|c:\\users\\user\\source\\repos\\cvanalysisproject\\cvanalysissystem.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBB1283B-35D8-4E94-8EEE-2885B8F139DD}|CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj|solutionrelative:cvanalysissystem.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\source\\repos\\SQLQuery8.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC6C79C1-A60E-44D4-AE44-BFAD5E986771}|CvAnalysisSystem.DAL.SqlServer\\CvAnalysisSystem.DAL.SqlServer.csproj|c:\\users\\user\\source\\repos\\cvanalysisproject\\cvanalysissystem.dal.sqlserver\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC6C79C1-A60E-44D4-AE44-BFAD5E986771}|CvAnalysisSystem.DAL.SqlServer\\CvAnalysisSystem.DAL.SqlServer.csproj|solutionrelative:cvanalysissystem.dal.sqlserver\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC6C79C1-A60E-44D4-AE44-BFAD5E986771}|CvAnalysisSystem.DAL.SqlServer\\CvAnalysisSystem.DAL.SqlServer.csproj|c:\\users\\user\\source\\repos\\cvanalysisproject\\cvanalysissystem.dal.sqlserver\\infrastructure\\sqluserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC6C79C1-A60E-44D4-AE44-BFAD5E986771}|CvAnalysisSystem.DAL.SqlServer\\CvAnalysisSystem.DAL.SqlServer.csproj|solutionrelative:cvanalysissystem.dal.sqlserver\\infrastructure\\sqluserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DF1EE45-C2F4-4DDB-B011-C70EB08DEFB8}|CvAnalysisSystem.Repository\\CvAnalysisSystem.Repository.csproj|c:\\users\\user\\source\\repos\\cvanalysisproject\\cvanalysissystem.repository\\common\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DF1EE45-C2F4-4DDB-B011-C70EB08DEFB8}|CvAnalysisSystem.Repository\\CvAnalysisSystem.Repository.csproj|solutionrelative:cvanalysissystem.repository\\common\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DF1EE45-C2F4-4DDB-B011-C70EB08DEFB8}|CvAnalysisSystem.Repository\\CvAnalysisSystem.Repository.csproj|c:\\users\\user\\source\\repos\\cvanalysisproject\\cvanalysissystem.repository\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DF1EE45-C2F4-4DDB-B011-C70EB08DEFB8}|CvAnalysisSystem.Repository\\CvAnalysisSystem.Repository.csproj|solutionrelative:cvanalysissystem.repository\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC6C79C1-A60E-44D4-AE44-BFAD5E986771}|CvAnalysisSystem.DAL.SqlServer\\CvAnalysisSystem.DAL.SqlServer.csproj|c:\\users\\user\\source\\repos\\cvanalysisproject\\cvanalysissystem.dal.sqlserver\\infrastructure\\basesqlrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC6C79C1-A60E-44D4-AE44-BFAD5E986771}|CvAnalysisSystem.DAL.SqlServer\\CvAnalysisSystem.DAL.SqlServer.csproj|solutionrelative:cvanalysissystem.dal.sqlserver\\infrastructure\\basesqlrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBB1283B-35D8-4E94-8EEE-2885B8F139DD}|CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj|c:\\users\\user\\source\\repos\\cvanalysisproject\\cvanalysissystem.domain\\entities\\airecommendation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBB1283B-35D8-4E94-8EEE-2885B8F139DD}|CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj|solutionrelative:cvanalysissystem.domain\\entities\\airecommendation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBB1283B-35D8-4E94-8EEE-2885B8F139DD}|CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj|c:\\users\\user\\source\\repos\\cvanalysisproject\\cvanalysissystem.domain\\entities\\certification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBB1283B-35D8-4E94-8EEE-2885B8F139DD}|CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj|solutionrelative:cvanalysissystem.domain\\entities\\certification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBB1283B-35D8-4E94-8EEE-2885B8F139DD}|CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj|c:\\users\\user\\source\\repos\\cvanalysisproject\\cvanalysissystem.domain\\entities\\cv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBB1283B-35D8-4E94-8EEE-2885B8F139DD}|CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj|solutionrelative:cvanalysissystem.domain\\entities\\cv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBB1283B-35D8-4E94-8EEE-2885B8F139DD}|CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj|c:\\users\\user\\source\\repos\\cvanalysisproject\\cvanalysissystem.domain\\entities\\interview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBB1283B-35D8-4E94-8EEE-2885B8F139DD}|CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj|solutionrelative:cvanalysissystem.domain\\entities\\interview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBB1283B-35D8-4E94-8EEE-2885B8F139DD}|CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj|c:\\users\\user\\source\\repos\\cvanalysisproject\\cvanalysissystem.domain\\entities\\interviewfeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBB1283B-35D8-4E94-8EEE-2885B8F139DD}|CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj|solutionrelative:cvanalysissystem.domain\\entities\\interviewfeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBB1283B-35D8-4E94-8EEE-2885B8F139DD}|CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj|c:\\users\\user\\source\\repos\\cvanalysisproject\\cvanalysissystem.domain\\entities\\language.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBB1283B-35D8-4E94-8EEE-2885B8F139DD}|CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj|solutionrelative:cvanalysissystem.domain\\entities\\language.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBB1283B-35D8-4E94-8EEE-2885B8F139DD}|CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj|c:\\users\\user\\source\\repos\\cvanalysisproject\\cvanalysissystem.domain\\entities\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBB1283B-35D8-4E94-8EEE-2885B8F139DD}|CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj|solutionrelative:cvanalysissystem.domain\\entities\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBB1283B-35D8-4E94-8EEE-2885B8F139DD}|CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj|c:\\users\\user\\source\\repos\\cvanalysisproject\\cvanalysissystem.domain\\entities\\skill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBB1283B-35D8-4E94-8EEE-2885B8F139DD}|CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj|solutionrelative:cvanalysissystem.domain\\entities\\skill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBB1283B-35D8-4E94-8EEE-2885B8F139DD}|CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj|c:\\users\\user\\source\\repos\\cvanalysisproject\\cvanalysissystem.domain\\enums\\raitings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBB1283B-35D8-4E94-8EEE-2885B8F139DD}|CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj|solutionrelative:cvanalysissystem.domain\\enums\\raitings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBB1283B-35D8-4E94-8EEE-2885B8F139DD}|CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj|c:\\users\\user\\source\\repos\\cvanalysisproject\\cvanalysissystem.domain\\enums\\userroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBB1283B-35D8-4E94-8EEE-2885B8F139DD}|CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj|solutionrelative:cvanalysissystem.domain\\enums\\userroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBB1283B-35D8-4E94-8EEE-2885B8F139DD}|CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj|c:\\users\\user\\source\\repos\\cvanalysisproject\\cvanalysissystem.domain\\enums\\profiencylevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBB1283B-35D8-4E94-8EEE-2885B8F139DD}|CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj|solutionrelative:cvanalysissystem.domain\\enums\\profiencylevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBB1283B-35D8-4E94-8EEE-2885B8F139DD}|CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj|c:\\users\\user\\source\\repos\\cvanalysisproject\\cvanalysissystem.domain\\enums\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBB1283B-35D8-4E94-8EEE-2885B8F139DD}|CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj|solutionrelative:cvanalysissystem.domain\\enums\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBB1283B-35D8-4E94-8EEE-2885B8F139DD}|CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj|c:\\users\\user\\source\\repos\\cvanalysisproject\\cvanalysissystem.domain\\enums\\fluencylevels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBB1283B-35D8-4E94-8EEE-2885B8F139DD}|CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj|solutionrelative:cvanalysissystem.domain\\enums\\fluencylevels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBB1283B-35D8-4E94-8EEE-2885B8F139DD}|CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj|c:\\users\\user\\source\\repos\\cvanalysisproject\\cvanalysissystem.domain\\baseentities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBB1283B-35D8-4E94-8EEE-2885B8F139DD}|CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj|solutionrelative:cvanalysissystem.domain\\baseentities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78759CEA-E59A-4B17-90E0-57EA700ED469}|CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj|c:\\users\\user\\source\\repos\\cvanalysisproject\\cvanalysissystem.common\\security\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78759CEA-E59A-4B17-90E0-57EA700ED469}|CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj|solutionrelative:cvanalysissystem.common\\security\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78759CEA-E59A-4B17-90E0-57EA700ED469}|CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj|c:\\users\\user\\source\\repos\\cvanalysisproject\\cvanalysissystem.common\\globalresponses\\generics\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78759CEA-E59A-4B17-90E0-57EA700ED469}|CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj|solutionrelative:cvanalysissystem.common\\globalresponses\\generics\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78759CEA-E59A-4B17-90E0-57EA700ED469}|CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj|c:\\users\\user\\source\\repos\\cvanalysisproject\\cvanalysissystem.common\\globalresponses\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78759CEA-E59A-4B17-90E0-57EA700ED469}|CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj|solutionrelative:cvanalysissystem.common\\globalresponses\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78759CEA-E59A-4B17-90E0-57EA700ED469}|CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj|c:\\users\\user\\source\\repos\\cvanalysisproject\\cvanalysissystem.common\\exceptions\\toomanyrequestexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78759CEA-E59A-4B17-90E0-57EA700ED469}|CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj|solutionrelative:cvanalysissystem.common\\exceptions\\toomanyrequestexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78759CEA-E59A-4B17-90E0-57EA700ED469}|CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj|c:\\users\\user\\source\\repos\\cvanalysisproject\\cvanalysissystem.common\\exceptions\\unauthorizedexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78759CEA-E59A-4B17-90E0-57EA700ED469}|CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj|solutionrelative:cvanalysissystem.common\\exceptions\\unauthorizedexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78759CEA-E59A-4B17-90E0-57EA700ED469}|CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj|c:\\users\\user\\source\\repos\\cvanalysisproject\\cvanalysissystem.common\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78759CEA-E59A-4B17-90E0-57EA700ED469}|CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj|solutionrelative:cvanalysissystem.common\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78759CEA-E59A-4B17-90E0-57EA700ED469}|CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj|c:\\users\\user\\source\\repos\\cvanalysisproject\\cvanalysissystem.common\\exceptions\\badrequestexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78759CEA-E59A-4B17-90E0-57EA700ED469}|CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj|solutionrelative:cvanalysissystem.common\\exceptions\\badrequestexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\source\\repos\\SQLQuery8.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\source\\repos\\SQLQuery8.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\source\\repos\\SQLQuery6.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\source\\repos\\SQLQuery6.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisProject\\Program.cs",
+              "RelativeDocumentMoniker": "CvAnalysisProject\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisProject\\Program.cs",
+              "RelativeToolTip": "CvAnalysisProject\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T16:48:13.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DependencyInjections.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.DAL.SqlServer\\DependencyInjections.cs",
+              "RelativeDocumentMoniker": "CvAnalysisSystem.DAL.SqlServer\\DependencyInjections.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.DAL.SqlServer\\DependencyInjections.cs",
+              "RelativeToolTip": "CvAnalysisSystem.DAL.SqlServer\\DependencyInjections.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T15:06:45.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SQLQuery6.sql ",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SQLQuery6.sql",
+              "RelativeDocumentMoniker": "..\\SQLQuery6.sql",
+              "ToolTip": "SQLQuery6.sql *",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-03-25T16:28:05.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SqlUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.DAL.SqlServer\\UnitOfWork\\SqlUnitOfWork\\SqlUnitOfWork.cs",
+              "RelativeDocumentMoniker": "CvAnalysisSystem.DAL.SqlServer\\UnitOfWork\\SqlUnitOfWork\\SqlUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.DAL.SqlServer\\UnitOfWork\\SqlUnitOfWork\\SqlUnitOfWork.cs",
+              "RelativeToolTip": "CvAnalysisSystem.DAL.SqlServer\\UnitOfWork\\SqlUnitOfWork\\SqlUnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T15:06:04.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DependencyInjections.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.Application\\DependencyInjections.cs",
+              "RelativeDocumentMoniker": "CvAnalysisSystem.Application\\DependencyInjections.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.Application\\DependencyInjections.cs",
+              "RelativeToolTip": "CvAnalysisSystem.Application\\DependencyInjections.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T16:23:05.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisProject\\appsettings.json",
+              "RelativeDocumentMoniker": "CvAnalysisProject\\appsettings.json",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisProject\\appsettings.json",
+              "RelativeToolTip": "CvAnalysisProject\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAADfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-25T16:47:48.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SQLQuery8.sql ",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SQLQuery8.sql",
+              "RelativeDocumentMoniker": "..\\SQLQuery8.sql",
+              "ToolTip": "SQLQuery8.sql *",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-03-25T16:27:32.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SqlUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.DAL.SqlServer\\Infrastructure\\SqlUserRepository.cs",
+              "RelativeDocumentMoniker": "CvAnalysisSystem.DAL.SqlServer\\Infrastructure\\SqlUserRepository.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.DAL.SqlServer\\Infrastructure\\SqlUserRepository.cs",
+              "RelativeToolTip": "CvAnalysisSystem.DAL.SqlServer\\Infrastructure\\SqlUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T15:22:30.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.Repository\\Common\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "CvAnalysisSystem.Repository\\Common\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.Repository\\Common\\IUnitOfWork.cs",
+              "RelativeToolTip": "CvAnalysisSystem.Repository\\Common\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T15:18:49.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "CvAnalysisSystem.Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "CvAnalysisSystem.Domain\\Entities\\User.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwA4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T15:09:19.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.DAL.SqlServer\\Context\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "CvAnalysisSystem.DAL.SqlServer\\Context\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.DAL.SqlServer\\Context\\AppDbContext.cs",
+              "RelativeToolTip": "CvAnalysisSystem.DAL.SqlServer\\Context\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T14:58:53.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.Repository\\Repositories\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "CvAnalysisSystem.Repository\\Repositories\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.Repository\\Repositories\\IUserRepository.cs",
+              "RelativeToolTip": "CvAnalysisSystem.Repository\\Repositories\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T15:20:00.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AiRecommendation.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.Domain\\Entities\\AiRecommendation.cs",
+              "RelativeDocumentMoniker": "CvAnalysisSystem.Domain\\Entities\\AiRecommendation.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.Domain\\Entities\\AiRecommendation.cs",
+              "RelativeToolTip": "CvAnalysisSystem.Domain\\Entities\\AiRecommendation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T15:17:07.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BaseSqlRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.DAL.SqlServer\\Infrastructure\\BaseSqlRepository.cs",
+              "RelativeDocumentMoniker": "CvAnalysisSystem.DAL.SqlServer\\Infrastructure\\BaseSqlRepository.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.DAL.SqlServer\\Infrastructure\\BaseSqlRepository.cs",
+              "RelativeToolTip": "CvAnalysisSystem.DAL.SqlServer\\Infrastructure\\BaseSqlRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T15:04:36.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Certification.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.Domain\\Entities\\Certification.cs",
+              "RelativeDocumentMoniker": "CvAnalysisSystem.Domain\\Entities\\Certification.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.Domain\\Entities\\Certification.cs",
+              "RelativeToolTip": "CvAnalysisSystem.Domain\\Entities\\Certification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T15:16:34.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Cv.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.Domain\\Entities\\Cv.cs",
+              "RelativeDocumentMoniker": "CvAnalysisSystem.Domain\\Entities\\Cv.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.Domain\\Entities\\Cv.cs",
+              "RelativeToolTip": "CvAnalysisSystem.Domain\\Entities\\Cv.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T15:16:12.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Interview.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.Domain\\Entities\\Interview.cs",
+              "RelativeDocumentMoniker": "CvAnalysisSystem.Domain\\Entities\\Interview.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.Domain\\Entities\\Interview.cs",
+              "RelativeToolTip": "CvAnalysisSystem.Domain\\Entities\\Interview.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T15:15:45.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "InterviewFeedback.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.Domain\\Entities\\InterviewFeedback.cs",
+              "RelativeDocumentMoniker": "CvAnalysisSystem.Domain\\Entities\\InterviewFeedback.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.Domain\\Entities\\InterviewFeedback.cs",
+              "RelativeToolTip": "CvAnalysisSystem.Domain\\Entities\\InterviewFeedback.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T15:15:23.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Language.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.Domain\\Entities\\Language.cs",
+              "RelativeDocumentMoniker": "CvAnalysisSystem.Domain\\Entities\\Language.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.Domain\\Entities\\Language.cs",
+              "RelativeToolTip": "CvAnalysisSystem.Domain\\Entities\\Language.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T15:14:42.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Session.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.Domain\\Entities\\Session.cs",
+              "RelativeDocumentMoniker": "CvAnalysisSystem.Domain\\Entities\\Session.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.Domain\\Entities\\Session.cs",
+              "RelativeToolTip": "CvAnalysisSystem.Domain\\Entities\\Session.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T15:14:16.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Skill.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.Domain\\Entities\\Skill.cs",
+              "RelativeDocumentMoniker": "CvAnalysisSystem.Domain\\Entities\\Skill.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.Domain\\Entities\\Skill.cs",
+              "RelativeToolTip": "CvAnalysisSystem.Domain\\Entities\\Skill.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T15:13:19.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Raitings.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.Domain\\Enums\\Raitings.cs",
+              "RelativeDocumentMoniker": "CvAnalysisSystem.Domain\\Enums\\Raitings.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.Domain\\Enums\\Raitings.cs",
+              "RelativeToolTip": "CvAnalysisSystem.Domain\\Enums\\Raitings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T15:12:42.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UserRoles.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.Domain\\Enums\\UserRoles.cs",
+              "RelativeDocumentMoniker": "CvAnalysisSystem.Domain\\Enums\\UserRoles.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.Domain\\Enums\\UserRoles.cs",
+              "RelativeToolTip": "CvAnalysisSystem.Domain\\Enums\\UserRoles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T15:11:55.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ProfiencyLevel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.Domain\\Enums\\ProfiencyLevel.cs",
+              "RelativeDocumentMoniker": "CvAnalysisSystem.Domain\\Enums\\ProfiencyLevel.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.Domain\\Enums\\ProfiencyLevel.cs",
+              "RelativeToolTip": "CvAnalysisSystem.Domain\\Enums\\ProfiencyLevel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T15:11:19.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Gender.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.Domain\\Enums\\Gender.cs",
+              "RelativeDocumentMoniker": "CvAnalysisSystem.Domain\\Enums\\Gender.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.Domain\\Enums\\Gender.cs",
+              "RelativeToolTip": "CvAnalysisSystem.Domain\\Enums\\Gender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T15:10:47.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "FluencyLevels.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.Domain\\Enums\\FluencyLevels.cs",
+              "RelativeDocumentMoniker": "CvAnalysisSystem.Domain\\Enums\\FluencyLevels.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.Domain\\Enums\\FluencyLevels.cs",
+              "RelativeToolTip": "CvAnalysisSystem.Domain\\Enums\\FluencyLevels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T15:10:07.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.Domain\\BaseEntities\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "CvAnalysisSystem.Domain\\BaseEntities\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.Domain\\BaseEntities\\BaseEntity.cs",
+              "RelativeToolTip": "CvAnalysisSystem.Domain\\BaseEntities\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T15:07:48.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "PasswordHasher.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.Common\\Security\\PasswordHasher.cs",
+              "RelativeDocumentMoniker": "CvAnalysisSystem.Common\\Security\\PasswordHasher.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.Common\\Security\\PasswordHasher.cs",
+              "RelativeToolTip": "CvAnalysisSystem.Common\\Security\\PasswordHasher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T14:57:36.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Result.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.Common\\GlobalResponses\\Generics\\Result.cs",
+              "RelativeDocumentMoniker": "CvAnalysisSystem.Common\\GlobalResponses\\Generics\\Result.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.Common\\GlobalResponses\\Generics\\Result.cs",
+              "RelativeToolTip": "CvAnalysisSystem.Common\\GlobalResponses\\Generics\\Result.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T14:56:46.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Result.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.Common\\GlobalResponses\\Result.cs",
+              "RelativeDocumentMoniker": "CvAnalysisSystem.Common\\GlobalResponses\\Result.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.Common\\GlobalResponses\\Result.cs",
+              "RelativeToolTip": "CvAnalysisSystem.Common\\GlobalResponses\\Result.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T14:55:56.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "TooManyRequestException.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.Common\\Exceptions\\TooManyRequestException.cs",
+              "RelativeDocumentMoniker": "CvAnalysisSystem.Common\\Exceptions\\TooManyRequestException.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.Common\\Exceptions\\TooManyRequestException.cs",
+              "RelativeToolTip": "CvAnalysisSystem.Common\\Exceptions\\TooManyRequestException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T14:55:23.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "UnauthorizedException.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.Common\\Exceptions\\UnauthorizedException.cs",
+              "RelativeDocumentMoniker": "CvAnalysisSystem.Common\\Exceptions\\UnauthorizedException.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.Common\\Exceptions\\UnauthorizedException.cs",
+              "RelativeToolTip": "CvAnalysisSystem.Common\\Exceptions\\UnauthorizedException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T14:54:01.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "NotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.Common\\Exceptions\\NotFoundException.cs",
+              "RelativeDocumentMoniker": "CvAnalysisSystem.Common\\Exceptions\\NotFoundException.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.Common\\Exceptions\\NotFoundException.cs",
+              "RelativeToolTip": "CvAnalysisSystem.Common\\Exceptions\\NotFoundException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T14:53:18.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "BadRequestException.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.Common\\Exceptions\\BadRequestException.cs",
+              "RelativeDocumentMoniker": "CvAnalysisSystem.Common\\Exceptions\\BadRequestException.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\CvAnalysisProject\\CvAnalysisSystem.Common\\Exceptions\\BadRequestException.cs",
+              "RelativeToolTip": "CvAnalysisSystem.Common\\Exceptions\\BadRequestException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T14:50:27.253Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+C:\Users\User\source\repos\CvAnalysisProject\CvAnalysisSystem.Common\bin\Debug\net8.0\CvAnalysisSystem.Common.deps.json
+C:\Users\User\source\repos\CvAnalysisProject\CvAnalysisSystem.Common\bin\Debug\net8.0\CvAnalysisSystem.Common.dll
+C:\Users\User\source\repos\CvAnalysisProject\CvAnalysisSystem.Common\bin\Debug\net8.0\CvAnalysisSystem.Common.pdb
+C:\Users\User\source\repos\CvAnalysisProject\CvAnalysisSystem.Common\obj\Debug\net8.0\CvAnalysisSystem.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\CvAnalysisProject\CvAnalysisSystem.Common\obj\Debug\net8.0\CvAnalysisSystem.Common.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\CvAnalysisProject\CvAnalysisSystem.Common\obj\Debug\net8.0\CvAnalysisSystem.Common.AssemblyInfo.cs
+C:\Users\User\source\repos\CvAnalysisProject\CvAnalysisSystem.Common\obj\Debug\net8.0\CvAnalysisSystem.Common.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\CvAnalysisProject\CvAnalysisSystem.Common\obj\Debug\net8.0\CvAnalysisSystem.Common.dll
+C:\Users\User\source\repos\CvAnalysisProject\CvAnalysisSystem.Common\obj\Debug\net8.0\refint\CvAnalysisSystem.Common.dll
+C:\Users\User\source\repos\CvAnalysisProject\CvAnalysisSystem.Common\obj\Debug\net8.0\CvAnalysisSystem.Common.pdb
+C:\Users\User\source\repos\CvAnalysisProject\CvAnalysisSystem.Common\obj\Debug\net8.0\ref\CvAnalysisSystem.Common.dll

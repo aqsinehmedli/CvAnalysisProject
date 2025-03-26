@@ -14,10 +14,13 @@
     <PackageReference Include="AutoMapper" Version="14.0.0" />
     <PackageReference Include="MediatR" Version="11.1.0" />
     <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="9.0.2" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.6.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\CvAnalysisSystem.Common\CvAnalysisSystem.Common.csproj" />
+    <ProjectReference Include="..\CvAnalysisSystem.DAL.SqlServer\CvAnalysisSystem.DAL.SqlServer.csproj" />
     <ProjectReference Include="..\CvAnalysisSystem.Repository\CvAnalysisSystem.Repository.csproj" />
   </ItemGroup>
 

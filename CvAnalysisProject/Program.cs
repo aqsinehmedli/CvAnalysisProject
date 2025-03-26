@@ -1,5 +1,7 @@
 using CvAnalysisSystem.DAL.SqlServer;
 using CvAnalysisSystem.Application;
+using CvAnalysisSystemProject.Security;
+using CvAnalysisSystemProject.Middlewares;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -11,6 +13,8 @@ builder.Services.AddSwaggerGen();
 var connectionString = builder.Configuration.GetConnectionString("MyConn");
 builder.Services.AddSqlServerServices(connectionString!);
 builder.Services.AddApplicationServices();
+builder.Services.AddAuthenticationDependency(builder.Configuration);
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -23,6 +27,8 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
+
+app.UseMiddleware<ExceptionHandlerMiddleware>();
 
 app.MapControllers();
 

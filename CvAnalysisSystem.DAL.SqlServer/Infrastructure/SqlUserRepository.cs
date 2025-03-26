@@ -14,10 +14,18 @@ public class SqlUserRepository(AppDbContext context) : IUserRepository
         return _context.Users.Where(u => u.IsDeleted == false);
     }
 
-    public async Task<User> GetByEmailAsync(string email)
+    public async Task<User?> GetByEmailAsync(string email)
     {
-        var a = await _context.Users.FirstOrDefaultAsync(u => u.Email == email && u.IsDeleted == false);
-        return a;
+        if (string.IsNullOrEmpty(email))
+        {
+            return null; // ya da uyğun səhv mesajı
+        }
+
+        var user = await _context.Users
+            .Where(u => u.Email.ToLower() == email.ToLower() && (u.IsDeleted == false || u.IsDeleted == null))
+            .FirstOrDefaultAsync();
+
+        return user;
     }
 
     public async Task<User> GetByIdAsync(int id)

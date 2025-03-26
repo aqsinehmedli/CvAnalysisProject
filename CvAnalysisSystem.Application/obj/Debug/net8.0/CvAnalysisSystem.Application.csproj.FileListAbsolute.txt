@@ -18,3 +18,5 @@ C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem
 C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\obj\Debug\net8.0\refint\CvAnalysisSystem.Application.dll
 C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\obj\Debug\net8.0\CvAnalysisSystem.Application.pdb
 C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\obj\Debug\net8.0\ref\CvAnalysisSystem.Application.dll
+C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\bin\Debug\net8.0\CvAnalysisSystem.DAL.SqlServer.dll
+C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\bin\Debug\net8.0\CvAnalysisSystem.DAL.SqlServer.pdb

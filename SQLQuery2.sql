@@ -1,0 +1,2 @@
+﻿ALTER TABLE Users
+ALTER COLUMN IsDeleted BIT NOT NULL;

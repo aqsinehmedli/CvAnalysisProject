@@ -1,5 +1,8 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using static CvAnalysisSystem.Application.CQRS.Users.Handlers.Commands.Login;
+using static CvAnalysisSystem.Application.CQRS.Users.Handlers.Commands.RefreshToken;
 using static CvAnalysisSystem.Application.CQRS.Users.Handlers.Commands.Register;
 
 namespace CvAnalysisSystemProject.Controller
@@ -13,5 +16,17 @@ namespace CvAnalysisSystemProject.Controller
         {
             return Ok(await Sender.Send(request));
         }
+        [HttpPost("Login")]
+        [AllowAnonymous]
+        public async Task<IActionResult> Login([FromBody] LoginRequest request)
+        {
+            return Ok(await Sender.Send(request));
+        }
+
+        //[HttpPost("RefreshToken")]
+        //public async Task<IActionResult> RefreshToken([FromBody] RefreshTokenReuqest request)
+        //{
+        //    return Ok(await Sender.Send(request));
+        //}
     }
 }

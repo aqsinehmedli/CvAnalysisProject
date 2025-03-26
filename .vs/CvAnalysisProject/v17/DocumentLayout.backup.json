@@ -3,141 +3,86 @@
   "WorkspaceRootPath": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{80B5B192-565E-4EB8-8543-B77CF1BD59EB}|CvAnalysisSystem.Application\\CvAnalysisSystem.Application.csproj|c:\\users\\user\\onedrive - itm step mmc\\desktop\\cvanalysisproject\\cvanalysissystem.application\\cqrs\\users\\handlers\\commands\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80B5B192-565E-4EB8-8543-B77CF1BD59EB}|CvAnalysisSystem.Application\\CvAnalysisSystem.Application.csproj|solutionrelative:cvanalysissystem.application\\cqrs\\users\\handlers\\commands\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80B5B192-565E-4EB8-8543-B77CF1BD59EB}|CvAnalysisSystem.Application\\CvAnalysisSystem.Application.csproj|c:\\users\\user\\onedrive - itm step mmc\\desktop\\cvanalysisproject\\cvanalysissystem.application\\cqrs\\users\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80B5B192-565E-4EB8-8543-B77CF1BD59EB}|CvAnalysisSystem.Application\\CvAnalysisSystem.Application.csproj|solutionrelative:cvanalysissystem.application\\cqrs\\users\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DESKTOP_0MV3INK/CvAnalysisSystemDb/True/SqlTable/dbo.Users.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBB1283B-35D8-4E94-8EEE-2885B8F139DD}|CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj|c:\\users\\user\\onedrive - itm step mmc\\desktop\\cvanalysisproject\\cvanalysissystem.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBB1283B-35D8-4E94-8EEE-2885B8F139DD}|CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj|solutionrelative:cvanalysissystem.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBB1283B-35D8-4E94-8EEE-2885B8F139DD}|CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj|c:\\users\\user\\onedrive - itm step mmc\\desktop\\cvanalysisproject\\cvanalysissystem.domain\\enums\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBB1283B-35D8-4E94-8EEE-2885B8F139DD}|CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj|solutionrelative:cvanalysissystem.domain\\enums\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\source\\repos\\SQLQuery6.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\AppData\\Local\\Temp\\pbri1ctt..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\AppData\\Local\\Temp\\odq5bhrk..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DC6C79C1-A60E-44D4-AE44-BFAD5E986771}|CvAnalysisSystem.DAL.SqlServer\\CvAnalysisSystem.DAL.SqlServer.csproj|c:\\users\\user\\onedrive - itm step mmc\\desktop\\cvanalysisproject\\cvanalysissystem.dal.sqlserver\\infrastructure\\sqluserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DC6C79C1-A60E-44D4-AE44-BFAD5E986771}|CvAnalysisSystem.DAL.SqlServer\\CvAnalysisSystem.DAL.SqlServer.csproj|solutionrelative:cvanalysissystem.dal.sqlserver\\infrastructure\\sqluserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DC6C79C1-A60E-44D4-AE44-BFAD5E986771}|CvAnalysisSystem.DAL.SqlServer\\CvAnalysisSystem.DAL.SqlServer.csproj|c:\\users\\user\\onedrive - itm step mmc\\desktop\\cvanalysisproject\\cvanalysissystem.dal.sqlserver\\infrastructure\\basesqlrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC6C79C1-A60E-44D4-AE44-BFAD5E986771}|CvAnalysisSystem.DAL.SqlServer\\CvAnalysisSystem.DAL.SqlServer.csproj|solutionrelative:cvanalysissystem.dal.sqlserver\\infrastructure\\basesqlrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{80B5B192-565E-4EB8-8543-B77CF1BD59EB}|CvAnalysisSystem.Application\\CvAnalysisSystem.Application.csproj|c:\\users\\user\\onedrive - itm step mmc\\desktop\\cvanalysisproject\\cvanalysissystem.application\\cqrs\\users\\handlers\\commands\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80B5B192-565E-4EB8-8543-B77CF1BD59EB}|CvAnalysisSystem.Application\\CvAnalysisSystem.Application.csproj|solutionrelative:cvanalysissystem.application\\cqrs\\users\\handlers\\commands\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C3AEC81-C139-4BA2-8502-3699D684E98A}|CvAnalysisProject\\CvAnalysisSystemProject.csproj|c:\\users\\user\\onedrive - itm step mmc\\desktop\\cvanalysisproject\\cvanalysisproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C3AEC81-C139-4BA2-8502-3699D684E98A}|CvAnalysisProject\\CvAnalysisSystemProject.csproj|solutionrelative:cvanalysisproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DC6C79C1-A60E-44D4-AE44-BFAD5E986771}|CvAnalysisSystem.DAL.SqlServer\\CvAnalysisSystem.DAL.SqlServer.csproj|c:\\users\\user\\onedrive - itm step mmc\\desktop\\cvanalysisproject\\cvanalysissystem.dal.sqlserver\\unitofwork\\sqlunitofwork\\sqlunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC6C79C1-A60E-44D4-AE44-BFAD5E986771}|CvAnalysisSystem.DAL.SqlServer\\CvAnalysisSystem.DAL.SqlServer.csproj|solutionrelative:cvanalysissystem.dal.sqlserver\\unitofwork\\sqlunitofwork\\sqlunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C3AEC81-C139-4BA2-8502-3699D684E98A}|CvAnalysisProject\\CvAnalysisSystemProject.csproj|c:\\users\\user\\onedrive - itm step mmc\\desktop\\cvanalysisproject\\cvanalysisproject\\controller\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C3AEC81-C139-4BA2-8502-3699D684E98A}|CvAnalysisProject\\CvAnalysisSystemProject.csproj|solutionrelative:cvanalysisproject\\controller\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DESKTOP_0MV3INK/CvAnalysisSystemDb/True/SqlTable/dbo.Users.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B5B192-565E-4EB8-8543-B77CF1BD59EB}|CvAnalysisSystem.Application\\CvAnalysisSystem.Application.csproj|c:\\users\\user\\onedrive - itm step mmc\\desktop\\cvanalysisproject\\cvanalysissystem.application\\cqrs\\users\\handlers\\commands\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80B5B192-565E-4EB8-8543-B77CF1BD59EB}|CvAnalysisSystem.Application\\CvAnalysisSystem.Application.csproj|solutionrelative:cvanalysissystem.application\\cqrs\\users\\handlers\\commands\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B5B192-565E-4EB8-8543-B77CF1BD59EB}|CvAnalysisSystem.Application\\CvAnalysisSystem.Application.csproj|c:\\users\\user\\onedrive - itm step mmc\\desktop\\cvanalysisproject\\cvanalysissystem.application\\cqrs\\users\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80B5B192-565E-4EB8-8543-B77CF1BD59EB}|CvAnalysisSystem.Application\\CvAnalysisSystem.Application.csproj|solutionrelative:cvanalysissystem.application\\cqrs\\users\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DF1EE45-C2F4-4DDB-B011-C70EB08DEFB8}|CvAnalysisSystem.Repository\\CvAnalysisSystem.Repository.csproj|c:\\users\\user\\onedrive - itm step mmc\\desktop\\cvanalysisproject\\cvanalysissystem.repository\\repositories\\irefreshtokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DF1EE45-C2F4-4DDB-B011-C70EB08DEFB8}|CvAnalysisSystem.Repository\\CvAnalysisSystem.Repository.csproj|solutionrelative:cvanalysissystem.repository\\repositories\\irefreshtokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DF1EE45-C2F4-4DDB-B011-C70EB08DEFB8}|CvAnalysisSystem.Repository\\CvAnalysisSystem.Repository.csproj|c:\\users\\user\\onedrive - itm step mmc\\desktop\\cvanalysisproject\\cvanalysissystem.repository\\common\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DF1EE45-C2F4-4DDB-B011-C70EB08DEFB8}|CvAnalysisSystem.Repository\\CvAnalysisSystem.Repository.csproj|solutionrelative:cvanalysissystem.repository\\common\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC6C79C1-A60E-44D4-AE44-BFAD5E986771}|CvAnalysisSystem.DAL.SqlServer\\CvAnalysisSystem.DAL.SqlServer.csproj|c:\\users\\user\\onedrive - itm step mmc\\desktop\\cvanalysisproject\\cvanalysissystem.dal.sqlserver\\infrastructure\\refreshtokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC6C79C1-A60E-44D4-AE44-BFAD5E986771}|CvAnalysisSystem.DAL.SqlServer\\CvAnalysisSystem.DAL.SqlServer.csproj|solutionrelative:cvanalysissystem.dal.sqlserver\\infrastructure\\refreshtokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B5B192-565E-4EB8-8543-B77CF1BD59EB}|CvAnalysisSystem.Application\\CvAnalysisSystem.Application.csproj|c:\\users\\user\\onedrive - itm step mmc\\desktop\\cvanalysisproject\\cvanalysissystem.application\\dependencyinjections.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80B5B192-565E-4EB8-8543-B77CF1BD59EB}|CvAnalysisSystem.Application\\CvAnalysisSystem.Application.csproj|solutionrelative:cvanalysissystem.application\\dependencyinjections.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80B5B192-565E-4EB8-8543-B77CF1BD59EB}|CvAnalysisSystem.Application\\CvAnalysisSystem.Application.csproj|c:\\users\\user\\onedrive - itm step mmc\\desktop\\cvanalysisproject\\cvanalysissystem.application\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80B5B192-565E-4EB8-8543-B77CF1BD59EB}|CvAnalysisSystem.Application\\CvAnalysisSystem.Application.csproj|solutionrelative:cvanalysissystem.application\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBB1283B-35D8-4E94-8EEE-2885B8F139DD}|CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj|c:\\users\\user\\onedrive - itm step mmc\\desktop\\cvanalysisproject\\cvanalysissystem.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBB1283B-35D8-4E94-8EEE-2885B8F139DD}|CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj|solutionrelative:cvanalysissystem.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5C3AEC81-C139-4BA2-8502-3699D684E98A}|CvAnalysisProject\\CvAnalysisSystemProject.csproj|c:\\users\\user\\onedrive - itm step mmc\\desktop\\cvanalysisproject\\cvanalysisproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{5C3AEC81-C139-4BA2-8502-3699D684E98A}|CvAnalysisProject\\CvAnalysisSystemProject.csproj|solutionrelative:cvanalysisproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\source\\repos\\SQLQuery8.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DESKTOP_0MV3INK/CvAnalysisSystemDb/True/SqlTable/dbo.RefreshTokens.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DC6C79C1-A60E-44D4-AE44-BFAD5E986771}|CvAnalysisSystem.DAL.SqlServer\\CvAnalysisSystem.DAL.SqlServer.csproj|c:\\users\\user\\onedrive - itm step mmc\\desktop\\cvanalysisproject\\cvanalysissystem.dal.sqlserver\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC6C79C1-A60E-44D4-AE44-BFAD5E986771}|CvAnalysisSystem.DAL.SqlServer\\CvAnalysisSystem.DAL.SqlServer.csproj|solutionrelative:cvanalysissystem.dal.sqlserver\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5C3AEC81-C139-4BA2-8502-3699D684E98A}|CvAnalysisProject\\CvAnalysisSystemProject.csproj|c:\\users\\user\\onedrive - itm step mmc\\desktop\\cvanalysisproject\\cvanalysisproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C3AEC81-C139-4BA2-8502-3699D684E98A}|CvAnalysisProject\\CvAnalysisSystemProject.csproj|solutionrelative:cvanalysisproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6DF1EE45-C2F4-4DDB-B011-C70EB08DEFB8}|CvAnalysisSystem.Repository\\CvAnalysisSystem.Repository.csproj|c:\\users\\user\\onedrive - itm step mmc\\desktop\\cvanalysisproject\\cvanalysissystem.repository\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6DF1EE45-C2F4-4DDB-B011-C70EB08DEFB8}|CvAnalysisSystem.Repository\\CvAnalysisSystem.Repository.csproj|solutionrelative:cvanalysissystem.repository\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5C3AEC81-C139-4BA2-8502-3699D684E98A}|CvAnalysisProject\\CvAnalysisSystemProject.csproj|c:\\users\\user\\onedrive - itm step mmc\\desktop\\cvanalysisproject\\cvanalysisproject\\security\\authenticationdependency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C3AEC81-C139-4BA2-8502-3699D684E98A}|CvAnalysisProject\\CvAnalysisSystemProject.csproj|solutionrelative:cvanalysisproject\\security\\authenticationdependency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FBB1283B-35D8-4E94-8EEE-2885B8F139DD}|CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj|c:\\users\\user\\onedrive - itm step mmc\\desktop\\cvanalysisproject\\cvanalysissystem.domain\\entities\\airecommendation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBB1283B-35D8-4E94-8EEE-2885B8F139DD}|CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj|solutionrelative:cvanalysissystem.domain\\entities\\airecommendation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FBB1283B-35D8-4E94-8EEE-2885B8F139DD}|CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj|c:\\users\\user\\onedrive - itm step mmc\\desktop\\cvanalysisproject\\cvanalysissystem.domain\\entities\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBB1283B-35D8-4E94-8EEE-2885B8F139DD}|CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj|solutionrelative:cvanalysissystem.domain\\entities\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FBB1283B-35D8-4E94-8EEE-2885B8F139DD}|CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj|c:\\users\\user\\onedrive - itm step mmc\\desktop\\cvanalysisproject\\cvanalysissystem.domain\\entities\\certification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBB1283B-35D8-4E94-8EEE-2885B8F139DD}|CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj|solutionrelative:cvanalysissystem.domain\\entities\\certification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DESKTOP_0MV3INK/CvAnalysisSystemDb/True/SqlTable/dbo.Skills.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FBB1283B-35D8-4E94-8EEE-2885B8F139DD}|CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj|c:\\users\\user\\onedrive - itm step mmc\\desktop\\cvanalysisproject\\cvanalysissystem.domain\\entities\\cv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBB1283B-35D8-4E94-8EEE-2885B8F139DD}|CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj|solutionrelative:cvanalysissystem.domain\\entities\\cv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\AppData\\Local\\Temp\\odq5bhrk..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FBB1283B-35D8-4E94-8EEE-2885B8F139DD}|CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj|c:\\users\\user\\onedrive - itm step mmc\\desktop\\cvanalysisproject\\cvanalysissystem.domain\\entities\\interview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBB1283B-35D8-4E94-8EEE-2885B8F139DD}|CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj|solutionrelative:cvanalysissystem.domain\\entities\\interview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBB1283B-35D8-4E94-8EEE-2885B8F139DD}|CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj|c:\\users\\user\\onedrive - itm step mmc\\desktop\\cvanalysisproject\\cvanalysissystem.domain\\entities\\interviewfeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBB1283B-35D8-4E94-8EEE-2885B8F139DD}|CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj|solutionrelative:cvanalysissystem.domain\\entities\\interviewfeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBB1283B-35D8-4E94-8EEE-2885B8F139DD}|CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj|c:\\users\\user\\onedrive - itm step mmc\\desktop\\cvanalysisproject\\cvanalysissystem.domain\\entities\\language.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBB1283B-35D8-4E94-8EEE-2885B8F139DD}|CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj|solutionrelative:cvanalysissystem.domain\\entities\\language.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBB1283B-35D8-4E94-8EEE-2885B8F139DD}|CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj|c:\\users\\user\\onedrive - itm step mmc\\desktop\\cvanalysisproject\\cvanalysissystem.domain\\entities\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBB1283B-35D8-4E94-8EEE-2885B8F139DD}|CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj|solutionrelative:cvanalysissystem.domain\\entities\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBB1283B-35D8-4E94-8EEE-2885B8F139DD}|CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj|c:\\users\\user\\onedrive - itm step mmc\\desktop\\cvanalysisproject\\cvanalysissystem.domain\\entities\\skill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBB1283B-35D8-4E94-8EEE-2885B8F139DD}|CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj|solutionrelative:cvanalysissystem.domain\\entities\\skill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBB1283B-35D8-4E94-8EEE-2885B8F139DD}|CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj|c:\\users\\user\\onedrive - itm step mmc\\desktop\\cvanalysisproject\\cvanalysissystem.domain\\enums\\raitings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBB1283B-35D8-4E94-8EEE-2885B8F139DD}|CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj|solutionrelative:cvanalysissystem.domain\\enums\\raitings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBB1283B-35D8-4E94-8EEE-2885B8F139DD}|CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj|c:\\users\\user\\onedrive - itm step mmc\\desktop\\cvanalysisproject\\cvanalysissystem.domain\\enums\\profiencylevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBB1283B-35D8-4E94-8EEE-2885B8F139DD}|CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj|solutionrelative:cvanalysissystem.domain\\enums\\profiencylevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBB1283B-35D8-4E94-8EEE-2885B8F139DD}|CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj|c:\\users\\user\\onedrive - itm step mmc\\desktop\\cvanalysisproject\\cvanalysissystem.domain\\enums\\fluencylevels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBB1283B-35D8-4E94-8EEE-2885B8F139DD}|CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj|solutionrelative:cvanalysissystem.domain\\enums\\fluencylevels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBB1283B-35D8-4E94-8EEE-2885B8F139DD}|CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj|c:\\users\\user\\onedrive - itm step mmc\\desktop\\cvanalysisproject\\cvanalysissystem.domain\\baseentities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBB1283B-35D8-4E94-8EEE-2885B8F139DD}|CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj|solutionrelative:cvanalysissystem.domain\\baseentities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78759CEA-E59A-4B17-90E0-57EA700ED469}|CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj|c:\\users\\user\\onedrive - itm step mmc\\desktop\\cvanalysisproject\\cvanalysissystem.common\\security\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78759CEA-E59A-4B17-90E0-57EA700ED469}|CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj|solutionrelative:cvanalysissystem.common\\security\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78759CEA-E59A-4B17-90E0-57EA700ED469}|CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj|c:\\users\\user\\onedrive - itm step mmc\\desktop\\cvanalysisproject\\cvanalysissystem.common\\globalresponses\\generics\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78759CEA-E59A-4B17-90E0-57EA700ED469}|CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj|solutionrelative:cvanalysissystem.common\\globalresponses\\generics\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78759CEA-E59A-4B17-90E0-57EA700ED469}|CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj|c:\\users\\user\\onedrive - itm step mmc\\desktop\\cvanalysisproject\\cvanalysissystem.common\\globalresponses\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78759CEA-E59A-4B17-90E0-57EA700ED469}|CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj|solutionrelative:cvanalysissystem.common\\globalresponses\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78759CEA-E59A-4B17-90E0-57EA700ED469}|CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj|c:\\users\\user\\onedrive - itm step mmc\\desktop\\cvanalysisproject\\cvanalysissystem.common\\exceptions\\toomanyrequestexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78759CEA-E59A-4B17-90E0-57EA700ED469}|CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj|solutionrelative:cvanalysissystem.common\\exceptions\\toomanyrequestexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78759CEA-E59A-4B17-90E0-57EA700ED469}|CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj|c:\\users\\user\\onedrive - itm step mmc\\desktop\\cvanalysisproject\\cvanalysissystem.common\\exceptions\\unauthorizedexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78759CEA-E59A-4B17-90E0-57EA700ED469}|CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj|solutionrelative:cvanalysissystem.common\\exceptions\\unauthorizedexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78759CEA-E59A-4B17-90E0-57EA700ED469}|CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj|c:\\users\\user\\onedrive - itm step mmc\\desktop\\cvanalysisproject\\cvanalysissystem.common\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78759CEA-E59A-4B17-90E0-57EA700ED469}|CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj|solutionrelative:cvanalysissystem.common\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78759CEA-E59A-4B17-90E0-57EA700ED469}|CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj|c:\\users\\user\\onedrive - itm step mmc\\desktop\\cvanalysisproject\\cvanalysissystem.common\\exceptions\\badrequestexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78759CEA-E59A-4B17-90E0-57EA700ED469}|CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj|solutionrelative:cvanalysissystem.common\\exceptions\\badrequestexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\source\\repos\\SQLQuery6.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\source\\repos\\SQLQuery8.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\AppData\\Local\\Temp\\pbri1ctt..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\AppData\\Local\\Temp\\odq5bhrk..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -147,426 +92,255 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "dbo.Users [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_0MV3INK/CvAnalysisSystemDb/True/SqlTable/dbo.Users.sql",
-              "ToolTip": "dbo.Users [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-03-25T18:56:50.956Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SQLQuery1.sql ",
-              "DocumentMoniker": "C:\\Users\\User\\AppData\\Local\\Temp\\pbri1ctt..sql",
-              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\pbri1ctt..sql",
-              "ToolTip": "SQLQuery1.sql ",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-03-25T18:45:53.485Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Register.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Application\\CQRS\\Users\\Handlers\\Commands\\Register.cs",
-              "RelativeDocumentMoniker": "CvAnalysisSystem.Application\\CQRS\\Users\\Handlers\\Commands\\Register.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Application\\CQRS\\Users\\Handlers\\Commands\\Register.cs*",
-              "RelativeToolTip": "CvAnalysisSystem.Application\\CQRS\\Users\\Handlers\\Commands\\Register.cs*",
-              "ViewState": "AgIAAA0AAACwmZmZmZk6wBYAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T17:41:17.951Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "BaseSqlRepository.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.DAL.SqlServer\\Infrastructure\\BaseSqlRepository.cs",
-              "RelativeDocumentMoniker": "CvAnalysisSystem.DAL.SqlServer\\Infrastructure\\BaseSqlRepository.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.DAL.SqlServer\\Infrastructure\\BaseSqlRepository.cs",
-              "RelativeToolTip": "CvAnalysisSystem.DAL.SqlServer\\Infrastructure\\BaseSqlRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T15:04:36.003Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisProject\\Program.cs",
-              "RelativeDocumentMoniker": "CvAnalysisProject\\Program.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisProject\\Program.cs",
-              "RelativeToolTip": "CvAnalysisProject\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T16:48:13.771Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Gender.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\Enums\\Gender.cs",
-              "RelativeDocumentMoniker": "CvAnalysisSystem.Domain\\Enums\\Gender.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\Enums\\Gender.cs",
-              "RelativeToolTip": "CvAnalysisSystem.Domain\\Enums\\Gender.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T15:10:47.227Z",
+              "Title": "SQLQuery2.sql ",
+              "DocumentMoniker": "C:\\Users\\User\\AppData\\Local\\Temp\\odq5bhrk..sql",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\odq5bhrk..sql",
+              "ToolTip": "SQLQuery2.sql *",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-03-26T09:16:38.879Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "RegisterDto.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Application\\CQRS\\Users\\DTOs\\RegisterDto.cs",
-              "RelativeDocumentMoniker": "CvAnalysisSystem.Application\\CQRS\\Users\\DTOs\\RegisterDto.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Application\\CQRS\\Users\\DTOs\\RegisterDto.cs*",
-              "RelativeToolTip": "CvAnalysisSystem.Application\\CQRS\\Users\\DTOs\\RegisterDto.cs*",
-              "ViewState": "AgIAAAgAAABgZmZmZmYqwA0AAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T17:39:48.099Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "CvAnalysisSystem.Domain\\Entities\\User.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\Entities\\User.cs",
-              "RelativeToolTip": "CvAnalysisSystem.Domain\\Entities\\User.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAA6wBEAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T18:47:11.463Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "SqlUserRepository.cs",
               "DocumentMoniker": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.DAL.SqlServer\\Infrastructure\\SqlUserRepository.cs",
               "RelativeDocumentMoniker": "CvAnalysisSystem.DAL.SqlServer\\Infrastructure\\SqlUserRepository.cs",
               "ToolTip": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.DAL.SqlServer\\Infrastructure\\SqlUserRepository.cs",
               "RelativeToolTip": "CvAnalysisSystem.DAL.SqlServer\\Infrastructure\\SqlUserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwBcAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T15:22:30.063Z",
+              "WhenOpened": "2025-03-26T08:20:49.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisProject\\Controller\\UserController.cs",
+              "RelativeDocumentMoniker": "CvAnalysisProject\\Controller\\UserController.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisProject\\Controller\\UserController.cs",
+              "RelativeToolTip": "CvAnalysisProject\\Controller\\UserController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAWwBYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T07:39:37.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Application\\CQRS\\Users\\DTOs\\LoginDto.cs",
+              "RelativeDocumentMoniker": "CvAnalysisSystem.Application\\CQRS\\Users\\DTOs\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Application\\CQRS\\Users\\DTOs\\LoginDto.cs",
+              "RelativeToolTip": "CvAnalysisSystem.Application\\CQRS\\Users\\DTOs\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T07:29:57.732Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "SQLQuery6.sql ",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SQLQuery6.sql",
-              "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\SQLQuery6.sql",
-              "ToolTip": "SQLQuery6.sql ",
+              "Title": "dbo.Users [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_0MV3INK/CvAnalysisSystemDb/True/SqlTable/dbo.Users.sql",
+              "ToolTip": "dbo.Users [Data]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-03-25T16:28:05.699Z",
+              "WhenOpened": "2025-03-26T07:29:15.41Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisProject\\appsettings.json",
-              "RelativeDocumentMoniker": "CvAnalysisProject\\appsettings.json",
-              "ToolTip": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisProject\\appsettings.json",
-              "RelativeToolTip": "CvAnalysisProject\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAADfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-25T16:47:48.582Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "SQLQuery8.sql ",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SQLQuery8.sql",
-              "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\SQLQuery8.sql",
-              "ToolTip": "SQLQuery8.sql ",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-03-25T16:27:32.681Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.DAL.SqlServer\\Context\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "CvAnalysisSystem.DAL.SqlServer\\Context\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.DAL.SqlServer\\Context\\AppDbContext.cs",
-              "RelativeToolTip": "CvAnalysisSystem.DAL.SqlServer\\Context\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "RefreshToken.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Application\\CQRS\\Users\\Handlers\\Commands\\RefreshToken.cs",
+              "RelativeDocumentMoniker": "CvAnalysisSystem.Application\\CQRS\\Users\\Handlers\\Commands\\RefreshToken.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Application\\CQRS\\Users\\Handlers\\Commands\\RefreshToken.cs",
+              "RelativeToolTip": "CvAnalysisSystem.Application\\CQRS\\Users\\Handlers\\Commands\\RefreshToken.cs",
+              "ViewState": "AgIAAA0AAABgAAAAAAAgwBkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T14:58:53.831Z",
+              "WhenOpened": "2025-03-26T07:31:29.56Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Repository\\Repositories\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "CvAnalysisSystem.Repository\\Repositories\\IUserRepository.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Repository\\Repositories\\IUserRepository.cs",
-              "RelativeToolTip": "CvAnalysisSystem.Repository\\Repositories\\IUserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAtAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "SqlUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.DAL.SqlServer\\UnitOfWork\\SqlUnitOfWork\\SqlUnitOfWork.cs",
+              "RelativeDocumentMoniker": "CvAnalysisSystem.DAL.SqlServer\\UnitOfWork\\SqlUnitOfWork\\SqlUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.DAL.SqlServer\\UnitOfWork\\SqlUnitOfWork\\SqlUnitOfWork.cs",
+              "RelativeToolTip": "CvAnalysisSystem.DAL.SqlServer\\UnitOfWork\\SqlUnitOfWork\\SqlUnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAWwAgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T15:20:00.488Z",
+              "WhenOpened": "2025-03-26T07:32:25.884Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "AiRecommendation.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\Entities\\AiRecommendation.cs",
-              "RelativeDocumentMoniker": "CvAnalysisSystem.Domain\\Entities\\AiRecommendation.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\Entities\\AiRecommendation.cs",
-              "RelativeToolTip": "CvAnalysisSystem.Domain\\Entities\\AiRecommendation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAhAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Application\\CQRS\\Users\\Handlers\\Commands\\Login.cs",
+              "RelativeDocumentMoniker": "CvAnalysisSystem.Application\\CQRS\\Users\\Handlers\\Commands\\Login.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Application\\CQRS\\Users\\Handlers\\Commands\\Login.cs",
+              "RelativeToolTip": "CvAnalysisSystem.Application\\CQRS\\Users\\Handlers\\Commands\\Login.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAlwCAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T15:17:07.67Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Certification.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\Entities\\Certification.cs",
-              "RelativeDocumentMoniker": "CvAnalysisSystem.Domain\\Entities\\Certification.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\Entities\\Certification.cs",
-              "RelativeToolTip": "CvAnalysisSystem.Domain\\Entities\\Certification.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T15:16:34.397Z",
+              "WhenOpened": "2025-03-26T07:30:01.604Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "Cv.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\Entities\\Cv.cs",
-              "RelativeDocumentMoniker": "CvAnalysisSystem.Domain\\Entities\\Cv.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\Entities\\Cv.cs",
-              "RelativeToolTip": "CvAnalysisSystem.Domain\\Entities\\Cv.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAkAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisProject\\Program.cs",
+              "RelativeDocumentMoniker": "CvAnalysisProject\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisProject\\Program.cs",
+              "RelativeToolTip": "CvAnalysisProject\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T15:16:12.475Z",
+              "WhenOpened": "2025-03-26T07:39:27.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DependencyInjections.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Application\\DependencyInjections.cs",
+              "RelativeDocumentMoniker": "CvAnalysisSystem.Application\\DependencyInjections.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Application\\DependencyInjections.cs",
+              "RelativeToolTip": "CvAnalysisSystem.Application\\DependencyInjections.cs",
+              "ViewState": "AgIAAAcAAAAAMzMzMzMLwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T08:06:56.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Repository\\Common\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "CvAnalysisSystem.Repository\\Common\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Repository\\Common\\IUnitOfWork.cs",
+              "RelativeToolTip": "CvAnalysisSystem.Repository\\Common\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T08:14:23.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Application\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "CvAnalysisSystem.Application\\Services\\TokenService.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Application\\Services\\TokenService.cs",
+              "RelativeToolTip": "CvAnalysisSystem.Application\\Services\\TokenService.cs",
+              "ViewState": "AgIAABcAAADAzMzMzMwmwCAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T07:31:04.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IRefreshTokenRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Repository\\Repositories\\IRefreshTokenRepository.cs",
+              "RelativeDocumentMoniker": "CvAnalysisSystem.Repository\\Repositories\\IRefreshTokenRepository.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Repository\\Repositories\\IRefreshTokenRepository.cs",
+              "RelativeToolTip": "CvAnalysisSystem.Repository\\Repositories\\IRefreshTokenRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T08:14:33.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RefreshTokenRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.DAL.SqlServer\\Infrastructure\\RefreshTokenRepository.cs",
+              "RelativeDocumentMoniker": "CvAnalysisSystem.DAL.SqlServer\\Infrastructure\\RefreshTokenRepository.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.DAL.SqlServer\\Infrastructure\\RefreshTokenRepository.cs",
+              "RelativeToolTip": "CvAnalysisSystem.DAL.SqlServer\\Infrastructure\\RefreshTokenRepository.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABAAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T07:30:10.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisProject\\appsettings.json",
+              "RelativeDocumentMoniker": "CvAnalysisProject\\appsettings.json",
+              "ToolTip": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisProject\\appsettings.json",
+              "RelativeToolTip": "CvAnalysisProject\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-26T07:49:30.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "CvAnalysisSystem.Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "CvAnalysisSystem.Domain\\Entities\\User.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T07:59:24.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "dbo.RefreshTokens [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_0MV3INK/CvAnalysisSystemDb/True/SqlTable/dbo.RefreshTokens.sql",
+              "ToolTip": "dbo.RefreshTokens [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-03-26T07:40:38.324Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "Interview.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\Entities\\Interview.cs",
-              "RelativeDocumentMoniker": "CvAnalysisSystem.Domain\\Entities\\Interview.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\Entities\\Interview.cs",
-              "RelativeToolTip": "CvAnalysisSystem.Domain\\Entities\\Interview.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAfAAAAAAAAAA==",
+              "Title": "AuthenticationDependency.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisProject\\Security\\AuthenticationDependency.cs",
+              "RelativeDocumentMoniker": "CvAnalysisProject\\Security\\AuthenticationDependency.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisProject\\Security\\AuthenticationDependency.cs",
+              "RelativeToolTip": "CvAnalysisProject\\Security\\AuthenticationDependency.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAwCQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T15:15:45.795Z",
+              "WhenOpened": "2025-03-26T07:39:17.067Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
-              "Title": "InterviewFeedback.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\Entities\\InterviewFeedback.cs",
-              "RelativeDocumentMoniker": "CvAnalysisSystem.Domain\\Entities\\InterviewFeedback.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\Entities\\InterviewFeedback.cs",
-              "RelativeToolTip": "CvAnalysisSystem.Domain\\Entities\\InterviewFeedback.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
+              "Title": "RefreshToken.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\Entities\\RefreshToken.cs",
+              "RelativeDocumentMoniker": "CvAnalysisSystem.Domain\\Entities\\RefreshToken.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\Entities\\RefreshToken.cs",
+              "RelativeToolTip": "CvAnalysisSystem.Domain\\Entities\\RefreshToken.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T15:15:23.409Z",
+              "WhenOpened": "2025-03-26T07:34:39.809Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 19,
-              "Title": "Language.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\Entities\\Language.cs",
-              "RelativeDocumentMoniker": "CvAnalysisSystem.Domain\\Entities\\Language.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\Entities\\Language.cs",
-              "RelativeToolTip": "CvAnalysisSystem.Domain\\Entities\\Language.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T15:14:42.453Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Session.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\Entities\\Session.cs",
-              "RelativeDocumentMoniker": "CvAnalysisSystem.Domain\\Entities\\Session.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\Entities\\Session.cs",
-              "RelativeToolTip": "CvAnalysisSystem.Domain\\Entities\\Session.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T15:14:16.811Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Skill.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\Entities\\Skill.cs",
-              "RelativeDocumentMoniker": "CvAnalysisSystem.Domain\\Entities\\Skill.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\Entities\\Skill.cs",
-              "RelativeToolTip": "CvAnalysisSystem.Domain\\Entities\\Skill.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T15:13:19.399Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Raitings.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\Enums\\Raitings.cs",
-              "RelativeDocumentMoniker": "CvAnalysisSystem.Domain\\Enums\\Raitings.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\Enums\\Raitings.cs",
-              "RelativeToolTip": "CvAnalysisSystem.Domain\\Enums\\Raitings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T15:12:42.35Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "ProfiencyLevel.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\Enums\\ProfiencyLevel.cs",
-              "RelativeDocumentMoniker": "CvAnalysisSystem.Domain\\Enums\\ProfiencyLevel.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\Enums\\ProfiencyLevel.cs",
-              "RelativeToolTip": "CvAnalysisSystem.Domain\\Enums\\ProfiencyLevel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T15:11:19.22Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "FluencyLevels.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\Enums\\FluencyLevels.cs",
-              "RelativeDocumentMoniker": "CvAnalysisSystem.Domain\\Enums\\FluencyLevels.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\Enums\\FluencyLevels.cs",
-              "RelativeToolTip": "CvAnalysisSystem.Domain\\Enums\\FluencyLevels.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T15:10:07.889Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "BaseEntity.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\BaseEntities\\BaseEntity.cs",
-              "RelativeDocumentMoniker": "CvAnalysisSystem.Domain\\BaseEntities\\BaseEntity.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\BaseEntities\\BaseEntity.cs",
-              "RelativeToolTip": "CvAnalysisSystem.Domain\\BaseEntities\\BaseEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T15:07:48.538Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "PasswordHasher.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Common\\Security\\PasswordHasher.cs",
-              "RelativeDocumentMoniker": "CvAnalysisSystem.Common\\Security\\PasswordHasher.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Common\\Security\\PasswordHasher.cs",
-              "RelativeToolTip": "CvAnalysisSystem.Common\\Security\\PasswordHasher.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T14:57:36.111Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Result.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Common\\GlobalResponses\\Generics\\Result.cs",
-              "RelativeDocumentMoniker": "CvAnalysisSystem.Common\\GlobalResponses\\Generics\\Result.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Common\\GlobalResponses\\Generics\\Result.cs",
-              "RelativeToolTip": "CvAnalysisSystem.Common\\GlobalResponses\\Generics\\Result.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T14:56:46.708Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Result.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Common\\GlobalResponses\\Result.cs",
-              "RelativeDocumentMoniker": "CvAnalysisSystem.Common\\GlobalResponses\\Result.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Common\\GlobalResponses\\Result.cs",
-              "RelativeToolTip": "CvAnalysisSystem.Common\\GlobalResponses\\Result.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T14:55:56.856Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "TooManyRequestException.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Common\\Exceptions\\TooManyRequestException.cs",
-              "RelativeDocumentMoniker": "CvAnalysisSystem.Common\\Exceptions\\TooManyRequestException.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Common\\Exceptions\\TooManyRequestException.cs",
-              "RelativeToolTip": "CvAnalysisSystem.Common\\Exceptions\\TooManyRequestException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T14:55:23.461Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "UnauthorizedException.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Common\\Exceptions\\UnauthorizedException.cs",
-              "RelativeDocumentMoniker": "CvAnalysisSystem.Common\\Exceptions\\UnauthorizedException.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Common\\Exceptions\\UnauthorizedException.cs",
-              "RelativeToolTip": "CvAnalysisSystem.Common\\Exceptions\\UnauthorizedException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T14:54:01.384Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "NotFoundException.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Common\\Exceptions\\NotFoundException.cs",
-              "RelativeDocumentMoniker": "CvAnalysisSystem.Common\\Exceptions\\NotFoundException.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Common\\Exceptions\\NotFoundException.cs",
-              "RelativeToolTip": "CvAnalysisSystem.Common\\Exceptions\\NotFoundException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T14:53:18.219Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "BadRequestException.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Common\\Exceptions\\BadRequestException.cs",
-              "RelativeDocumentMoniker": "CvAnalysisSystem.Common\\Exceptions\\BadRequestException.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Common\\Exceptions\\BadRequestException.cs",
-              "RelativeToolTip": "CvAnalysisSystem.Common\\Exceptions\\BadRequestException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T14:50:27.253Z",
+              "Title": "dbo.Skills [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_0MV3INK/CvAnalysisSystemDb/True/SqlTable/dbo.Skills.sql",
+              "ToolTip": "dbo.Skills [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-03-26T07:29:09.817Z",
               "EditorCaption": ""
             }
           ]

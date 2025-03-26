@@ -1,5 +1,8 @@
 ﻿using AutoMapper;
 using CvAnalysisSystem.Application.AutoMapper;
+using CvAnalysisSystem.Application.Behaviors;
+using FluentAssertions.Common;
+using FluentValidation;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
@@ -17,6 +20,9 @@ public static class DependencyInjections
         IMapper mapper = mapperConfig.CreateMapper();
         services.AddSingleton(mapper);
         services.AddMediatR(Assembly.GetExecutingAssembly());
+        services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
+        services.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
         return services;
     }
+
 }

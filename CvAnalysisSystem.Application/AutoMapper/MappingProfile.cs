@@ -13,5 +13,9 @@ public class MappingProfile:Profile
         CreateMap<Command, User>();
         CreateMap<User, RegisterDto>();
         #endregion
+        #region Update
+        CreateMap<CQRS.Users.Handlers.Commands.Update.Command, User>();
+        CreateMap<User, UpdateDto>();       
+        #endregion
     }
 }

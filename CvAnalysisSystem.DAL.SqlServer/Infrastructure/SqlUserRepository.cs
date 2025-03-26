@@ -16,17 +16,9 @@ public class SqlUserRepository(AppDbContext context) : IUserRepository
 
     public async Task<User?> GetByEmailAsync(string email)
     {
-        if (string.IsNullOrEmpty(email))
-        {
-            return null; // ya da uyğun səhv mesajı
-        }
-
-        var user = await _context.Users
-            .Where(u => u.Email.ToLower() == email.ToLower() && (u.IsDeleted == false || u.IsDeleted == null))
-            .FirstOrDefaultAsync();
-
-        return user;
+        return await _context.Users.FirstOrDefaultAsync(u => u.Email == email && u.IsDeleted == false);
     }
+
 
     public async Task<User> GetByIdAsync(int id)
     {
@@ -41,7 +33,9 @@ public class SqlUserRepository(AppDbContext context) : IUserRepository
         await _context.SaveChangesAsync();
     }
 
-    public async void Remove(int id)
+  
+
+    public async Task Remove(int id)
     {
         var currentUser = _context.Users.FirstOrDefault(u => u.Id == id);
         if (currentUser == null)

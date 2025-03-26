@@ -16,7 +16,7 @@ public class Login
 {
     public class LoginRequest : IRequest<Result<LoginDto>>
     {
-        public string Email { get; set; }
+        public string? Email { get; set; }
         public string Password { get; set; }
     }
 

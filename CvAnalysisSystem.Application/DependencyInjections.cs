@@ -1,7 +1,6 @@
 ﻿using AutoMapper;
 using CvAnalysisSystem.Application.AutoMapper;
 using CvAnalysisSystem.Application.Behaviors;
-using FluentAssertions.Common;
 using FluentValidation;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;

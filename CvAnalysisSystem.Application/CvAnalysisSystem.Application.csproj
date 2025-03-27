@@ -8,23 +8,13 @@
 
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="14.0.0" />
-<<<<<<< HEAD
-    <PackageReference Include="FluentAssertions" Version="8.2.0" />
-    <PackageReference Include="FluentValidation" Version="8.6.3" />
-    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="8.6.3" />
-=======
-    <PackageReference Include="FluentValidation" Version="8.6.3" />
->>>>>>> feature/Validation
+    <PackageReference Include="FluentValidation" Version="11.11.0" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.11.0" />
     <PackageReference Include="MediatR" Version="11.1.0" />
     <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.1.0" />
-<<<<<<< HEAD
-    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="9.0.2" />
-    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.6.0" />
-=======
     <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="8.0.0" />
-    <PackageReference Include="Microsoft.IdentityModel" Version="7.0.0" />
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.7.0" />
->>>>>>> feature/RateLimit
+    <PackageReference Include="Microsoft.IdentityModel" Version="7.0.0" />
   </ItemGroup>
 
   <ItemGroup>

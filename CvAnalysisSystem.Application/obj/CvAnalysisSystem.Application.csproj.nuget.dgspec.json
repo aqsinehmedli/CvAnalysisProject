@@ -36,24 +36,11 @@
               "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj": {
                 "projectPath": "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj"
               },
-<<<<<<< HEAD
-<<<<<<< HEAD
-              "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.DAL.SqlServer\\CvAnalysisSystem.DAL.SqlServer.csproj": {
-                "projectPath": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.DAL.SqlServer\\CvAnalysisSystem.DAL.SqlServer.csproj"
-              },
-              "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Repository\\CvAnalysisSystem.Repository.csproj": {
-                "projectPath": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Repository\\CvAnalysisSystem.Repository.csproj"
-=======
-              "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Repository\\CvAnalysisSystem.Repository.csproj": {
-                "projectPath": "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Repository\\CvAnalysisSystem.Repository.csproj"
->>>>>>> feature/RateLimit
-=======
               "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.DAL.SqlServer\\CvAnalysisSystem.DAL.SqlServer.csproj": {
                 "projectPath": "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.DAL.SqlServer\\CvAnalysisSystem.DAL.SqlServer.csproj"
               },
               "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Repository\\CvAnalysisSystem.Repository.csproj": {
                 "projectPath": "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Repository\\CvAnalysisSystem.Repository.csproj"
->>>>>>> feature/Validation
               }
             }
           }
@@ -77,24 +64,14 @@
               "target": "Package",
               "version": "[14.0.0, )"
             },
-<<<<<<< HEAD
-            "FluentAssertions": {
-              "target": "Package",
-              "version": "[8.2.0, )"
-            },
-=======
->>>>>>> feature/Validation
             "FluentValidation": {
               "target": "Package",
-              "version": "[8.6.3, )"
+              "version": "[11.11.0, )"
             },
-<<<<<<< HEAD
             "FluentValidation.DependencyInjectionExtensions": {
               "target": "Package",
-              "version": "[8.6.3, )"
+              "version": "[11.11.0, )"
             },
-=======
->>>>>>> feature/Validation
             "MediatR": {
               "target": "Package",
               "version": "[11.1.0, )"
@@ -105,13 +82,6 @@
             },
             "Microsoft.Extensions.Configuration.Abstractions": {
               "target": "Package",
-<<<<<<< HEAD
-              "version": "[9.0.2, )"
-            },
-            "System.IdentityModel.Tokens.Jwt": {
-              "target": "Package",
-              "version": "[8.6.0, )"
-=======
               "version": "[8.0.0, )"
             },
             "Microsoft.IdentityModel": {
@@ -121,7 +91,6 @@
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
               "version": "[8.7.0, )"
->>>>>>> feature/RateLimit
             }
           },
           "imports": [
@@ -209,12 +178,7 @@
         }
       }
     },
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.DAL.SqlServer\\CvAnalysisSystem.DAL.SqlServer.csproj": {
-=======
     "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.DAL.SqlServer\\CvAnalysisSystem.DAL.SqlServer.csproj": {
->>>>>>> feature/Validation
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.DAL.SqlServer\\CvAnalysisSystem.DAL.SqlServer.csproj",
@@ -303,14 +267,7 @@
         }
       }
     },
-<<<<<<< HEAD
-    "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj": {
-=======
     "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj": {
->>>>>>> feature/RateLimit
-=======
-    "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj": {
->>>>>>> feature/Validation
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj",

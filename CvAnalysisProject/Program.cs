@@ -1,9 +1,6 @@
 using CvAnalysisSystem.DAL.SqlServer;
 using CvAnalysisSystem.Application;
-<<<<<<< HEAD
 using CvAnalysisSystemProject.Security;
-=======
->>>>>>> feature/RateLimit
 using CvAnalysisSystemProject.Middlewares;
 var builder = WebApplication.CreateBuilder(args);
 

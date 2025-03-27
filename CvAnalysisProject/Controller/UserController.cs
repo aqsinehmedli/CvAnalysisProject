@@ -11,7 +11,7 @@ namespace CvAnalysisSystemProject.Controller
     [ApiController]
     public class UserController : BaseController
     {
-        [HttpPost]
+        //[HttpPost("Register")]
         //public async Task<IActionResult> Register([FromBody] Command request)
         //{
         //    return Ok(await Sender.Send(request));

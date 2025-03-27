@@ -1,22 +1,6 @@
 [
   {
     "ContainingType": "CvAnalysisSystemProject.Controller.UserController",
-    "Method": "Login",
-    "RelativePath": "api/User",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "request",
-        "Type": "CvAnalysisSystem.Application.CQRS.Users.Handlers.Commands.Login\u002BLoginRequest",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "CvAnalysisSystemProject.Controller.UserController",
     "Method": "Delete",
     "RelativePath": "api/User",
     "HttpMethod": "DELETE",

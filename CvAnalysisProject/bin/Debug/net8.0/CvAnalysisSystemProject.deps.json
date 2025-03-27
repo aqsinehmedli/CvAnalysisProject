@@ -62,6 +62,7 @@
           }
         }
       },
+<<<<<<< HEAD
       "FluentAssertions/8.2.0": {
         "runtime": {
           "lib/net6.0/FluentAssertions.dll": {
@@ -70,6 +71,8 @@
           }
         }
       },
+=======
+>>>>>>> feature/Validation
       "FluentValidation/8.6.3": {
         "dependencies": {
           "System.ComponentModel.Annotations": "4.4.1"
@@ -81,6 +84,7 @@
           }
         }
       },
+<<<<<<< HEAD
       "FluentValidation.DependencyInjectionExtensions/8.6.3": {
         "dependencies": {
           "FluentValidation": "8.6.3",
@@ -93,6 +97,8 @@
           }
         }
       },
+=======
+>>>>>>> feature/Validation
       "MediatR/11.1.0": {
         "dependencies": {
           "MediatR.Contracts": "1.0.1"
@@ -721,9 +727,13 @@
           "CvAnalysisSystem.Common": "1.0.0",
           "CvAnalysisSystem.DAL.SqlServer": "1.0.0",
           "CvAnalysisSystem.Repository": "1.0.0",
+<<<<<<< HEAD
           "FluentAssertions": "8.2.0",
           "FluentValidation": "8.6.3",
           "FluentValidation.DependencyInjectionExtensions": "8.6.3",
+=======
+          "FluentValidation": "8.6.3",
+>>>>>>> feature/Validation
           "MediatR": "11.1.0",
           "MediatR.Extensions.Microsoft.DependencyInjection": "11.1.0",
 <<<<<<< HEAD
@@ -814,6 +824,7 @@
       "path": "azure.identity/1.7.0",
       "hashPath": "azure.identity.1.7.0.nupkg.sha512"
     },
+<<<<<<< HEAD
     "FluentAssertions/8.2.0": {
       "type": "package",
       "serviceable": true,
@@ -821,6 +832,8 @@
       "path": "fluentassertions/8.2.0",
       "hashPath": "fluentassertions.8.2.0.nupkg.sha512"
     },
+=======
+>>>>>>> feature/Validation
     "FluentValidation/8.6.3": {
       "type": "package",
       "serviceable": true,
@@ -828,6 +841,7 @@
       "path": "fluentvalidation/8.6.3",
       "hashPath": "fluentvalidation.8.6.3.nupkg.sha512"
     },
+<<<<<<< HEAD
     "FluentValidation.DependencyInjectionExtensions/8.6.3": {
       "type": "package",
       "serviceable": true,
@@ -835,6 +849,8 @@
       "path": "fluentvalidation.dependencyinjectionextensions/8.6.3",
       "hashPath": "fluentvalidation.dependencyinjectionextensions.8.6.3.nupkg.sha512"
     },
+=======
+>>>>>>> feature/Validation
     "MediatR/11.1.0": {
       "type": "package",
       "serviceable": true,

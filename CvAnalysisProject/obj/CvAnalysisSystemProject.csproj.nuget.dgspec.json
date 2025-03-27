@@ -122,6 +122,7 @@
                 "projectPath": "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj"
               },
 <<<<<<< HEAD
+<<<<<<< HEAD
               "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.DAL.SqlServer\\CvAnalysisSystem.DAL.SqlServer.csproj": {
                 "projectPath": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.DAL.SqlServer\\CvAnalysisSystem.DAL.SqlServer.csproj"
               },
@@ -131,6 +132,13 @@
               "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Repository\\CvAnalysisSystem.Repository.csproj": {
                 "projectPath": "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Repository\\CvAnalysisSystem.Repository.csproj"
 >>>>>>> feature/RateLimit
+=======
+              "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.DAL.SqlServer\\CvAnalysisSystem.DAL.SqlServer.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.DAL.SqlServer\\CvAnalysisSystem.DAL.SqlServer.csproj"
+              },
+              "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Repository\\CvAnalysisSystem.Repository.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Repository\\CvAnalysisSystem.Repository.csproj"
+>>>>>>> feature/Validation
               }
             }
           }
@@ -154,18 +162,24 @@
               "target": "Package",
               "version": "[14.0.0, )"
             },
+<<<<<<< HEAD
             "FluentAssertions": {
               "target": "Package",
               "version": "[8.2.0, )"
             },
+=======
+>>>>>>> feature/Validation
             "FluentValidation": {
               "target": "Package",
               "version": "[8.6.3, )"
             },
+<<<<<<< HEAD
             "FluentValidation.DependencyInjectionExtensions": {
               "target": "Package",
               "version": "[8.6.3, )"
             },
+=======
+>>>>>>> feature/Validation
             "MediatR": {
               "target": "Package",
               "version": "[11.1.0, )"

@@ -62,6 +62,7 @@
           }
         }
       },
+<<<<<<< HEAD
       "FluentAssertions/8.2.0": {
         "type": "package",
         "compile": {
@@ -75,6 +76,8 @@
           }
         }
       },
+=======
+>>>>>>> feature/Validation
       "FluentValidation/8.6.3": {
         "type": "package",
         "dependencies": {
@@ -91,6 +94,7 @@
           }
         }
       },
+<<<<<<< HEAD
       "FluentValidation.DependencyInjectionExtensions/8.6.3": {
         "type": "package",
         "dependencies": {
@@ -108,6 +112,8 @@
           }
         }
       },
+=======
+>>>>>>> feature/Validation
       "MediatR/11.1.0": {
         "type": "package",
         "dependencies": {
@@ -1196,9 +1202,13 @@
           "CvAnalysisSystem.Common": "1.0.0",
           "CvAnalysisSystem.DAL.SqlServer": "1.0.0",
           "CvAnalysisSystem.Repository": "1.0.0",
+<<<<<<< HEAD
           "FluentAssertions": "8.2.0",
           "FluentValidation": "8.6.3",
           "FluentValidation.DependencyInjectionExtensions": "8.6.3",
+=======
+          "FluentValidation": "8.6.3",
+>>>>>>> feature/Validation
           "MediatR": "11.1.0",
           "MediatR.Extensions.Microsoft.DependencyInjection": "11.1.0",
 <<<<<<< HEAD
@@ -1324,6 +1334,7 @@
         "lib/netstandard2.0/Azure.Identity.xml"
       ]
     },
+<<<<<<< HEAD
     "FluentAssertions/8.2.0": {
       "sha512": "Gh4jkECcrR0i17ofCVqsiVz2+lxC+p5TYFPCrbZFi7eQQWGEZhvCDwvhycBKX1Kmtbd+H2CW/ugW7wdH9Br9NQ==",
       "type": "package",
@@ -1349,6 +1360,8 @@
         "lib/netstandard2.1/FluentAssertions.xml"
       ]
     },
+=======
+>>>>>>> feature/Validation
     "FluentValidation/8.6.3": {
       "sha512": "UT2dcKiSFz9fNQT7xXlZfk87IJxf6KEjaTaFHGZVmJNPylcFWU/Fp5vBWeILHuRBxnXckM+WDo6kK4YTqGjRXw==",
       "type": "package",
@@ -1368,6 +1381,7 @@
         "lib/netstandard2.0/FluentValidation.xml"
       ]
     },
+<<<<<<< HEAD
     "FluentValidation.DependencyInjectionExtensions/8.6.3": {
       "sha512": "F9lxRvyKRgHjeKZx+F0lV0T2+qeTMDzwe+merGnghmP9KlBXvlkSzZEr0+GfhKiQekoX1hIoKGtrILTYkJUkPA==",
       "type": "package",
@@ -1381,6 +1395,8 @@
         "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.xml"
       ]
     },
+=======
+>>>>>>> feature/Validation
     "MediatR/11.1.0": {
       "sha512": "YIbtrLOyeCuIv8vIuHL/mMdls5xmgS36pIOJDxKZuu55nxA2MI2Z+E/Uk0z+F/LE11AGmpjplOM0NZ91m5LQBA==",
       "type": "package",

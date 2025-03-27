@@ -166,7 +166,10 @@ C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisProjec
 C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisProject\bin\Debug\net8.0\Microsoft.Bcl.Memory.dll
 C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisProject\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisProject\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> feature/Validation
 C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisProject\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisProject\bin\Debug\net8.0\appsettings.json
 C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisProject\bin\Debug\net8.0\CvAnalysisSystemProject.exe
@@ -177,15 +180,30 @@ C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisProject\bin\Debug\net8.0\CvAna
 C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisProject\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisProject\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisProject\bin\Debug\net8.0\Azure.Identity.dll
+<<<<<<< HEAD
 C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisProject\bin\Debug\net8.0\MediatR.dll
 C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisProject\bin\Debug\net8.0\MediatR.Contracts.dll
 C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisProject\bin\Debug\net8.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisProject\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+=======
+C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisProject\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisProject\bin\Debug\net8.0\MediatR.dll
+C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisProject\bin\Debug\net8.0\MediatR.Contracts.dll
+C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisProject\bin\Debug\net8.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisProject\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisProject\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisProject\bin\Debug\net8.0\Microsoft.Bcl.Memory.dll
+>>>>>>> feature/Validation
 C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisProject\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
 C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisProject\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+<<<<<<< HEAD
+=======
+C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisProject\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisProject\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+>>>>>>> feature/Validation
 C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisProject\bin\Debug\net8.0\Microsoft.Identity.Client.dll
 C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisProject\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
 C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisProject\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
@@ -252,9 +270,12 @@ C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisProject\obj\Debug\net8.0\refin
 C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisProject\obj\Debug\net8.0\CvAnalysisSystemProject.pdb
 C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisProject\obj\Debug\net8.0\CvAnalysisSystemProject.genruntimeconfig.cache
 C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisProject\obj\Debug\net8.0\ref\CvAnalysisSystemProject.dll
+<<<<<<< HEAD
 C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisProject\bin\Debug\net8.0\FluentAssertions.dll
 C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisProject\bin\Debug\net8.0\FluentValidation.dll
 C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisProject\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
 C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisProject\bin\Debug\net8.0\Microsoft.Bcl.Memory.dll
 C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisProject\bin\Debug\net8.0\microsoft.identitymodel.dll
 >>>>>>> feature/RateLimit
+=======
+>>>>>>> feature/Validation

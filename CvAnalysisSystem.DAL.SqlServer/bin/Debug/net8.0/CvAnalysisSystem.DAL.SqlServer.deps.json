@@ -558,18 +558,12 @@
       },
       "CvAnalysisSystem.Common/1.0.0": {
         "runtime": {
-          "CvAnalysisSystem.Common.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "CvAnalysisSystem.Common.dll": {}
         }
       },
       "CvAnalysisSystem.Domain/1.0.0": {
         "runtime": {
-          "CvAnalysisSystem.Domain.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "CvAnalysisSystem.Domain.dll": {}
         }
       },
       "CvAnalysisSystem.Repository/1.0.0": {
@@ -577,10 +571,7 @@
           "CvAnalysisSystem.Domain": "1.0.0"
         },
         "runtime": {
-          "CvAnalysisSystem.Repository.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "CvAnalysisSystem.Repository.dll": {}
         }
       }
     }

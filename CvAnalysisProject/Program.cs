@@ -1,9 +1,17 @@
 using CvAnalysisSystem.DAL.SqlServer;
 using CvAnalysisSystem.Application;
+using Microsoft.Extensions.FileProviders;
+using Microsoft.AspNetCore.Http.Features;
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+builder.Services.Configure<FormOptions>(options =>
+{
+    options.ValueLengthLimit = int.MaxValue;
+    options.MultipartBodyLengthLimit = int.MaxValue;
+    options.MemoryBufferThreshold = int.MaxValue;
+});
 
+// Add services to the container.
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
@@ -25,5 +33,14 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+
+app.UseStaticFiles();
+app.UseStaticFiles(new StaticFileOptions()
+{
+    FileProvider = new PhysicalFileProvider(Path.Combine(Directory.GetCurrentDirectory(), @"Resources")),
+    RequestPath = new PathString("/Resources")
+});
+ 
+   
 
 app.Run();

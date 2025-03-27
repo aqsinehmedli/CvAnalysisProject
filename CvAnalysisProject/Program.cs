@@ -1,6 +1,9 @@
 using CvAnalysisSystem.DAL.SqlServer;
 using CvAnalysisSystem.Application;
+<<<<<<< HEAD
 using CvAnalysisSystemProject.Security;
+=======
+>>>>>>> feature/RateLimit
 using CvAnalysisSystemProject.Middlewares;
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,6 +14,8 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 var connectionString = builder.Configuration.GetConnectionString("MyConn");
+
+builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 builder.Services.AddSqlServerServices(connectionString!);
 builder.Services.AddApplicationServices();
 builder.Services.AddAuthenticationDependency(builder.Configuration);
@@ -25,8 +30,9 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
 app.UseAuthorization();
+app.UseMiddleware<RateLimitMiddleware>();
+app.UseMiddleware<ExceptionHandlerMiddleware>();
 
 app.UseMiddleware<ExceptionHandlerMiddleware>();
 

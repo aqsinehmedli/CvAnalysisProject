@@ -29,3 +29,19 @@ C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem
 C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Repository\obj\Debug\net8.0\refint\CvAnalysisSystem.Repository.dll
 C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Repository\obj\Debug\net8.0\CvAnalysisSystem.Repository.pdb
 C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Repository\obj\Debug\net8.0\ref\CvAnalysisSystem.Repository.dll
+C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.Repository\bin\Debug\net8.0\CvAnalysisSystem.Repository.deps.json
+C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.Repository\bin\Debug\net8.0\CvAnalysisSystem.Repository.dll
+C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.Repository\bin\Debug\net8.0\CvAnalysisSystem.Repository.pdb
+C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.Repository\bin\Debug\net8.0\CvAnalysisSystem.Domain.dll
+C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.Repository\bin\Debug\net8.0\CvAnalysisSystem.Domain.pdb
+C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.Repository\obj\Debug\net8.0\CvAnalysisSystem.Repository.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.Repository\obj\Debug\net8.0\CvAnalysisSystem.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.Repository\obj\Debug\net8.0\CvAnalysisSystem.Repository.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.Repository\obj\Debug\net8.0\CvAnalysisSystem.Repository.AssemblyInfo.cs
+C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.Repository\obj\Debug\net8.0\CvAnalysisSystem.Repository.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.Repository\obj\Debug\net8.0\CvAnalysisSystem.Repository.sourcelink.json
+C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.Repository\obj\Debug\net8.0\CvAnalys.9F86F2A6.Up2Date
+C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.Repository\obj\Debug\net8.0\CvAnalysisSystem.Repository.dll
+C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.Repository\obj\Debug\net8.0\refint\CvAnalysisSystem.Repository.dll
+C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.Repository\obj\Debug\net8.0\CvAnalysisSystem.Repository.pdb
+C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.Repository\obj\Debug\net8.0\ref\CvAnalysisSystem.Repository.dll

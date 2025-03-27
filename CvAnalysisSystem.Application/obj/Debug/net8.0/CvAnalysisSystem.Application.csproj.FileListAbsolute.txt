@@ -18,5 +18,28 @@ C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem
 C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\obj\Debug\net8.0\refint\CvAnalysisSystem.Application.dll
 C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\obj\Debug\net8.0\CvAnalysisSystem.Application.pdb
 C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\obj\Debug\net8.0\ref\CvAnalysisSystem.Application.dll
+<<<<<<< HEAD
 C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\bin\Debug\net8.0\CvAnalysisSystem.DAL.SqlServer.dll
 C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\bin\Debug\net8.0\CvAnalysisSystem.DAL.SqlServer.pdb
+=======
+C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\bin\Debug\net8.0\CvAnalysisSystem.Application.deps.json
+C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\bin\Debug\net8.0\CvAnalysisSystem.Application.dll
+C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\bin\Debug\net8.0\CvAnalysisSystem.Application.pdb
+C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\bin\Debug\net8.0\CvAnalysisSystem.Common.dll
+C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\bin\Debug\net8.0\CvAnalysisSystem.Domain.dll
+C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\bin\Debug\net8.0\CvAnalysisSystem.Repository.dll
+C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\bin\Debug\net8.0\CvAnalysisSystem.Common.pdb
+C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\bin\Debug\net8.0\CvAnalysisSystem.Repository.pdb
+C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\bin\Debug\net8.0\CvAnalysisSystem.Domain.pdb
+C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\obj\Debug\net8.0\CvAnalysisSystem.Application.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\obj\Debug\net8.0\CvAnalysisSystem.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\obj\Debug\net8.0\CvAnalysisSystem.Application.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\obj\Debug\net8.0\CvAnalysisSystem.Application.AssemblyInfo.cs
+C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\obj\Debug\net8.0\CvAnalysisSystem.Application.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\obj\Debug\net8.0\CvAnalysisSystem.Application.sourcelink.json
+C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\obj\Debug\net8.0\CvAnalys.2AB59AF2.Up2Date
+C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\obj\Debug\net8.0\CvAnalysisSystem.Application.dll
+C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\obj\Debug\net8.0\refint\CvAnalysisSystem.Application.dll
+C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\obj\Debug\net8.0\CvAnalysisSystem.Application.pdb
+C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\obj\Debug\net8.0\ref\CvAnalysisSystem.Application.dll
+>>>>>>> feature/RateLimit

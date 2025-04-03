@@ -1,6 +1,10 @@
 ﻿using AutoMapper;
 using CvAnalysisSystem.Application.AutoMapper;
 using CvAnalysisSystem.Application.Behaviors;
+using CvAnalysisSystem.DAL.SqlServer.Infrastructure;
+using CvAnalysisSystem.DAL.SqlServer.UnitOfWork;
+using CvAnalysisSystem.Repository.Common;
+using CvAnalysisSystem.Repository.Repositories;
 using FluentValidation;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;
@@ -21,6 +25,8 @@ public static class DependencyInjections
         services.AddMediatR(Assembly.GetExecutingAssembly());
         services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
         services.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
+        services.AddScoped<IUnitOfWork, SqlUnitOfWork>();
+        services.AddScoped<ICvRepository, SqlCvRepository>();
         return services;
     }
 

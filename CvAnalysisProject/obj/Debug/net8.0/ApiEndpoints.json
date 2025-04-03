@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "CvAnalysisSystemProject.Controller.CvController",
+    "Method": "Update",
+    "RelativePath": "api/Cv",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CvAnalysisSystem.Application.CQRS.Cv.Handlers.Commands.UpdateCv\u002BCvCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "CvAnalysisSystemProject.Controller.UserController",
     "Method": "Login",
     "RelativePath": "api/User",

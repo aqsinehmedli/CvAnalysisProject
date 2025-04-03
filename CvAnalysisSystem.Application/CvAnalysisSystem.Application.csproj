@@ -23,4 +23,8 @@
     <ProjectReference Include="..\CvAnalysisSystem.Repository\CvAnalysisSystem.Repository.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="CQRS\Cv\Validators\" />
+  </ItemGroup>
+
 </Project>

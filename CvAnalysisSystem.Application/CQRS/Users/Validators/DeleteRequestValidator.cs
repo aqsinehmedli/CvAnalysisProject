@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace CvAnalysisSystem.Application.CQRS.Users.Validators;
 
-public class DeleteRequestValidator : AbstractValidator<DeleteCv.CvCommand>
+public class DeleteRequestValidator : AbstractValidator<Delete.Command>
 {
     public DeleteRequestValidator()
     {

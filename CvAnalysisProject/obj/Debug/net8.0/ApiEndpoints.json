@@ -1,16 +1,16 @@
 [
   {
     "ContainingType": "CvAnalysisSystemProject.Controller.CvController",
-    "Method": "Update",
+    "Method": "Delete",
     "RelativePath": "api/Cv",
-    "HttpMethod": "PUT",
+    "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "request",
-        "Type": "CvAnalysisSystem.Application.CQRS.Cv.Handlers.Commands.UpdateCv\u002BCvCommand",
-        "IsRequired": true
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []

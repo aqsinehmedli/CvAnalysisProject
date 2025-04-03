@@ -16,6 +16,7 @@ namespace CvAnalysisSystemProject.Controller
         //    return Ok(response); 
         //}
 
+
         //[HttpPut]
         //public async Task<IActionResult> Update([FromBody] UpdateCv.CvCommand request)
         //{
@@ -23,13 +24,15 @@ namespace CvAnalysisSystemProject.Controller
         //    return Ok(response);
         //}
 
-        //[HttpDelete]
-        //public async Task<IActionResult> Delete([FromQuery] int id)
-        //{
-        //    var request = new DeleteCv.CvCommand() { Id = id };
-        //    var response = await Sender.Send(request);
-        //    return Ok(response); 
-        //}
+        
+
+        [HttpDelete]
+        public async Task<IActionResult> Delete([FromQuery] int id)
+        {
+            var request = new DeleteCv.CvCommand() { Id = id };
+            var response = await Sender.Send(request);
+            return Ok(response); 
+        }
 
  
     

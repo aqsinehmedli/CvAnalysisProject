@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CvAnalysisSystem.DAL.SqlServer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f8916f72150ebf06a15f8568c9411725fcad7068")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ad44ab4fde94615e10011ea87096467c641ae926")]
 [assembly: System.Reflection.AssemblyProductAttribute("CvAnalysisSystem.DAL.SqlServer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CvAnalysisSystem.DAL.SqlServer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -631,18 +631,12 @@
           "System.IdentityModel.Tokens.Jwt": "8.7.0"
         },
         "runtime": {
-          "CvAnalysisSystem.Application.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "CvAnalysisSystem.Application.dll": {}
         }
       },
       "CvAnalysisSystem.Common/1.0.0": {
         "runtime": {
-          "CvAnalysisSystem.Common.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "CvAnalysisSystem.Common.dll": {}
         }
       },
       "CvAnalysisSystem.DAL.SqlServer/1.0.0": {
@@ -655,18 +649,12 @@
           "Microsoft.Extensions.DependencyInjection": "8.0.0"
         },
         "runtime": {
-          "CvAnalysisSystem.DAL.SqlServer.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "CvAnalysisSystem.DAL.SqlServer.dll": {}
         }
       },
       "CvAnalysisSystem.Domain/1.0.0": {
         "runtime": {
-          "CvAnalysisSystem.Domain.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "CvAnalysisSystem.Domain.dll": {}
         }
       },
       "CvAnalysisSystem.Repository/1.0.0": {
@@ -674,10 +662,7 @@
           "CvAnalysisSystem.Domain": "1.0.0"
         },
         "runtime": {
-          "CvAnalysisSystem.Repository.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "CvAnalysisSystem.Repository.dll": {}
         }
       }
     }

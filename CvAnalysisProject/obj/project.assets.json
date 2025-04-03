@@ -199,12 +199,12 @@
         },
         "compile": {
           "ref/net6.0/Microsoft.Data.SqlClient.dll": {
-            "related": ".xml;.pdb"
+            "related": ".pdb;.xml"
           }
         },
         "runtime": {
           "lib/net6.0/Microsoft.Data.SqlClient.dll": {
-            "related": ".xml;.pdb"
+            "related": ".pdb;.xml"
           }
         },
         "runtimeTargets": {
@@ -643,12 +643,12 @@
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {
-            "related": ".xml;.pdb"
+            "related": ".pdb;.xml"
           }
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {
-            "related": ".xml;.pdb"
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -656,12 +656,12 @@
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Microsoft.SqlServer.Server.dll": {
-            "related": ".xml;.pdb"
+            "related": ".pdb;.xml"
           }
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.SqlServer.Server.dll": {
-            "related": ".xml;.pdb"
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -706,12 +706,12 @@
         },
         "compile": {
           "lib/net6.0/Swashbuckle.AspNetCore.Swagger.dll": {
-            "related": ".xml;.pdb"
+            "related": ".pdb;.xml"
           }
         },
         "runtime": {
           "lib/net6.0/Swashbuckle.AspNetCore.Swagger.dll": {
-            "related": ".xml;.pdb"
+            "related": ".pdb;.xml"
           }
         },
         "frameworkReferences": [
@@ -725,12 +725,12 @@
         },
         "compile": {
           "lib/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
-            "related": ".xml;.pdb"
+            "related": ".pdb;.xml"
           }
         },
         "runtime": {
           "lib/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
-            "related": ".xml;.pdb"
+            "related": ".pdb;.xml"
           }
         }
       },
@@ -738,12 +738,12 @@
         "type": "package",
         "compile": {
           "lib/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
-            "related": ".xml;.pdb"
+            "related": ".pdb;.xml"
           }
         },
         "runtime": {
           "lib/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
-            "related": ".xml;.pdb"
+            "related": ".pdb;.xml"
           }
         },
         "frameworkReferences": [
@@ -3174,23 +3174,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {},
+    "C:\\Users\\Bayra_ak95\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisProject\\CvAnalysisSystemProject.csproj",
+      "projectUniqueName": "C:\\Users\\Bayra_ak95\\Desktop\\CvAnalysisProject\\CvAnalysisProject\\CvAnalysisSystemProject.csproj",
       "projectName": "CvAnalysisSystemProject",
-      "projectPath": "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisProject\\CvAnalysisSystemProject.csproj",
-      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisProject\\obj\\",
+      "projectPath": "C:\\Users\\Bayra_ak95\\Desktop\\CvAnalysisProject\\CvAnalysisProject\\CvAnalysisSystemProject.csproj",
+      "packagesPath": "C:\\Users\\Bayra_ak95\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Bayra_ak95\\Desktop\\CvAnalysisProject\\CvAnalysisProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Bayra_ak95\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3206,11 +3206,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Application\\CvAnalysisSystem.Application.csproj": {
-              "projectPath": "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Application\\CvAnalysisSystem.Application.csproj"
+            "C:\\Users\\Bayra_ak95\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Application\\CvAnalysisSystem.Application.csproj": {
+              "projectPath": "C:\\Users\\Bayra_ak95\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Application\\CvAnalysisSystem.Application.csproj"
             },
-            "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.DAL.SqlServer\\CvAnalysisSystem.DAL.SqlServer.csproj": {
-              "projectPath": "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.DAL.SqlServer\\CvAnalysisSystem.DAL.SqlServer.csproj"
+            "C:\\Users\\Bayra_ak95\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.DAL.SqlServer\\CvAnalysisSystem.DAL.SqlServer.csproj": {
+              "projectPath": "C:\\Users\\Bayra_ak95\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.DAL.SqlServer\\CvAnalysisSystem.DAL.SqlServer.csproj"
             }
           }
         }
@@ -3258,7 +3258,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
       }
     }
   },

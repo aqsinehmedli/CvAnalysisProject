@@ -9,12 +9,12 @@ namespace CvAnalysisSystemProject.Controller
     [ApiController]
     public class CvController : BaseController
     {
-        //[HttpPost]
-        //public async Task<IActionResult> Create([FromBody] CreateCv.CvCommand request)
-        //{
-        //    var response = await Sender.Send(request);
-        //    return Ok(response); 
-        //}
+        [HttpPost]
+        public async Task<IActionResult> Create([FromBody] CreateCv.CvCommand request)
+        {
+            var response = await Sender.Send(request);
+            return Ok(response);
+        }
 
         //[HttpPut]
         //public async Task<IActionResult> Update([FromBody] UpdateCv.CvCommand request)
@@ -31,7 +31,7 @@ namespace CvAnalysisSystemProject.Controller
         //    return Ok(response); 
         //}
 
- 
-    
+
+
     }
 }

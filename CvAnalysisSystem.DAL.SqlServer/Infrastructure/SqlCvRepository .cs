@@ -25,11 +25,10 @@ namespace CvAnalysisSystem.DAL.SqlServer.Infrastructure
             return await _context.Cvs.FirstOrDefaultAsync(c => c.Id == id && !c.IsDeleted);
         }
 
-        public async Task AddAsync(Cv cv)
+        public async Task AddAsync(CvModel cvmodel)
         {
-            cv.UploadDate = DateTime.Now;
-            cv.LastUpdated = DateTime.Now;
-            await _context.Cvs.AddAsync(cv);
+            cvmodel.CreatedDate = DateTime.Now;
+            await _context.CvModel.AddAsync(cvmodel);
             await _context.SaveChangesAsync();
         }
 

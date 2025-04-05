@@ -23,4 +23,12 @@
     <ProjectReference Include="..\CvAnalysisSystem.Repository\CvAnalysisSystem.Repository.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="CQRS\Certifications\DTOs\" />
+    <Folder Include="CQRS\CvModel\DTOs\" />
+    <Folder Include="CQRS\Educations\DTOs\" />
+    <Folder Include="CQRS\Experiences\DTOs\" />
+    <Folder Include="CQRS\Skills\DTOs\" />
+  </ItemGroup>
+
 </Project>

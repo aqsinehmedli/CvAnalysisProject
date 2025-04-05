@@ -1,6 +1,8 @@
 ﻿using AutoMapper;
 using CvAnalysisSystem.Application.AutoMapper;
 using CvAnalysisSystem.Application.Behaviors;
+using CvAnalysisSystem.Application.Services.Abstract;
+using CvAnalysisSystem.Application.Services.Concret;
 using CvAnalysisSystem.DAL.SqlServer.Infrastructure;
 using CvAnalysisSystem.DAL.SqlServer.UnitOfWork;
 using CvAnalysisSystem.Repository.Common;
@@ -27,6 +29,7 @@ public static class DependencyInjections
         services.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
         services.AddScoped<IUnitOfWork, SqlUnitOfWork>();
         services.AddScoped<ICvRepository, SqlCvRepository>();
+        services.AddScoped<IPDFService, PDFService>();
         return services;
     }
 

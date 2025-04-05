@@ -14,6 +14,7 @@ public class AppDbContext : DbContext
     public DbSet<Education> Educations { get; set; }
     public DbSet<Skill> Skills { get; set; }    
     public DbSet<Experience> Experiences { get; set; }  
+    public DbSet<Certifications> Certifications { get; set; }
 
 }
 

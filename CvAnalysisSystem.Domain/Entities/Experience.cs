@@ -11,6 +11,6 @@ public class Experience
     public string Position { get; set; }
     public DateTime StartDate { get; set; }
     public DateTime EndDate { get; set; }
-    [ForeignKey("CvModelId")]
-    public CvModel CvModel { get; set; }
+    //[ForeignKey("CvModelId")]
+    //public CvModel CvModel { get; set; }
 }

@@ -17,9 +17,9 @@ public class CvModel:BaseEntity
     public List<Education> Educations { get; set; }
     public List<Experience> Experiences { get; set; }
     public List<Skill> Skills { get; set; }
-    public List<Certification> Certifications { get; set; }
+    public List<Certifications> Certifications { get; set; }
 
     // Əgər login sistemi varsa:
-    [ForeignKey("UserId")]
-    public User User { get; set; }
+    //[ForeignKey("UserId")]
+    //public User User { get; set; }
 }

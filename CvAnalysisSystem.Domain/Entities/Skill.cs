@@ -10,6 +10,6 @@ public class Skill
     public int CvModelId { get; set; }
     public string SkillName { get; set; }
     public ProfiencyLevel ProficiencyLevel { get; set; }
-    [ForeignKey("CvModelId")]
-    public CvModel CvModel { get; set; }
+    //[ForeignKey("CvModelId")]
+    //public CvModel CvModel { get; set; }
 }

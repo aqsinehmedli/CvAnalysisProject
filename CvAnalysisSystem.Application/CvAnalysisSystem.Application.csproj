@@ -27,7 +27,6 @@
 
   <ItemGroup>
     <Folder Include="CQRS\Cv\Validators\" />
-    <Folder Include="Services\Concret\" />
   </ItemGroup>
 
 </Project>

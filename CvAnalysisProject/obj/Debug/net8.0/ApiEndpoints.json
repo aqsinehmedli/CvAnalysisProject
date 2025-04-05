@@ -14,5 +14,21 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CvAnalysisSystemProject.Controller.CvController",
+    "Method": "GenerateCvPdf",
+    "RelativePath": "api/Cv/generate-pdf",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "CvAnalysisSystem.Application.CQRS.Cv.DTOs.CreateCvDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

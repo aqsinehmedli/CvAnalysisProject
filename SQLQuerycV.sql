@@ -63,7 +63,7 @@ CREATE TABLE Skills (
 
     CreatedBy INT NULL,
     UpdatedBy INT NULL,
-    DeletedBy INT NULL,
+    DeletedBy INT NULL,w
     CreatedDate DATETIME DEFAULT GETDATE(),
     UpdatedDate DATETIME NULL,
     DeletedDate DATETIME NULL,

@@ -5,4 +5,5 @@ public class CertificationDto
     public string Title { get; set; }
     public string Organization { get; set; }
     public DateTime IssueDate { get; set; }
+    public DateTime ExpiredDate { get; set; }
 }

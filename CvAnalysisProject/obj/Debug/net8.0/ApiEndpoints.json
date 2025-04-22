@@ -1,14 +1,14 @@
 [
   {
     "ContainingType": "CvAnalysisSystemProject.Controller.CvController",
-    "Method": "Create",
+    "Method": "GenerateCv",
     "RelativePath": "api/Cv",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "request",
+        "Name": "command",
         "Type": "CvAnalysisSystem.Application.CQRS.Cv.Handlers.Commands.CreateCv\u002BCvCommand",
         "IsRequired": true
       }
@@ -17,15 +17,15 @@
   },
   {
     "ContainingType": "CvAnalysisSystemProject.Controller.CvController",
-    "Method": "GenerateCvPdf",
+    "Method": "GenerateCv",
     "RelativePath": "api/Cv/generate-pdf",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "dto",
-        "Type": "CvAnalysisSystem.Application.CQRS.Cv.DTOs.CreateCvDto",
+        "Name": "command",
+        "Type": "CvAnalysisSystem.Application.CQRS.Cv.Handlers.Commands.CreateCv\u002BCvCommand",
         "IsRequired": true
       }
     ],

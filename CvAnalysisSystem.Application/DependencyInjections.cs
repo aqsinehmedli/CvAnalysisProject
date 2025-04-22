@@ -12,6 +12,7 @@ using MediatR;
 using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
 
+
 namespace CvAnalysisSystem.Application;
 
 public static class DependencyInjections
@@ -30,6 +31,10 @@ public static class DependencyInjections
         services.AddScoped<IUnitOfWork, SqlUnitOfWork>();
         services.AddScoped<ICvRepository, SqlCvRepository>();
         services.AddScoped<IPDFService, PDFService>();
+        services.AddTransient<ClassicTemplateStrategy>();
+        services.AddTransient<ModernTemplateStrategy>();
+        services.AddTransient<CvService>();
+        services.AddTransient<ICvTemplateStrategyResolver, CvTemplateResolver>();
         return services;
     }
 

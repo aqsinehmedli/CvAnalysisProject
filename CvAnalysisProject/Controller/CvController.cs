@@ -3,37 +3,38 @@ using Microsoft.AspNetCore.Mvc;
 using CvAnalysisSystem.Application.CQRS.Cv.Handlers.Commands;
 using CvAnalysisSystem.Application.CQRS.Cv.DTOs;
 using CvAnalysisSystem.Application.Services.Abstract;
-using CvAnalysisSystem.Application.Services.Concret;
 using CvAnalysisSystem.Domain.Entities;
+using CvAnalysisSystem.Application.Services.Concret;
 using AutoMapper;
+using MediatR;
+using CvAnalysisSystem.Domain.Enums;
+
 
 namespace CvAnalysisSystemProject.Controller
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class CvController(IPDFService pdfService) : BaseController
+    public class CvController(CvService cvService) : BaseController
     {
-        private readonly IPDFService _pdfService = pdfService;
+        private readonly CvService _cvService = cvService;
 
-      
         [HttpPost]
-        public async Task<IActionResult> Create([FromBody] CreateCv.CvCommand request)
-        {
-            var response = await Sender.Send(request);
-            return Ok(response);
-        }
+        //public async Task<IActionResult> Create([FromBody] CreateCv.CvCommand request)
+        //{
+        //    var response = await Sender.Send(request);
+        //    return Ok(response);
+        //}
         [HttpPost("generate-pdf")]
-        public IActionResult GenerateCvPdf([FromBody] CvModel model)
+        public async Task<IActionResult> GenerateCv([FromBody] CreateCv.CvCommand command)
         {
-            try
+            byte[] pdfBytes = _cvService.GenerateCv(command, command.TemplateType);  // TemplateType artık command'in içinde
+
+            if (pdfBytes == null || pdfBytes.Length == 0)
             {
-                var pdfBytes = _pdfService.GenerateCvPdf(model);
-                return File(pdfBytes, "application/pdf", "CvFile.pdf");
+                return BadRequest("CV PDF yaratılamadı.");
             }
-            catch (Exception ex)
-            {
-                return BadRequest($"Error generating PDF: {ex.Message}");
-            }
+
+            return File(pdfBytes, "application/pdf", "cv.pdf");
         }
 
 
@@ -44,7 +45,6 @@ namespace CvAnalysisSystemProject.Controller
         //    var response = await Sender.Send(request);
         //    return Ok(response);
         //}
-
         //[HttpDelete]
         //public async Task<IActionResult> Delete([FromQuery] int id)
         //{
@@ -52,8 +52,5 @@ namespace CvAnalysisSystemProject.Controller
         //    var response = await Sender.Send(request);
         //    return Ok(response); 
         //}
-
-
-
     }
 }

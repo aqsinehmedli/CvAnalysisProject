@@ -7,4 +7,6 @@ public class Certifications
     public string Organization { get; set; }
     //public string IssuedBy { get; set; }
     public DateTime IssueDate { get; set; }
+    public DateTime ExpiredDate { get; set; }
+
 }

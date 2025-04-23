@@ -1,9 +1,9 @@
-﻿using CvAnalysisSystem.Application.CQRS.Cv.Handlers.Commands;
-using CvAnalysisSystem.Application.Services.Abstract;
+﻿using CvAnalysisSystem.Application.Services.Abstract;
 using CvAnalysisSystem.Domain.Enums;
 using QuestPDF.Fluent;
 using QuestPDF.Helpers;
 using QuestPDF.Infrastructure;
+using static CvAnalysisSystem.Application.CQRS.Cv.Handlers.Commands.CreateCv;
 
 namespace CvAnalysisSystem.Application.Services.Concret;
 
@@ -11,124 +11,67 @@ public class ModernTemplateStrategy : ICvTemplateStrategy
 {
     public TemplateType TemplateType => TemplateType.Modern;
 
-    public byte[] Generate(CreateCv.CvCommand command)
-    {
+    public byte[] Generate(CvCommand command)
+    {   
         QuestPDF.Settings.License = LicenseType.Community;
 
+        // Generate the document with the page content
         var document = Document.Create(container =>
         {
             container.Page(page =>
             {
                 page.Size(PageSizes.A4);
-                page.Margin(40);
-                page.DefaultTextStyle(x => x.FontSize(12));
+                page.Margin(0);
+                page.DefaultTextStyle(x => x.FontFamily("Arial").FontSize(10));
 
-                // Header Section: Name and Contact Info
-                page.Header().Row(row =>
+                page.Content().Row(row =>
                 {
-                    row.RelativeColumn().Column(col =>
+                    // Left Column
+                    row.ConstantItem(180).Background("#E5F6F7").Padding(20).Column(col =>
                     {
-                        col.Item().Text(command.FullName)
-                            .FontSize(32).Bold().FontColor(Colors.Black);
+                        col.Item().PaddingTop(20).Text("CONTACT ME AT").Bold().FontColor("#0E8EA8").FontSize(11);
+                        //col.Item().PaddingVertical(5).Text($"📍 {command.Address}");
+                        col.Item().Text($"📧 {command.Email}");
+                        col.Item().Text($"📞 {command.Phone}");
+                        //col.Item().Text($"🌐 {command.Website}");
 
-                        col.Item().Text(command.Email).FontColor(Colors.Grey.Darken1);
-                        col.Item().Text(command.Phone).FontColor(Colors.Grey.Darken1);
-                    });
-
-                    row.ConstantColumn(180).Column(col =>
-                    {
-                        col.Item().AlignRight().Text($"LinkedIn:").Bold();
-                        col.Item().AlignRight().Text(command.LinkedInUrl).FontColor(Colors.Blue.Darken2);
-
-                        col.Item().AlignRight().Text($"GitHub:").Bold();
-                        col.Item().AlignRight().Text(command.GitHubUrl).FontColor(Colors.Blue.Darken2);
-                    });
-                });
-
-                // Main Content Section
-                page.Content().PaddingVertical(20).Column(col =>
-                {
-                    // Education Section
-                    if (command.Educations?.Any() == true)
-                    {
-                        col.Item().Text("🎓 Education").Bold().FontSize(14).FontColor(Colors.Black);
+                        col.Item().PaddingTop(20).Text("EDUCATION").Bold().FontColor("#0E8EA8").FontSize(11);
                         foreach (var edu in command.Educations)
                         {
-                            col.Item().PaddingVertical(5).Row(row =>
-                            {
-                                row.RelativeColumn().Text($"{edu.School}").Bold();
-                                row.ConstantColumn(120).AlignRight().Text($"{edu.StartYear:yyyy} - {edu.EndYear:yyyy}").FontColor(Colors.Grey.Darken1);
-                            });
-
-                            col.Item().Text($"Degree: {edu.Degree}").FontColor(Colors.Grey.Darken2).FontSize(11);
+                            col.Item().PaddingVertical(5).Text($"{edu.School}\n{edu.Degree}\n{edu.StartYear} - {edu.EndYear}").FontSize(9);
                         }
-                    }
 
-                    // Experience Section
-                    if (command.Experiences?.Any() == true)
-                    {
-                        col.Item().PaddingTop(15).Text("💼 Experience").Bold().FontSize(14).FontColor(Colors.Black);
-
-                        foreach (var exp in command.Experiences)
+                        col.Item().PaddingTop(20).Text("AWARDS RECEIVED").Bold().FontColor("#0E8EA8").FontSize(11);
+                        //foreach (var award in command.Awards)
                         {
-                            col.Item().PaddingVertical(5).Column(expCol =>
-                            {
-                                expCol.Item().Text($"{exp.Position} at {exp.Company}")
-                                    .FontSize(12).Bold();
-
-                                expCol.Item().Text($"{exp.StartDate:MMM yyyy} - {exp.EndDate:MMM yyyy}")
-                                    .FontSize(10).FontColor(Colors.Grey.Darken1);
-
-                                expCol.Item().Text(exp.Description)
-                                    .FontSize(11).FontColor(Colors.Grey.Darken2);
-                            });
+                            //col.Item().Text(award);
                         }
-                    }
 
-                    // Skills Section (No WrapHorizontal, just clear lists)
-                    if (command.Skills?.Any() == true)
+                        col.Item().PaddingTop(20).Text("PROFESSIONAL SKILLS").Bold().FontColor("#0E8EA8").FontSize(11);
+                        //col.Item().Text($"Hard Skills: {string.Join(", ", command.HardSkills)}").FontSize(9);
+                        //col.Item().Text($"Soft Skills: {string.Join(", ", command.SoftSkills)}").FontSize(9);
+                    });
+
+                    // Right Column
+                    row.RelativeItem().Padding(25).Column(col =>
                     {
-                        col.Item().PaddingTop(15).Text("🧠 Skills").Bold().FontSize(14).FontColor(Colors.Black);
+                        col.Item().Text(command.FullName).Bold().FontColor("#0E8EA8").FontSize(24);
+                        //col.Item().Text(command.JobTitle).Bold().FontColor("#000000").FontSize(14);
+                        //col.Item().PaddingTop(10).Text(command.ProfileDescription).FontSize(10);
 
-                        col.Item().Column(skillCol =>
+                        col.Item().PaddingTop(20).Text("WORK EXPERIENCE").Bold().FontColor("#0E8EA8").FontSize(11);
+                        foreach (var experience in command.Experiences)
                         {
-                            foreach (var skill in command.Skills)
-                            {
-                                skillCol.Item().Text($"{skill.SkillName} - Level {skill.ProfiencyLevel}")
-                                    .FontSize(12)
-                                    .FontColor(Colors.Grey.Darken1);
-                            }
-                        });
-                    }
-
-                    // Certifications Section
-                    if (command.Certifications?.Any() == true)
-                    {
-                        col.Item().PaddingTop(15).Text("📜 Certifications").Bold().FontSize(14).FontColor(Colors.Black);
-
-                        foreach (var cert in command.Certifications)
-                        {
-                            col.Item().PaddingVertical(5).Column(certCol =>
-                            {
-                                certCol.Item().Text($"{cert.Title} - {cert.Organization}")
-                                    .FontSize(12).Bold();
-
-                                certCol.Item().Text($"Issued: {cert.IssueDate:MMM yyyy} - Expires: {cert.ExpiredDate:MMM yyyy}")
-                                    .FontSize(10).FontColor(Colors.Grey.Darken1);
-                            });
+                            col.Item().PaddingVertical(5).Text($"{experience.Position}\n{experience.Company}\n{experience.StartDate:MMM yyyy} - {experience.EndDate:MMM yyyy}")
+                                .Bold();
+                            col.Item().Text(experience.Description).FontSize(9);
                         }
-                    }
-                });
-
-                // Footer Section with Contact Info
-                page.Footer().AlignCenter().Text(txt =>
-                {
-                    txt.Span("Generated with ").FontColor(Colors.Grey.Lighten1);
-                    txt.Span("CVAnalysisSystem").SemiBold().FontColor(Colors.Blue.Medium);
+                    });
                 });
             });
         });
 
+        // Return the generated PDF as a byte array
         return document.GeneratePdf();
     }
 }

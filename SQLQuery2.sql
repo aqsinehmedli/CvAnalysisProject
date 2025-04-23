@@ -1,2 +1,6 @@
-﻿ALTER TABLE Users
-ALTER COLUMN IsDeleted BIT NOT NULL;
+﻿SELECT*FROM CvModel
+SELECT*FROM Educations
+SELECT*FROM Certifications
+SELECT*FROM Skills
+SELECT*FROM Experiences
+SELECT*FROM Languages

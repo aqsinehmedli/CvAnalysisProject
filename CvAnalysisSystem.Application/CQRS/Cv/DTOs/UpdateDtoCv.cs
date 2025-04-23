@@ -8,12 +8,18 @@ namespace CvAnalysisSystem.Application.CQRS.Cv.DTOs
 {
     public record UpdateDtoCv
     {
-        public string PdfFilePath { get; set; }
-        public string Education { get; set; }
-        public string WorkExperience { get; set; }
-        public string Skills { get; set; }
-        public string Languages { get; set; }
-        public string Certifications { get; set; }
-        public string Status { get; set; }
+        public string FullName { get; set; }
+        public string Email { get; set; }
+        public string Phone { get; set; }
+        public string LinkedInUrl { get; set; }
+        public string GitHubUrl { get; set; }
+        public int TemplateId { get; set; }
+        public List<EducationDto> Educations { get; set; }
+        public List<ExperienceDto> Experiences { get; set; }
+        public List<SkillDto> Skills { get; set; }
+        public List<CertificationDto> Certifications { get; set; }
+        public List<LanguageDto> Languages { get; set; }
+        public string ProfileImageBase64 { get; set; } // Base64 image
+        public byte[] Pdf { get; set; }
     }
 }

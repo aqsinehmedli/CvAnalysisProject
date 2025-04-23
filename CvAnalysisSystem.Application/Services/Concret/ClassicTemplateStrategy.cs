@@ -8,7 +8,7 @@ using static CvAnalysisSystem.Application.CQRS.Cv.Handlers.Commands.CreateCv;
 
 namespace CvAnalysisSystem.Application.Services.Concret;
 
-public class ClassicTemplateStrategy:ICvTemplateStrategy
+public class ClassicTemplateStrategy : ICvTemplateStrategy
 {
     public TemplateType TemplateType => TemplateType.Classic;
 
@@ -116,3 +116,4 @@ public class ClassicTemplateStrategy:ICvTemplateStrategy
         return document.GeneratePdf();
     }
 }
+

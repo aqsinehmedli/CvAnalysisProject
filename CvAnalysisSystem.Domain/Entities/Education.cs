@@ -12,6 +12,6 @@ public class Education
     public DateTime StartYear { get; set; }
     public DateTime EndYear { get; set; }
 
-    //[ForeignKey("CvModelId")]
-    //public CvModel CvModel { get; set; }
+    [ForeignKey("CvModelId")]
+    public CvModel CvModel { get; set; }
 }

@@ -18,7 +18,6 @@ namespace CvAnalysisSystemProject.Controller
     {
         private readonly CvService _cvService = cvService;
 
-        [HttpPost]
         //public async Task<IActionResult> Create([FromBody] CreateCv.CvCommand request)
         //{
         //    var response = await Sender.Send(request);
@@ -29,11 +28,15 @@ namespace CvAnalysisSystemProject.Controller
         {
             byte[] pdfBytes = _cvService.GenerateCv(command, command.TemplateType);  // TemplateType artık command'in içinde
 
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
             if (pdfBytes == null || pdfBytes.Length == 0)
             {
                 return BadRequest("CV PDF yaratılamadı.");
             }
 
+            var pdf = await Sender.Send(command);
             return File(pdfBytes, "application/pdf", "cv.pdf");
         }
 
@@ -45,12 +48,12 @@ namespace CvAnalysisSystemProject.Controller
         //    var response = await Sender.Send(request);
         //    return Ok(response);
         //}
-        //[HttpDelete]
-        //public async Task<IActionResult> Delete([FromQuery] int id)
-        //{
-        //    var request = new DeleteCv.CvCommand() { Id = id };
-        //    var response = await Sender.Send(request);
-        //    return Ok(response); 
-        //}
+        [HttpDelete]
+        public async Task<IActionResult> Delete([FromQuery] int id)
+        {
+            var request = new DeleteCv.CvCommand() { Id = id };
+            var response = await Sender.Send(request);
+            return Ok(response);
+        }
     }
 }

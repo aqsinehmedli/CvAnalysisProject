@@ -1,35 +1,35 @@
-﻿using CvAnalysisSystem.Common.Exceptions;
-using CvAnalysisSystem.Repository.Common;
-using MediatR;
+﻿    using CvAnalysisSystem.Common.Exceptions;
+    using CvAnalysisSystem.Repository.Common;
+    using MediatR;
 
-public class DeleteCv
-{
-    public record struct CvCommand : IRequest
+    public class DeleteCv
     {
-        public int Id { get; set; }
-    }
-
-    public class Handler : IRequestHandler<CvCommand>
-    {
-        private readonly IUnitOfWork _unitOfWork;
-
-        public Handler(IUnitOfWork unitOfWork)
+        public record struct CvCommand : IRequest
         {
-            _unitOfWork = unitOfWork;
+            public int Id { get; set; }
         }
 
-        public async Task<Unit> Handle(CvCommand request, CancellationToken cancellationToken)
+        public class Handler : IRequestHandler<CvCommand>
         {
-            var cv = await _unitOfWork.CvRepository.GetByIdAsync(request.Id);
-            if (cv == null)
+            private readonly IUnitOfWork _unitOfWork;
+
+            public Handler(IUnitOfWork unitOfWork)
             {
-                throw new NotFoundException("CV not found");
+                _unitOfWork = unitOfWork;
             }
 
-            await _unitOfWork.CvRepository.RemoveAsync(cv);
-            await _unitOfWork.SaveChange();
+            public async Task<Unit> Handle(CvCommand request, CancellationToken cancellationToken)
+            {
+                var cv = await _unitOfWork.CvRepository.GetByIdAsync(request.Id);
+                if (cv == null)
+                {
+                    throw new NotFoundException("CV not found");
+                }
 
-            return Unit.Value; 
+                await _unitOfWork.CvRepository.RemoveAsync(cv);
+                await _unitOfWork.SaveChange();
+
+                return Unit.Value; 
+            }
         }
     }
-}

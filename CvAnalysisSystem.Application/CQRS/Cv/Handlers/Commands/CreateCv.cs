@@ -27,6 +27,7 @@ namespace CvAnalysisSystem.Application.CQRS.Cv.Handlers.Commands
             public List<ExperienceDto> Experiences { get; set; }
             public List<SkillDto> Skills { get; set; }
             public List<CertificationDto> Certifications { get; set; }
+            public List<LanguageDto> Languages { get; set; }
         }
 
         public sealed class Handler : IRequestHandler<CvCommand, byte[]>

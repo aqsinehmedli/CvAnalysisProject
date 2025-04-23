@@ -15,6 +15,7 @@ public class AppDbContext : DbContext
     public DbSet<Skill> Skills { get; set; }    
     public DbSet<Experience> Experiences { get; set; }  
     public DbSet<Certifications> Certifications { get; set; }
+    public DbSet<Language> Languages { get; set; }
 
 }
 

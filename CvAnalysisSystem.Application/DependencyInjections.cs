@@ -34,6 +34,7 @@ public static class DependencyInjections
         services.AddTransient<ClassicTemplateStrategy>();
         services.AddTransient<ModernTemplateStrategy>();
         services.AddTransient<CvService>();
+        services.AddTransient<ICvTemplateStrategy, ClassicTemplateStrategy>();
         services.AddTransient<ICvTemplateStrategyResolver, CvTemplateResolver>();
         return services;
     }

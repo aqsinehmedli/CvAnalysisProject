@@ -15,14 +15,14 @@ namespace CvAnalysisSystem.DAL.SqlServer.Infrastructure
             _context = context;
         }
 
-        public IQueryable<Cv> GetAll()
+        public IQueryable<CvModel> GetAll()
         {
-            return _context.Cvs.Where(c => !c.IsDeleted);
+            return _context.CvModel.Where(c => !c.IsDeleted);
         }
 
-        public async Task<Cv?> GetByIdAsync(int id)
+        public async Task<CvModel?> GetByIdAsync(int id)
         {
-            return await _context.Cvs.FirstOrDefaultAsync(c => c.Id == id && !c.IsDeleted);
+            return await _context.CvModel.FirstOrDefaultAsync(c => c.Id == id && !c.IsDeleted);
         }
 
         public async Task AddAsync(CvModel cvmodel)
@@ -32,31 +32,28 @@ namespace CvAnalysisSystem.DAL.SqlServer.Infrastructure
             await _context.SaveChangesAsync();
         }
 
-        public async Task Update(Cv cv)
+        public async Task Update(CvModel cvmodel)
         {
-            var existingCv = await _context.Cvs.FirstOrDefaultAsync(c => c.Id == cv.Id && !c.IsDeleted);
+            var existingCv = await _context.CvModel.FirstOrDefaultAsync(c => c.Id == cvmodel.Id && !c.IsDeleted);
             if (existingCv == null)
             {
                 throw new NotFoundException("CV not found.");
             }
 
-            existingCv.PdfFilePath = cv.PdfFilePath;
-            existingCv.Education = cv.Education;
-            existingCv.WorkExperience = cv.WorkExperience;
-            existingCv.Skills = cv.Skills;
-            existingCv.Languages = cv.Languages;
-            existingCv.Certifications = cv.Certifications;
-            existingCv.Status = cv.Status;
-            existingCv.LastUpdated = DateTime.Now;
-            existingCv.AiAnalysis = cv.AiAnalysis;
+            existingCv.Educations = cvmodel.Educations;
+            existingCv.Experiences = cvmodel.Experiences;
+            existingCv.Skills = cvmodel.Skills;
+            existingCv.Languages = cvmodel.Languages;
+            existingCv.Certifications = cvmodel.Certifications;
+            existingCv.UpdatedDate = DateTime.Now;
 
-            _context.Cvs.Update(existingCv);
+            _context.CvModel.Update(existingCv);
             await _context.SaveChangesAsync();
         }
 
         public async Task Delete(int id)
         {
-            var cv = await _context.Cvs.FirstOrDefaultAsync(c => c.Id == id && !c.IsDeleted);
+            var cv = await _context.CvModel.FirstOrDefaultAsync(c => c.Id == id && !c.IsDeleted);
             if (cv == null)
             {
                 throw new NotFoundException("CV not found.");
@@ -65,20 +62,21 @@ namespace CvAnalysisSystem.DAL.SqlServer.Infrastructure
             cv.IsDeleted = true;
             cv.DeletedDate = DateTime.Now;
 
-            _context.Cvs.Update(cv);
+            _context.CvModel.Update(cv);
             await _context.SaveChangesAsync();
         }
 
-        public async Task RemoveAsync(Cv cv)
+        public async Task RemoveAsync(CvModel cvmodel)
         {
-            if (cv == null)
+            if (cvmodel == null)
             {
-                throw new ArgumentNullException(nameof(cv), "CV cannot be null.");
+                throw new ArgumentNullException(nameof(cvmodel), "CV cannot be null.");
             }
 
-            _context.Cvs.Remove(cv);
+            _context.CvModel.Remove(cvmodel);
             await _context.SaveChangesAsync();
         }
 
+  
     }
 }

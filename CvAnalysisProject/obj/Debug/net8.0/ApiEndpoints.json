@@ -1,16 +1,16 @@
 [
   {
     "ContainingType": "CvAnalysisSystemProject.Controller.CvController",
-    "Method": "GenerateCv",
+    "Method": "Delete",
     "RelativePath": "api/Cv",
-    "HttpMethod": "POST",
+    "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "command",
-        "Type": "CvAnalysisSystem.Application.CQRS.Cv.Handlers.Commands.CreateCv\u002BCvCommand",
-        "IsRequired": true
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []

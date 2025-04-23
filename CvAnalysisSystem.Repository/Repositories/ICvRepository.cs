@@ -10,10 +10,10 @@ namespace CvAnalysisSystem.Repository.Repositories
     public interface ICvRepository
     {
         Task AddAsync(CvModel cvmodel);
-        Task Update(Cv cv);
+        Task Update(CvModel cvmodel);
         Task Delete(int id);
-        Task<Cv?> GetByIdAsync(int id);
-        IQueryable<Cv> GetAll();
-        Task RemoveAsync(Cv cv);
+        Task<CvModel?> GetByIdAsync(int id);
+        IQueryable<CvModel> GetAll();
+        Task RemoveAsync(CvModel cvmodel);
     }
 }

@@ -53,7 +53,12 @@ public class MappingProfile : Profile
             .ForMember(dest => dest.Id, opt => opt.Ignore())
 
             .ReverseMap();
+        CreateMap<LanguageDto, Language>()
+            .ForMember(dest => dest.LanguageName, opt => opt.MapFrom(src => src.LanguageName))
+            .ForMember(dest => dest.FluencyLevel, opt => opt.MapFrom(src => src.FluencyLevel))
+            .ForMember(dest => dest.Id, opt => opt.Ignore())
 
+            .ReverseMap();
         // Certification
         CreateMap<CertificationDto, Certifications>()
             .ForMember(dest => dest.IssueDate, opt => opt.MapFrom(src => DateTime.SpecifyKind(src.IssueDate, DateTimeKind.Utc)))
@@ -68,10 +73,11 @@ public class MappingProfile : Profile
             .ForMember(dest => dest.Phone, opt => opt.MapFrom(src => src.Phone))
             .ForMember(dest => dest.LinkedInUrl, opt => opt.MapFrom(src => src.LinkedInUrl))
             .ForMember(dest => dest.GitHubUrl, opt => opt.MapFrom(src => src.GitHubUrl))
-            .ForMember(dest => dest.TemplateName, opt => opt.MapFrom(src => src.TemplateType))
+            .ForMember(dest => dest.TemplateType, opt => opt.MapFrom(src => src.TemplateType))
             .ForMember(dest => dest.Educations, opt => opt.MapFrom(src => src.Educations))
             .ForMember(dest => dest.Experiences, opt => opt.MapFrom(src => src.Experiences))
             .ForMember(dest => dest.Skills, opt => opt.MapFrom(src => src.Skills))
+            .ForMember(dest => dest.Languages, opt => opt.MapFrom(src => src.Languages))
             .ForMember(dest => dest.Certifications, opt => opt.MapFrom(src => src.Certifications))
             .ForMember(dest => dest.Id, opt => opt.Ignore())
             .ForMember(dest => dest.CreatedDate, opt => opt.Ignore())
@@ -98,14 +104,25 @@ public class MappingProfile : Profile
         #endregion
 
         #region Cv
-        CreateMap<CQRS.Cv.Handlers.Commands.UpdateCv.CvCommand, Cv>();
-        CreateMap<Cv, UpdateDtoCv>();
-        CreateMap<Cv, UpdateDtoCv>().ReverseMap();
-
-        #endregion
-
-
-
-
+        CreateMap<CvModel, UpdateDtoCv>()
+          .ForMember(dest => dest.FullName, opt => opt.MapFrom(src => src.FullName))
+          .ForMember(dest => dest.Email, opt => opt.MapFrom(src => src.Email))
+          .ForMember(dest => dest.Phone, opt => opt.MapFrom(src => src.Phone))
+          .ForMember(dest => dest.LinkedInUrl, opt => opt.MapFrom(src => src.LinkedInUrl))
+          .ForMember(dest => dest.GitHubUrl, opt => opt.MapFrom(src => src.GitHubUrl))
+          .ForMember(dest => dest.TemplateId, opt => opt.MapFrom(src => (int)src.TemplateType)) // enum maping
+          .ForMember(dest => dest.Educations, opt => opt.MapFrom(src => src.Educations))
+          .ForMember(dest => dest.Experiences, opt => opt.MapFrom(src => src.Experiences))
+          .ForMember(dest => dest.Skills, opt => opt.MapFrom(src => src.Skills))
+          .ForMember(dest => dest.Certifications, opt => opt.MapFrom(src => src.Certifications))
+          .ForMember(dest => dest.Languages, opt => opt.MapFrom(src => src.Languages));
+        CreateMap<CQRS.Cv.Handlers.Commands.UpdateCv.CvCommand, CvModel>();
     }
+
+
+    #endregion
+
+
+
+
 }

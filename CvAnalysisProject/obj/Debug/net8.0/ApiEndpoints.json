@@ -24,11 +24,39 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "dto",
-        "Type": "CvAnalysisSystem.Application.CQRS.Cv.DTOs.CreateCvDto",
+        "Name": "model",
+        "Type": "CvAnalysisSystem.Domain.Entities.CvModel",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CvAnalysisSystemProject.Controller.OpenAiController",
+    "Method": "Get",
+    "RelativePath": "api/OpenAi",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "EndpointName": "GetOpenAiInfo"
+  },
+  {
+    "ContainingType": "CvAnalysisSystemProject.Controller.OpenAiController",
+    "Method": "Post",
+    "RelativePath": "api/OpenAi",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "question",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "AskGpt"
   }
 ]

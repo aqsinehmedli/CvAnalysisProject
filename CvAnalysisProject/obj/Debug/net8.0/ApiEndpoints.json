@@ -30,5 +30,15 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CvAnalysisSystemProject.Controller.PaymentController",
+    "Method": "CreatePaymentIntent",
+    "RelativePath": "api/Payment/Create-payment-intent",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
   }
 ]

@@ -2,6 +2,7 @@ using CvAnalysisSystem.DAL.SqlServer;
 using CvAnalysisSystem.Application;
 using CvAnalysisSystemProject.Security;
 using CvAnalysisSystemProject.Middlewares;
+using Stripe;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -17,7 +18,8 @@ builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 builder.Services.AddSqlServerServices(connectionString!);
 builder.Services.AddApplicationServices();
 builder.Services.AddAuthenticationDependency(builder.Configuration);
-
+var stripeSettings = builder.Configuration.GetSection("Stripe");
+StripeConfiguration.ApiKey = stripeSettings["SecretKey"];
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

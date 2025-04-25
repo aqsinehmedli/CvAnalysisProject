@@ -57,6 +57,10 @@
               "target": "Package",
               "version": "[8.0.13, )"
             },
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[48.0.2, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
@@ -172,6 +176,10 @@
               "target": "Package",
               "version": "[2025.1.7, )"
             },
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[48.0.2, )"
+            },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
               "version": "[8.7.0, )"
@@ -238,6 +246,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[48.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -321,6 +335,10 @@
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[48.0.2, )"
             }
           },
           "imports": [
@@ -384,6 +402,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[48.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -449,6 +473,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[48.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

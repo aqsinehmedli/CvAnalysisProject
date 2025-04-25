@@ -2,6 +2,7 @@ using CvAnalysisSystem.DAL.SqlServer;
 using CvAnalysisSystem.Application;
 using CvAnalysisSystemProject.Security;
 using CvAnalysisSystemProject.Middlewares;
+using CvAnalysisSystem.Application.Services;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -17,6 +18,7 @@ builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 builder.Services.AddSqlServerServices(connectionString!);
 builder.Services.AddApplicationServices();
 builder.Services.AddAuthenticationDependency(builder.Configuration);
+builder.Services.AddScoped<IPdfReaderService, PdfReaderService>();
 
 var app = builder.Build();
 

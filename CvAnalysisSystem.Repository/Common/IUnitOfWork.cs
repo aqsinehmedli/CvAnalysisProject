@@ -6,5 +6,9 @@ public interface IUnitOfWork
 {
     public IUserRepository UserRepository { get; }
     public IRefreshTokenRepository RefreshTokenRepository { get; }
+
+    public ICvRepository CvRepository { get; }
     Task<int> SaveChange();
+
+
 }

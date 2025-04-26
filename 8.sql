@@ -1,0 +1,1 @@
+﻿SELECT * FROM Cvs WHERE Id = 9;

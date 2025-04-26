@@ -33,3 +33,4 @@ C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.Domain\obj\Debug\net8.0
 C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.Domain\obj\Debug\net8.0\refint\CvAnalysisSystem.Domain.dll
 C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.Domain\obj\Debug\net8.0\CvAnalysisSystem.Domain.pdb
 C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.Domain\obj\Debug\net8.0\ref\CvAnalysisSystem.Domain.dll
+C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Domain\obj\Debug\net8.0\CvAnalysisSystem.Domain.csproj.AssemblyReference.cache

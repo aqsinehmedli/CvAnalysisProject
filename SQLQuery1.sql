@@ -1,25 +1,20 @@
-<<<<<<< HEAD
-﻿CREATE TABLE RefreshTokens (
-    Id INT IDENTITY(1,1) PRIMARY KEY,  -- Avtomatik artan unikal ID
-    Token NVARCHAR(500) NOT NULL,      -- Refresh Token dəyəri
-    UserId INT NOT NULL,               -- İstifadəçi ID (Foreign Key)
-    ExpirationDate DATETIME NOT NULL,  -- Token-in bitmə tarixi
-
-    CONSTRAINT FK_RefreshTokens_Users FOREIGN KEY (UserId) REFERENCES Users(Id) ON DELETE CASCADE
+﻿CREATE TABLE [dbo].[CvModel] (
+    [Id]           INT            IDENTITY (1, 1) NOT NULL,
+    [UserId]       INT            NOT NULL,
+    [FullName]     NVARCHAR (200) NOT NULL,
+    [Email]        NVARCHAR (100) NOT NULL,
+    [Phone]        NVARCHAR (50)  NOT NULL,
+    [LinkedInUrl]  NVARCHAR (255) NULL,
+    [GitHubUrl]    NVARCHAR (255) NULL,
+    [TemplateType] INT            NULL,
+    [CreatedBy]    INT            NULL,
+    [UpdatedBy]    INT            NULL,
+    [DeletedBy]    INT            NULL,
+    [CreatedDate]  DATETIME       DEFAULT (getdate()) NOT NULL,
+    [UpdatedDate]  DATETIME       NULL,
+    [DeletedDate]  DATETIME       NULL,
+    [IsDeleted]    BIT            DEFAULT ((0)) NOT NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC),
+    CONSTRAINT [FK_CvModel_User] FOREIGN KEY ([UserId]) REFERENCES [dbo].[Users] ([Id])
 );
-=======
-﻿ALTER TABLE Users ADD 
-    IsDeleted BIT DEFAULT 0,
-    BirthDate DATE NULL,
-    CreatedBy NVARCHAR(255) NULL,
-    CreatedDate DATETIME DEFAULT GETDATE(),
-    DeletedBy NVARCHAR(255) NULL,
-    DeletedDate DATETIME NULL,
-    FatherName NVARCHAR(255) NULL,
-    Gender NVARCHAR(50) NULL,
-    Location NVARCHAR(255) NULL,
-    MobilePhone NVARCHAR(20) NULL,
-    UpdatedBy NVARCHAR(255) NULL,
-    UpdatedDate DATETIME NULL,
-    UserRoles NVARCHAR(MAX) NULL;
->>>>>>> feature/RateLimit
+

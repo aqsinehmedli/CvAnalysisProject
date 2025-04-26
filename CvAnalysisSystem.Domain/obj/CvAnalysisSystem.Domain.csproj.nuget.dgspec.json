@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj": {}
+    "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj": {
+    "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj",
         "projectName": "CvAnalysisSystem.Domain",
-        "projectPath": "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\obj\\",
+        "projectPath": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -49,6 +45,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[48.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

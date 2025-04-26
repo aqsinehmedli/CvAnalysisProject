@@ -1,45 +1,12 @@
-C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\bin\Debug\net8.0\CvAnalysisSystem.Application.deps.json
-C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\bin\Debug\net8.0\CvAnalysisSystem.Application.dll
-C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\bin\Debug\net8.0\CvAnalysisSystem.Application.pdb
-C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\bin\Debug\net8.0\CvAnalysisSystem.Common.dll
-C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\bin\Debug\net8.0\CvAnalysisSystem.Domain.dll
-C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\bin\Debug\net8.0\CvAnalysisSystem.Repository.dll
-C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\bin\Debug\net8.0\CvAnalysisSystem.Common.pdb
-C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\bin\Debug\net8.0\CvAnalysisSystem.Repository.pdb
-C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\bin\Debug\net8.0\CvAnalysisSystem.Domain.pdb
-C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\obj\Debug\net8.0\CvAnalysisSystem.Application.csproj.AssemblyReference.cache
-C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\obj\Debug\net8.0\CvAnalysisSystem.Application.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\obj\Debug\net8.0\CvAnalysisSystem.Application.AssemblyInfoInputs.cache
-C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\obj\Debug\net8.0\CvAnalysisSystem.Application.AssemblyInfo.cs
-C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\obj\Debug\net8.0\CvAnalysisSystem.Application.csproj.CoreCompileInputs.cache
-C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\obj\Debug\net8.0\CvAnalysisSystem.Application.sourcelink.json
-C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\obj\Debug\net8.0\CvAnalys.2AB59AF2.Up2Date
-C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\obj\Debug\net8.0\CvAnalysisSystem.Application.dll
-C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\obj\Debug\net8.0\refint\CvAnalysisSystem.Application.dll
-C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\obj\Debug\net8.0\CvAnalysisSystem.Application.pdb
-C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\obj\Debug\net8.0\ref\CvAnalysisSystem.Application.dll
-<<<<<<< HEAD
-C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\bin\Debug\net8.0\CvAnalysisSystem.DAL.SqlServer.dll
-C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\bin\Debug\net8.0\CvAnalysisSystem.DAL.SqlServer.pdb
-<<<<<<< HEAD
-=======
-=======
->>>>>>> feature/Validation
 C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\bin\Debug\net8.0\CvAnalysisSystem.Application.deps.json
 C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\bin\Debug\net8.0\CvAnalysisSystem.Application.dll
 C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\bin\Debug\net8.0\CvAnalysisSystem.Application.pdb
 C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\bin\Debug\net8.0\CvAnalysisSystem.Common.dll
-<<<<<<< HEAD
-C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\bin\Debug\net8.0\CvAnalysisSystem.Domain.dll
-C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\bin\Debug\net8.0\CvAnalysisSystem.Repository.dll
-C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\bin\Debug\net8.0\CvAnalysisSystem.Common.pdb
-=======
 C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\bin\Debug\net8.0\CvAnalysisSystem.DAL.SqlServer.dll
 C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\bin\Debug\net8.0\CvAnalysisSystem.Domain.dll
 C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\bin\Debug\net8.0\CvAnalysisSystem.Repository.dll
 C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\bin\Debug\net8.0\CvAnalysisSystem.Common.pdb
 C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\bin\Debug\net8.0\CvAnalysisSystem.DAL.SqlServer.pdb
->>>>>>> feature/Validation
 C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\bin\Debug\net8.0\CvAnalysisSystem.Repository.pdb
 C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\bin\Debug\net8.0\CvAnalysisSystem.Domain.pdb
 C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\obj\Debug\net8.0\CvAnalysisSystem.Application.csproj.AssemblyReference.cache
@@ -53,7 +20,44 @@ C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\obj\Debug\n
 C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\obj\Debug\net8.0\refint\CvAnalysisSystem.Application.dll
 C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\obj\Debug\net8.0\CvAnalysisSystem.Application.pdb
 C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\obj\Debug\net8.0\ref\CvAnalysisSystem.Application.dll
-<<<<<<< HEAD
->>>>>>> feature/RateLimit
-=======
->>>>>>> feature/Validation
+C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\bin\Debug\net8.0\CvAnalysisSystem.Application.deps.json
+C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\bin\Debug\net8.0\CvAnalysisSystem.Application.dll
+C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\bin\Debug\net8.0\CvAnalysisSystem.Application.pdb
+C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\bin\Debug\net8.0\CvAnalysisSystem.Common.dll
+C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\bin\Debug\net8.0\CvAnalysisSystem.DAL.SqlServer.dll
+C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\bin\Debug\net8.0\CvAnalysisSystem.Domain.dll
+C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\bin\Debug\net8.0\CvAnalysisSystem.Repository.dll
+C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\bin\Debug\net8.0\CvAnalysisSystem.Common.pdb
+C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\bin\Debug\net8.0\CvAnalysisSystem.DAL.SqlServer.pdb
+C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\bin\Debug\net8.0\CvAnalysisSystem.Repository.pdb
+C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\bin\Debug\net8.0\CvAnalysisSystem.Domain.pdb
+C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\obj\Debug\net8.0\CvAnalysisSystem.Application.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\obj\Debug\net8.0\CvAnalysisSystem.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\obj\Debug\net8.0\CvAnalysisSystem.Application.AssemblyInfoInputs.cache
+C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\obj\Debug\net8.0\CvAnalysisSystem.Application.AssemblyInfo.cs
+C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\obj\Debug\net8.0\CvAnalysisSystem.Application.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\obj\Debug\net8.0\CvAnalysisSystem.Application.sourcelink.json
+C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\obj\Debug\net8.0\CvAnalys.2AB59AF2.Up2Date
+C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\obj\Debug\net8.0\CvAnalysisSystem.Application.dll
+C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\obj\Debug\net8.0\refint\CvAnalysisSystem.Application.dll
+C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\obj\Debug\net8.0\CvAnalysisSystem.Application.pdb
+C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\obj\Debug\net8.0\ref\CvAnalysisSystem.Application.dll
+C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\bin\Debug\net8.0\LatoFont\Lato-Black.ttf
+C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\bin\Debug\net8.0\LatoFont\Lato-BlackItalic.ttf
+C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\bin\Debug\net8.0\LatoFont\Lato-Bold.ttf
+C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\bin\Debug\net8.0\LatoFont\Lato-BoldItalic.ttf
+C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\bin\Debug\net8.0\LatoFont\Lato-ExtraBold.ttf
+C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\bin\Debug\net8.0\LatoFont\Lato-ExtraBoldItalic.ttf
+C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\bin\Debug\net8.0\LatoFont\Lato-ExtraLight.ttf
+C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\bin\Debug\net8.0\LatoFont\Lato-ExtraLightItalic.ttf
+C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\bin\Debug\net8.0\LatoFont\Lato-Italic.ttf
+C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\bin\Debug\net8.0\LatoFont\Lato-Light.ttf
+C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\bin\Debug\net8.0\LatoFont\Lato-LightItalic.ttf
+C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\bin\Debug\net8.0\LatoFont\Lato-Medium.ttf
+C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\bin\Debug\net8.0\LatoFont\Lato-MediumItalic.ttf
+C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\bin\Debug\net8.0\LatoFont\Lato-Regular.ttf
+C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\bin\Debug\net8.0\LatoFont\Lato-SemiBold.ttf
+C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\bin\Debug\net8.0\LatoFont\Lato-SemiBoldItalic.ttf
+C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\bin\Debug\net8.0\LatoFont\Lato-Thin.ttf
+C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\bin\Debug\net8.0\LatoFont\Lato-ThinItalic.ttf
+C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Application\bin\Debug\net8.0\LatoFont\OFL.txt

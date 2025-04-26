@@ -1,15 +1,14 @@
 using CvAnalysisSystem.DAL.SqlServer;
 using CvAnalysisSystem.Application;
-<<<<<<< HEAD
 using CvAnalysisSystemProject.Security;
-=======
->>>>>>> feature/RateLimit
 using CvAnalysisSystemProject.Middlewares;
+using Stripe;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddControllers();
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -19,7 +18,8 @@ builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 builder.Services.AddSqlServerServices(connectionString!);
 builder.Services.AddApplicationServices();
 builder.Services.AddAuthenticationDependency(builder.Configuration);
-
+var stripeSettings = builder.Configuration.GetSection("Stripe");
+StripeConfiguration.ApiKey = stripeSettings["SecretKey"];
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

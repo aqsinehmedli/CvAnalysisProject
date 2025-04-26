@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Application\\CvAnalysisSystem.Application.csproj": {}
+    "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Application\\CvAnalysisSystem.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Application\\CvAnalysisSystem.Application.csproj": {
+    "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Application\\CvAnalysisSystem.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Application\\CvAnalysisSystem.Application.csproj",
+        "projectUniqueName": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Application\\CvAnalysisSystem.Application.csproj",
         "projectName": "CvAnalysisSystem.Application",
-        "projectPath": "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Application\\CvAnalysisSystem.Application.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Application\\obj\\",
+        "projectPath": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Application\\CvAnalysisSystem.Application.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Application\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -33,27 +29,17 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj": {
-                "projectPath": "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj"
+              "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj": {
+                "projectPath": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj"
               },
-<<<<<<< HEAD
-<<<<<<< HEAD
               "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.DAL.SqlServer\\CvAnalysisSystem.DAL.SqlServer.csproj": {
                 "projectPath": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.DAL.SqlServer\\CvAnalysisSystem.DAL.SqlServer.csproj"
               },
+              "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj": {
+                "projectPath": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj"
+              },
               "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Repository\\CvAnalysisSystem.Repository.csproj": {
                 "projectPath": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Repository\\CvAnalysisSystem.Repository.csproj"
-=======
-              "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Repository\\CvAnalysisSystem.Repository.csproj": {
-                "projectPath": "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Repository\\CvAnalysisSystem.Repository.csproj"
->>>>>>> feature/RateLimit
-=======
-              "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.DAL.SqlServer\\CvAnalysisSystem.DAL.SqlServer.csproj": {
-                "projectPath": "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.DAL.SqlServer\\CvAnalysisSystem.DAL.SqlServer.csproj"
-              },
-              "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Repository\\CvAnalysisSystem.Repository.csproj": {
-                "projectPath": "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Repository\\CvAnalysisSystem.Repository.csproj"
->>>>>>> feature/Validation
               }
             }
           }
@@ -77,24 +63,14 @@
               "target": "Package",
               "version": "[14.0.0, )"
             },
-<<<<<<< HEAD
-            "FluentAssertions": {
-              "target": "Package",
-              "version": "[8.2.0, )"
-            },
-=======
->>>>>>> feature/Validation
             "FluentValidation": {
               "target": "Package",
-              "version": "[8.6.3, )"
+              "version": "[11.11.0, )"
             },
-<<<<<<< HEAD
             "FluentValidation.DependencyInjectionExtensions": {
               "target": "Package",
-              "version": "[8.6.3, )"
+              "version": "[11.11.0, )"
             },
-=======
->>>>>>> feature/Validation
             "MediatR": {
               "target": "Package",
               "version": "[11.1.0, )"
@@ -105,23 +81,23 @@
             },
             "Microsoft.Extensions.Configuration.Abstractions": {
               "target": "Package",
-<<<<<<< HEAD
-              "version": "[9.0.2, )"
-            },
-            "System.IdentityModel.Tokens.Jwt": {
-              "target": "Package",
-              "version": "[8.6.0, )"
-=======
               "version": "[8.0.0, )"
             },
             "Microsoft.IdentityModel": {
               "target": "Package",
               "version": "[7.0.0, )"
             },
+            "QuestPDF": {
+              "target": "Package",
+              "version": "[2025.1.7, )"
+            },
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[48.0.2, )"
+            },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
               "version": "[8.7.0, )"
->>>>>>> feature/RateLimit
             }
           },
           "imports": [
@@ -144,21 +120,17 @@
         }
       }
     },
-    "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj": {
+    "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj",
+        "projectUniqueName": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj",
         "projectName": "CvAnalysisSystem.Common",
-        "projectPath": "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Common\\obj\\",
+        "projectPath": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Common\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -189,6 +161,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[48.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -209,26 +187,17 @@
         }
       }
     },
-<<<<<<< HEAD
-<<<<<<< HEAD
     "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.DAL.SqlServer\\CvAnalysisSystem.DAL.SqlServer.csproj": {
-=======
-    "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.DAL.SqlServer\\CvAnalysisSystem.DAL.SqlServer.csproj": {
->>>>>>> feature/Validation
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.DAL.SqlServer\\CvAnalysisSystem.DAL.SqlServer.csproj",
+        "projectUniqueName": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.DAL.SqlServer\\CvAnalysisSystem.DAL.SqlServer.csproj",
         "projectName": "CvAnalysisSystem.DAL.SqlServer",
-        "projectPath": "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.DAL.SqlServer\\CvAnalysisSystem.DAL.SqlServer.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.DAL.SqlServer\\obj\\",
+        "projectPath": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.DAL.SqlServer\\CvAnalysisSystem.DAL.SqlServer.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.DAL.SqlServer\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -243,14 +212,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj": {
-                "projectPath": "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj"
+              "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj": {
+                "projectPath": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj"
               },
-              "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj": {
-                "projectPath": "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj"
+              "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj": {
+                "projectPath": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj"
               },
-              "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Repository\\CvAnalysisSystem.Repository.csproj": {
-                "projectPath": "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Repository\\CvAnalysisSystem.Repository.csproj"
+              "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Repository\\CvAnalysisSystem.Repository.csproj": {
+                "projectPath": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Repository\\CvAnalysisSystem.Repository.csproj"
               }
             }
           }
@@ -281,6 +250,10 @@
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[48.0.2, )"
             }
           },
           "imports": [
@@ -303,28 +276,17 @@
         }
       }
     },
-<<<<<<< HEAD
     "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj": {
-=======
-    "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj": {
->>>>>>> feature/RateLimit
-=======
-    "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj": {
->>>>>>> feature/Validation
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj",
         "projectName": "CvAnalysisSystem.Domain",
-        "projectPath": "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\obj\\",
+        "projectPath": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -355,6 +317,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[48.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -375,21 +343,17 @@
         }
       }
     },
-    "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Repository\\CvAnalysisSystem.Repository.csproj": {
+    "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Repository\\CvAnalysisSystem.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Repository\\CvAnalysisSystem.Repository.csproj",
+        "projectUniqueName": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Repository\\CvAnalysisSystem.Repository.csproj",
         "projectName": "CvAnalysisSystem.Repository",
-        "projectPath": "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Repository\\CvAnalysisSystem.Repository.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Repository\\obj\\",
+        "projectPath": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Repository\\CvAnalysisSystem.Repository.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Repository\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -404,8 +368,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj": {
-                "projectPath": "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj"
+              "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj": {
+                "projectPath": "C:\\Users\\User\\OneDrive - ITM STEP MMC\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj"
               }
             }
           }
@@ -424,6 +388,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[48.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

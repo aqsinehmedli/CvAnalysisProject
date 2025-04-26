@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CvAnalysisSystem.DAL.SqlServer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e3dbb0fd3140e361c5bb19c1564c238d9552ccb1")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+976f4a32608a7607c5d28b649ec19b813ec6177b")]
+>>>>>>> feature/Stripe
 [assembly: System.Reflection.AssemblyProductAttribute("CvAnalysisSystem.DAL.SqlServer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CvAnalysisSystem.DAL.SqlServer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,11 +1,17 @@
 ﻿using AutoMapper;
 using CvAnalysisSystem.Application.AutoMapper;
 using CvAnalysisSystem.Application.Behaviors;
-using FluentAssertions.Common;
+using CvAnalysisSystem.Application.Services.Abstract;
+using CvAnalysisSystem.Application.Services.Concret;
+using CvAnalysisSystem.DAL.SqlServer.Infrastructure;
+using CvAnalysisSystem.DAL.SqlServer.UnitOfWork;
+using CvAnalysisSystem.Repository.Common;
+using CvAnalysisSystem.Repository.Repositories;
 using FluentValidation;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
+
 
 namespace CvAnalysisSystem.Application;
 
@@ -22,6 +28,14 @@ public static class DependencyInjections
         services.AddMediatR(Assembly.GetExecutingAssembly());
         services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
         services.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
+        services.AddScoped<IUnitOfWork, SqlUnitOfWork>();
+        services.AddScoped<ICvRepository, SqlCvRepository>();
+        services.AddScoped<IPDFService, PDFService>();
+        services.AddTransient<ClassicTemplateStrategy>();
+        services.AddTransient<ModernTemplateStrategy>();
+        services.AddTransient<CvService>();
+        services.AddTransient<ICvTemplateStrategy, ClassicTemplateStrategy>();
+        services.AddTransient<ICvTemplateStrategyResolver, CvTemplateResolver>();
         return services;
     }
 

@@ -9,6 +9,7 @@
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="14.0.0" />
 <<<<<<< HEAD
+<<<<<<< HEAD
     <PackageReference Include="FluentAssertions" Version="8.2.0" />
     <PackageReference Include="FluentValidation" Version="11.11.0" />
     <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.11.0" />
@@ -23,12 +24,28 @@
     <PackageReference Include="Microsoft.IdentityModel" Version="7.0.0" />
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.6.0" />
 >>>>>>> feature/RateLimit
+=======
+    <PackageReference Include="FluentValidation" Version="11.11.0" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.11.0" />
+    <PackageReference Include="MediatR" Version="11.1.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="8.0.0" />
+    <PackageReference Include="QuestPDF" Version="2025.1.7" />
+    <PackageReference Include="Stripe.net" Version="48.0.2" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.7.0" />
+    <PackageReference Include="Microsoft.IdentityModel" Version="7.0.0" />
+>>>>>>> feature/Stripe
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\CvAnalysisSystem.Common\CvAnalysisSystem.Common.csproj" />
     <ProjectReference Include="..\CvAnalysisSystem.DAL.SqlServer\CvAnalysisSystem.DAL.SqlServer.csproj" />
+    <ProjectReference Include="..\CvAnalysisSystem.Domain\CvAnalysisSystem.Domain.csproj" />
     <ProjectReference Include="..\CvAnalysisSystem.Repository\CvAnalysisSystem.Repository.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="CQRS\Cv\Validators\" />
   </ItemGroup>
 
 </Project>

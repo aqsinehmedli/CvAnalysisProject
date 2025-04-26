@@ -14,5 +14,6 @@ public class Cv
     public DateTime UploadDate { get; set; }
     public DateTime LastUpdated { get; set; }
     public string AiAnalysis { get; set; }
-
+    public bool IsDeleted { get; set; }
+    public DateTime DeletedDate { get; set; }
 }

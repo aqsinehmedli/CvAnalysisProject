@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using CvAnalysisSystem.Application.AutoMapper;
 using CvAnalysisSystem.Application.Behaviors;
+using CvAnalysisSystem.Application.Services;
 using CvAnalysisSystem.Application.Services.Abstract;
 using CvAnalysisSystem.Application.Services.Concret;
 using CvAnalysisSystem.DAL.SqlServer.Infrastructure;
@@ -36,6 +37,14 @@ public static class DependencyInjections
         services.AddTransient<CvService>();
         services.AddTransient<ICvTemplateStrategy, ClassicTemplateStrategy>();
         services.AddTransient<ICvTemplateStrategyResolver, CvTemplateResolver>();
+        services.AddScoped<IPdfReaderService, PdfReaderService>();
+        services.AddCors(options =>
+        {
+            options.AddPolicy("AllowAllOrigins", builder =>
+                builder.AllowAnyOrigin()
+                       .AllowAnyMethod()
+                       .AllowAnyHeader());
+        });
         return services;
     }
 

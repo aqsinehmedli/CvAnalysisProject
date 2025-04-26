@@ -1,17 +1,7 @@
-C:\Users\User\source\repos\CvAnalysisProject\CvAnalysisSystem.Common\bin\Debug\net8.0\CvAnalysisSystem.Common.deps.json
-C:\Users\User\source\repos\CvAnalysisProject\CvAnalysisSystem.Common\bin\Debug\net8.0\CvAnalysisSystem.Common.dll
-C:\Users\User\source\repos\CvAnalysisProject\CvAnalysisSystem.Common\bin\Debug\net8.0\CvAnalysisSystem.Common.pdb
-C:\Users\User\source\repos\CvAnalysisProject\CvAnalysisSystem.Common\obj\Debug\net8.0\CvAnalysisSystem.Common.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\User\source\repos\CvAnalysisProject\CvAnalysisSystem.Common\obj\Debug\net8.0\CvAnalysisSystem.Common.AssemblyInfoInputs.cache
-C:\Users\User\source\repos\CvAnalysisProject\CvAnalysisSystem.Common\obj\Debug\net8.0\CvAnalysisSystem.Common.AssemblyInfo.cs
-C:\Users\User\source\repos\CvAnalysisProject\CvAnalysisSystem.Common\obj\Debug\net8.0\CvAnalysisSystem.Common.csproj.CoreCompileInputs.cache
-C:\Users\User\source\repos\CvAnalysisProject\CvAnalysisSystem.Common\obj\Debug\net8.0\CvAnalysisSystem.Common.dll
-C:\Users\User\source\repos\CvAnalysisProject\CvAnalysisSystem.Common\obj\Debug\net8.0\refint\CvAnalysisSystem.Common.dll
-C:\Users\User\source\repos\CvAnalysisProject\CvAnalysisSystem.Common\obj\Debug\net8.0\CvAnalysisSystem.Common.pdb
-C:\Users\User\source\repos\CvAnalysisProject\CvAnalysisSystem.Common\obj\Debug\net8.0\ref\CvAnalysisSystem.Common.dll
 C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Common\bin\Debug\net8.0\CvAnalysisSystem.Common.deps.json
 C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Common\bin\Debug\net8.0\CvAnalysisSystem.Common.dll
 C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Common\bin\Debug\net8.0\CvAnalysisSystem.Common.pdb
+C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Common\obj\Debug\net8.0\CvAnalysisSystem.Common.csproj.AssemblyReference.cache
 C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Common\obj\Debug\net8.0\CvAnalysisSystem.Common.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Common\obj\Debug\net8.0\CvAnalysisSystem.Common.AssemblyInfoInputs.cache
 C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Common\obj\Debug\net8.0\CvAnalysisSystem.Common.AssemblyInfo.cs
@@ -21,16 +11,16 @@ C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem
 C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Common\obj\Debug\net8.0\refint\CvAnalysisSystem.Common.dll
 C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Common\obj\Debug\net8.0\CvAnalysisSystem.Common.pdb
 C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Common\obj\Debug\net8.0\ref\CvAnalysisSystem.Common.dll
-C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.Common\bin\Debug\net8.0\CvAnalysisSystem.Common.deps.json
-C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.Common\bin\Debug\net8.0\CvAnalysisSystem.Common.dll
-C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.Common\bin\Debug\net8.0\CvAnalysisSystem.Common.pdb
-C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.Common\obj\Debug\net8.0\CvAnalysisSystem.Common.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.Common\obj\Debug\net8.0\CvAnalysisSystem.Common.AssemblyInfoInputs.cache
-C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.Common\obj\Debug\net8.0\CvAnalysisSystem.Common.AssemblyInfo.cs
-C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.Common\obj\Debug\net8.0\CvAnalysisSystem.Common.csproj.CoreCompileInputs.cache
-C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.Common\obj\Debug\net8.0\CvAnalysisSystem.Common.sourcelink.json
-C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.Common\obj\Debug\net8.0\CvAnalysisSystem.Common.dll
-C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.Common\obj\Debug\net8.0\refint\CvAnalysisSystem.Common.dll
-C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.Common\obj\Debug\net8.0\CvAnalysisSystem.Common.pdb
-C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.Common\obj\Debug\net8.0\ref\CvAnalysisSystem.Common.dll
-C:\Users\User\OneDrive - ITM STEP MMC\Desktop\CvAnalysisProject\CvAnalysisSystem.Common\obj\Debug\net8.0\CvAnalysisSystem.Common.csproj.AssemblyReference.cache
+D:\CvAnalysisProject\CvAnalysisSystem.Common\bin\Debug\net8.0\CvAnalysisSystem.Common.deps.json
+D:\CvAnalysisProject\CvAnalysisSystem.Common\bin\Debug\net8.0\CvAnalysisSystem.Common.dll
+D:\CvAnalysisProject\CvAnalysisSystem.Common\bin\Debug\net8.0\CvAnalysisSystem.Common.pdb
+D:\CvAnalysisProject\CvAnalysisSystem.Common\obj\Debug\net8.0\CvAnalysisSystem.Common.csproj.AssemblyReference.cache
+D:\CvAnalysisProject\CvAnalysisSystem.Common\obj\Debug\net8.0\CvAnalysisSystem.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\CvAnalysisProject\CvAnalysisSystem.Common\obj\Debug\net8.0\CvAnalysisSystem.Common.AssemblyInfoInputs.cache
+D:\CvAnalysisProject\CvAnalysisSystem.Common\obj\Debug\net8.0\CvAnalysisSystem.Common.AssemblyInfo.cs
+D:\CvAnalysisProject\CvAnalysisSystem.Common\obj\Debug\net8.0\CvAnalysisSystem.Common.csproj.CoreCompileInputs.cache
+D:\CvAnalysisProject\CvAnalysisSystem.Common\obj\Debug\net8.0\CvAnalysisSystem.Common.sourcelink.json
+D:\CvAnalysisProject\CvAnalysisSystem.Common\obj\Debug\net8.0\CvAnalysisSystem.Common.dll
+D:\CvAnalysisProject\CvAnalysisSystem.Common\obj\Debug\net8.0\refint\CvAnalysisSystem.Common.dll
+D:\CvAnalysisProject\CvAnalysisSystem.Common\obj\Debug\net8.0\CvAnalysisSystem.Common.pdb
+D:\CvAnalysisProject\CvAnalysisSystem.Common\obj\Debug\net8.0\ref\CvAnalysisSystem.Common.dll

@@ -14,15 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CvAnalysisSystemProject")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-<<<<<<< HEAD
-<<<<<<< HEAD
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e3dbb0fd3140e361c5bb19c1564c238d9552ccb1")]
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+976f4a32608a7607c5d28b649ec19b813ec6177b")]
->>>>>>> feature/Stripe
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+01329fd9e5c426e45e022a4f5afd88f5f76d6211")]
->>>>>>> feature/OpenAiPdf
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+32b2868e8f54f8e061305a082afbf0e58f235495")]
 [assembly: System.Reflection.AssemblyProductAttribute("CvAnalysisSystemProject")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CvAnalysisSystemProject")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

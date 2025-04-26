@@ -2,11 +2,8 @@ using CvAnalysisSystem.DAL.SqlServer;
 using CvAnalysisSystem.Application;
 using CvAnalysisSystemProject.Security;
 using CvAnalysisSystemProject.Middlewares;
-<<<<<<< HEAD
 using Stripe;
-=======
-using CvAnalysisSystem.Application.Services;
->>>>>>> feature/OpenAiPdf
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -22,13 +19,8 @@ builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 builder.Services.AddSqlServerServices(connectionString!);
 builder.Services.AddApplicationServices();
 builder.Services.AddAuthenticationDependency(builder.Configuration);
-<<<<<<< HEAD
 var stripeSettings = builder.Configuration.GetSection("Stripe");
 StripeConfiguration.ApiKey = stripeSettings["SecretKey"];
-=======
-builder.Services.AddScoped<IPdfReaderService, PdfReaderService>();
-
->>>>>>> feature/OpenAiPdf
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

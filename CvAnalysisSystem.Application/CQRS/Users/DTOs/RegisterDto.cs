@@ -1,4 +1,7 @@
-﻿namespace CvAnalysisSystem.Application.CQRS.Users.DTOs;
+﻿using Swashbuckle.AspNetCore.Annotations;
+using System.ComponentModel.DataAnnotations;
+
+namespace CvAnalysisSystem.Application.CQRS.Users.DTOs;
 
 public record struct RegisterDto
 {
@@ -11,5 +14,7 @@ public record struct RegisterDto
     public string Location { get; set; }
     public int? UserRoles { get; set; }
     public int? Gender { get; set; }
+    [DataType(DataType.Date)]
+    [SwaggerSchema(Format = "date")]
     public DateTime? BirthDate { get; set; }
 }

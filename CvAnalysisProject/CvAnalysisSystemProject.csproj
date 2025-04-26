@@ -13,14 +13,11 @@
     <None Remove="Controllers\**" />
   </ItemGroup>
 
-  <ItemGroup>
+ <ItemGroup>
     <PackageReference Include="Azure.Core" Version="1.45.0" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.13" />
-<<<<<<< HEAD
     <PackageReference Include="Stripe.net" Version="48.0.2" />
-=======
     <PackageReference Include="OpenAI" Version="2.1.0" />
->>>>>>> feature/OpenAiPdf
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 

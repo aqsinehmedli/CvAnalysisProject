@@ -13,9 +13,11 @@ public class MappingProfile : Profile
     public MappingProfile()
     {
         #region User
-        CreateMap<Command, User>();
+        CreateMap<Command, User>()
+            .ForMember(dest => dest.PasswordHash, opt => opt.Ignore());
         CreateMap<User, RegisterDto>();
         #endregion
+
 
         #region Update
         CreateMap<CQRS.Users.Handlers.Commands.Update.Command, User>();

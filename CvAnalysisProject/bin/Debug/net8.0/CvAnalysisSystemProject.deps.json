@@ -31,6 +31,14 @@
           }
         }
       },
+      "AWSSDK/2.3.55.2": {
+        "runtime": {
+          "lib/net45/AWSSDK.dll": {
+            "assemblyVersion": "2.3.55.2",
+            "fileVersion": "2.3.55.2"
+          }
+        }
+      },
       "Azure.Core/1.45.0": {
         "dependencies": {
           "Microsoft.Bcl.AsyncInterfaces": "6.0.0",
@@ -816,6 +824,7 @@
       "System.Threading.Tasks.Extensions/4.5.4": {},
       "CvAnalysisSystem.Application/1.0.0": {
         "dependencies": {
+          "AWSSDK": "2.3.55.2",
           "AutoMapper": "14.0.0",
           "CvAnalysisSystem.Common": "1.0.0",
           "CvAnalysisSystem.DAL.SqlServer": "1.0.0",
@@ -907,6 +916,13 @@
       "sha512": "sha512-OC+1neAPM4oCCqQj3g2GJ2shziNNhOkxmNB9cVS8jtx4JbgmRzLcUOxB9Tsz6cVPHugdkHgCaCrTjjSI0Z5sCQ==",
       "path": "automapper/14.0.0",
       "hashPath": "automapper.14.0.0.nupkg.sha512"
+    },
+    "AWSSDK/2.3.55.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zy/6psTOx9c8LaZqL1tUtiGKMpd35b16TNRctz/N6Qc6hqFeOjyZ5WVhn89szJkkZtotcMFyfq58Y2RfyRxxUg==",
+      "path": "awssdk/2.3.55.2",
+      "hashPath": "awssdk.2.3.55.2.nupkg.sha512"
     },
     "Azure.Core/1.45.0": {
       "type": "package",

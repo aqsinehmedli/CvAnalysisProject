@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\CvAnalysisProject\\CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj": {}
+    "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj": {}
   },
   "projects": {
-    "D:\\CvAnalysisProject\\CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj": {
+    "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CvAnalysisProject\\CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj",
         "projectName": "CvAnalysisSystem.Common",
-        "projectPath": "D:\\CvAnalysisProject\\CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\CvAnalysisProject\\CvAnalysisSystem.Common\\obj\\",
+        "projectPath": "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Common\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

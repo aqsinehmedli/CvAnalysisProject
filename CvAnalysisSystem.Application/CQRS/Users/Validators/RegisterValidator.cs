@@ -15,7 +15,7 @@ public class RegisterValidator : AbstractValidator<Register.Command>
 
         RuleFor(x => x.Email)
             .NotEmpty().WithMessage("Email boş ola bilməz")
-            .EmailAddress().WithMessage("Düzgün email daxil edin");
+            .Matches(@"^[^@]+@[^@]+\.[^@]+$").WithMessage("Düzgün email daxil edin");
 
         RuleFor(x => x.MobilePhone)
             .NotEmpty().WithMessage("Mobil nömrə boş ola bilməz")

@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\CvAnalysisProject\\CvAnalysisSystem.DAL.SqlServer\\CvAnalysisSystem.DAL.SqlServer.csproj": {}
+    "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.DAL.SqlServer\\CvAnalysisSystem.DAL.SqlServer.csproj": {}
   },
   "projects": {
-    "D:\\CvAnalysisProject\\CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj": {
+    "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CvAnalysisProject\\CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj",
         "projectName": "CvAnalysisSystem.Common",
-        "projectPath": "D:\\CvAnalysisProject\\CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\CvAnalysisProject\\CvAnalysisSystem.Common\\obj\\",
+        "projectPath": "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Common\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -71,17 +75,21 @@
         }
       }
     },
-    "D:\\CvAnalysisProject\\CvAnalysisSystem.DAL.SqlServer\\CvAnalysisSystem.DAL.SqlServer.csproj": {
+    "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.DAL.SqlServer\\CvAnalysisSystem.DAL.SqlServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CvAnalysisProject\\CvAnalysisSystem.DAL.SqlServer\\CvAnalysisSystem.DAL.SqlServer.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.DAL.SqlServer\\CvAnalysisSystem.DAL.SqlServer.csproj",
         "projectName": "CvAnalysisSystem.DAL.SqlServer",
-        "projectPath": "D:\\CvAnalysisProject\\CvAnalysisSystem.DAL.SqlServer\\CvAnalysisSystem.DAL.SqlServer.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\CvAnalysisProject\\CvAnalysisSystem.DAL.SqlServer\\obj\\",
+        "projectPath": "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.DAL.SqlServer\\CvAnalysisSystem.DAL.SqlServer.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.DAL.SqlServer\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -96,14 +104,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\CvAnalysisProject\\CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj": {
-                "projectPath": "D:\\CvAnalysisProject\\CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj"
+              "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj"
               },
-              "D:\\CvAnalysisProject\\CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj": {
-                "projectPath": "D:\\CvAnalysisProject\\CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj"
+              "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj"
               },
-              "D:\\CvAnalysisProject\\CvAnalysisSystem.Repository\\CvAnalysisSystem.Repository.csproj": {
-                "projectPath": "D:\\CvAnalysisProject\\CvAnalysisSystem.Repository\\CvAnalysisSystem.Repository.csproj"
+              "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Repository\\CvAnalysisSystem.Repository.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Repository\\CvAnalysisSystem.Repository.csproj"
               }
             }
           }
@@ -160,17 +168,21 @@
         }
       }
     },
-    "D:\\CvAnalysisProject\\CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj": {
+    "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CvAnalysisProject\\CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj",
         "projectName": "CvAnalysisSystem.Domain",
-        "projectPath": "D:\\CvAnalysisProject\\CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\CvAnalysisProject\\CvAnalysisSystem.Domain\\obj\\",
+        "projectPath": "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -227,17 +239,21 @@
         }
       }
     },
-    "D:\\CvAnalysisProject\\CvAnalysisSystem.Repository\\CvAnalysisSystem.Repository.csproj": {
+    "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Repository\\CvAnalysisSystem.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CvAnalysisProject\\CvAnalysisSystem.Repository\\CvAnalysisSystem.Repository.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Repository\\CvAnalysisSystem.Repository.csproj",
         "projectName": "CvAnalysisSystem.Repository",
-        "projectPath": "D:\\CvAnalysisProject\\CvAnalysisSystem.Repository\\CvAnalysisSystem.Repository.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\CvAnalysisProject\\CvAnalysisSystem.Repository\\obj\\",
+        "projectPath": "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Repository\\CvAnalysisSystem.Repository.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Repository\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -252,8 +268,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\CvAnalysisProject\\CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj": {
-                "projectPath": "D:\\CvAnalysisProject\\CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj"
+              "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj"
               }
             }
           }

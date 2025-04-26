@@ -26,7 +26,7 @@ namespace CvAnalysisSystemProject.Controller
         [HttpPost("generate-pdf")]
         public async Task<IActionResult> GenerateCv([FromBody] CreateCv.CvCommand command)
         {
-            byte[] pdfBytes = _cvService.GenerateCv(command, command.TemplateType);  // TemplateType artık command'in içinde
+            byte[] pdfBytes = _cvService.GenerateCv(command, command.TemplateType);  // <-- BU ASYNC DEYİL
 
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
@@ -36,10 +36,9 @@ namespace CvAnalysisSystemProject.Controller
                 return BadRequest("CV PDF yaratılamadı.");
             }
 
-            var pdf = await Sender.Send(command);
+            var pdf = await Sender.Send(command); // <-- BURADA ƏSLİNDƏ NƏ YOLLAYIRSAN? NİYƏ LAZIMDIR BURADA?
             return File(pdfBytes, "application/pdf", "cv.pdf");
         }
-
 
 
         //[HttpPut]

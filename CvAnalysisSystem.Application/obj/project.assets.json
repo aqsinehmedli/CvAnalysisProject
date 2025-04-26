@@ -18,6 +18,19 @@
           }
         }
       },
+      "AWSSDK/2.3.55.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/AWSSDK.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net45/AWSSDK.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
       "Azure.Core/1.25.0": {
         "type": "package",
         "dependencies": {
@@ -66,12 +79,12 @@
         "type": "package",
         "compile": {
           "lib/net6.0/FluentAssertions.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           }
         },
         "runtime": {
           "lib/net6.0/FluentAssertions.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           }
         }
       },
@@ -210,12 +223,12 @@
         },
         "compile": {
           "ref/net6.0/Microsoft.Data.SqlClient.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           }
         },
         "runtime": {
           "lib/net6.0/Microsoft.Data.SqlClient.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           }
         },
         "runtimeTargets": {
@@ -643,12 +656,12 @@
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           }
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           }
         }
       },
@@ -656,12 +669,12 @@
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Microsoft.SqlServer.Server.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           }
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.SqlServer.Server.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           }
         }
       },
@@ -682,48 +695,48 @@
         "type": "package",
         "compile": {
           "lib/net8.0/UglyToad.PdfPig.Core.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           },
           "lib/net8.0/UglyToad.PdfPig.DocumentLayoutAnalysis.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           },
           "lib/net8.0/UglyToad.PdfPig.Fonts.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           },
           "lib/net8.0/UglyToad.PdfPig.Package.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           },
           "lib/net8.0/UglyToad.PdfPig.Tokenization.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           },
           "lib/net8.0/UglyToad.PdfPig.Tokens.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           },
           "lib/net8.0/UglyToad.PdfPig.dll": {
-            "related": ".Core.pdb;.Core.xml;.DocumentLayoutAnalysis.pdb;.DocumentLayoutAnalysis.xml;.Fonts.pdb;.Fonts.xml;.Package.pdb;.Package.xml;.pdb;.Tokenization.pdb;.Tokenization.xml;.Tokens.pdb;.Tokens.xml;.xml"
+            "related": ".Core.xml;.Core.pdb;.DocumentLayoutAnalysis.xml;.DocumentLayoutAnalysis.pdb;.Fonts.xml;.Fonts.pdb;.xml;.Package.xml;.Package.pdb;.pdb;.Tokenization.xml;.Tokenization.pdb;.Tokens.xml;.Tokens.pdb"
           }
         },
         "runtime": {
           "lib/net8.0/UglyToad.PdfPig.Core.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           },
           "lib/net8.0/UglyToad.PdfPig.DocumentLayoutAnalysis.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           },
           "lib/net8.0/UglyToad.PdfPig.Fonts.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           },
           "lib/net8.0/UglyToad.PdfPig.Package.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           },
           "lib/net8.0/UglyToad.PdfPig.Tokenization.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           },
           "lib/net8.0/UglyToad.PdfPig.Tokens.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           },
           "lib/net8.0/UglyToad.PdfPig.dll": {
-            "related": ".Core.pdb;.Core.xml;.DocumentLayoutAnalysis.pdb;.DocumentLayoutAnalysis.xml;.Fonts.pdb;.Fonts.xml;.Package.pdb;.Package.xml;.pdb;.Tokenization.pdb;.Tokenization.xml;.Tokens.pdb;.Tokens.xml;.xml"
+            "related": ".Core.xml;.Core.pdb;.DocumentLayoutAnalysis.xml;.DocumentLayoutAnalysis.pdb;.Fonts.xml;.Fonts.pdb;.xml;.Package.xml;.Package.pdb;.pdb;.Tokenization.xml;.Tokenization.pdb;.Tokens.xml;.Tokens.pdb"
           }
         }
       },
@@ -889,12 +902,12 @@
         },
         "compile": {
           "lib/net8.0/Swashbuckle.AspNetCore.Annotations.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           }
         },
         "runtime": {
           "lib/net8.0/Swashbuckle.AspNetCore.Annotations.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           }
         }
       },
@@ -905,12 +918,12 @@
         },
         "compile": {
           "lib/net8.0/Swashbuckle.AspNetCore.Swagger.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           }
         },
         "runtime": {
           "lib/net8.0/Swashbuckle.AspNetCore.Swagger.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           }
         },
         "frameworkReferences": [
@@ -924,12 +937,12 @@
         },
         "compile": {
           "lib/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           }
         },
         "runtime": {
           "lib/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml;.pdb"
           }
         }
       },
@@ -1325,6 +1338,28 @@
         "icon.png",
         "lib/net8.0/AutoMapper.dll",
         "lib/net8.0/AutoMapper.xml"
+      ]
+    },
+    "AWSSDK/2.3.55.2": {
+      "sha512": "zy/6psTOx9c8LaZqL1tUtiGKMpd35b16TNRctz/N6Qc6hqFeOjyZ5WVhn89szJkkZtotcMFyfq58Y2RfyRxxUg==",
+      "type": "package",
+      "path": "awssdk/2.3.55.2",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "awssdk.2.3.55.2.nupkg.sha512",
+        "awssdk.nuspec",
+        "lib/net35/AWSSDK.dll",
+        "lib/net35/AWSSDK.pdb",
+        "lib/net45/AWSSDK.dll",
+        "lib/net45/AWSSDK.pdb",
+        "lib/portable-wpa+netcore45/AWSSDK.dll",
+        "lib/windows8/AWSSDK.dll",
+        "lib/windowsphone8/AWSSDK.dll",
+        "tools/account-management.ps1",
+        "tools/net35/install.ps1",
+        "tools/net45/install.ps1"
       ]
     },
     "Azure.Core/1.25.0": {
@@ -3228,6 +3263,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "AWSSDK >= 2.3.55.2",
       "AutoMapper >= 14.0.0",
       "CvAnalysisSystem.Common >= 1.0.0",
       "CvAnalysisSystem.DAL.SqlServer >= 1.0.0",
@@ -3249,19 +3285,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\user\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\CvAnalysisProject\\CvAnalysisSystem.Application\\CvAnalysisSystem.Application.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Application\\CvAnalysisSystem.Application.csproj",
       "projectName": "CvAnalysisSystem.Application",
-      "projectPath": "D:\\CvAnalysisProject\\CvAnalysisSystem.Application\\CvAnalysisSystem.Application.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\CvAnalysisProject\\CvAnalysisSystem.Application\\obj\\",
+      "projectPath": "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Application\\CvAnalysisSystem.Application.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Application\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3276,17 +3317,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\CvAnalysisProject\\CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj": {
-              "projectPath": "D:\\CvAnalysisProject\\CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj"
+            "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj": {
+              "projectPath": "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Common\\CvAnalysisSystem.Common.csproj"
             },
-            "D:\\CvAnalysisProject\\CvAnalysisSystem.DAL.SqlServer\\CvAnalysisSystem.DAL.SqlServer.csproj": {
-              "projectPath": "D:\\CvAnalysisProject\\CvAnalysisSystem.DAL.SqlServer\\CvAnalysisSystem.DAL.SqlServer.csproj"
+            "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.DAL.SqlServer\\CvAnalysisSystem.DAL.SqlServer.csproj": {
+              "projectPath": "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.DAL.SqlServer\\CvAnalysisSystem.DAL.SqlServer.csproj"
             },
-            "D:\\CvAnalysisProject\\CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj": {
-              "projectPath": "D:\\CvAnalysisProject\\CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj"
+            "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj": {
+              "projectPath": "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Domain\\CvAnalysisSystem.Domain.csproj"
             },
-            "D:\\CvAnalysisProject\\CvAnalysisSystem.Repository\\CvAnalysisSystem.Repository.csproj": {
-              "projectPath": "D:\\CvAnalysisProject\\CvAnalysisSystem.Repository\\CvAnalysisSystem.Repository.csproj"
+            "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Repository\\CvAnalysisSystem.Repository.csproj": {
+              "projectPath": "C:\\Users\\user\\Desktop\\CvAnalysisProject\\CvAnalysisSystem.Repository\\CvAnalysisSystem.Repository.csproj"
             }
           }
         }
@@ -3306,6 +3347,10 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "AWSSDK": {
+            "target": "Package",
+            "version": "[2.3.55.2, )"
+          },
           "AutoMapper": {
             "target": "Package",
             "version": "[14.0.0, )"
@@ -3384,6 +3429,16 @@
     }
   },
   "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'AWSSDK 2.3.55.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "AWSSDK",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
     {
       "code": "NU1701",
       "level": "Warning",

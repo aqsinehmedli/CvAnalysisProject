@@ -1,4 +1,5 @@
-﻿using AutoMapper;
+﻿using Amazon.ElasticMapReduce.Model;
+using AutoMapper;
 using CvAnalysisSystem.Application.CQRS.Users.DTOs;
 using CvAnalysisSystem.Common.Exceptions;
 using CvAnalysisSystem.Common.GlobalResponses.Generics;
@@ -35,17 +36,30 @@ public class Register
         private readonly IMapper _mapper = mapper;
 
 
-        public async Task<Result<RegisterDto>> Handle(Command request, CancellationToken cancellationToken)
-        {
-            var isExist = await _unitOfWork.UserRepository.GetByEmailAsync(request.Email);
-            if (isExist != null) { throw new BadRequestException("User already registered  with provided email!"); }
-            var newUser = _mapper.Map<User>(request);
-            var hashPassword = PasswordHasher.ComputeStringToSha256Hash(request.Password);
-            newUser.PasswordHash = hashPassword;
-            await _unitOfWork.UserRepository.RegisterAsync(newUser);
-            var response = _mapper.Map<RegisterDto>(newUser);
-            return new Result<RegisterDto> { Data = response, IsSuccess = true, Errors = [] };
-
+       public async Task<Result<RegisterDto>> Handle(Command request, CancellationToken cancellationToken)
+{
+    try
+    {
+        var isExist = await _unitOfWork.UserRepository.GetByEmailAsync(request.Email);
+        if (isExist != null) 
+        { 
+            throw new BadRequestException("User already registered with provided email!"); 
         }
+
+        var newUser = _mapper.Map<User>(request);
+        var hashPassword = PasswordHasher.ComputeStringToSha256Hash(request.Password);
+        newUser.PasswordHash = hashPassword;
+        await _unitOfWork.UserRepository.RegisterAsync(newUser);
+        await _unitOfWork.SaveChange(); // SAVE burada çağırılmalıdır!
+
+        var response = _mapper.Map<RegisterDto>(newUser);
+        return new Result<RegisterDto> { Data = response, IsSuccess = true, Errors = [] };
+    }
+    catch (Exception ex)
+    {
+        throw new InternalServerException($"Register failed: {ex.Message}");
+    }
+}
+
     }
 }

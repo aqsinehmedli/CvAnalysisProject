@@ -8,52 +8,71 @@ using CvAnalysisSystem.Application.Services.Concret;
 using AutoMapper;
 using MediatR;
 using CvAnalysisSystem.Domain.Enums;
+using Microsoft.EntityFrameworkCore;
+using CvAnalysisSystem.DAL.SqlServer.Context;
 
 
 namespace CvAnalysisSystemProject.Controller
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class CvController(CvService cvService) : BaseController
+    public class CvController(CvService cvService, AppDbContext context) : BaseController
     {
         private readonly CvService _cvService = cvService;
+        private readonly AppDbContext _context = context;
+
+
 
         //public async Task<IActionResult> Create([FromBody] CreateCv.CvCommand request)
         //{
         //    var response = await Sender.Send(request);
         //    return Ok(response);
         //}
-        [HttpPost("generate-pdf")]
-        public async Task<IActionResult> GenerateCv([FromBody] CreateCv.CvCommand command)
+        [HttpPost]
+        public async Task<IActionResult> CreateCv([FromBody] CvModel cvModel)
         {
-            byte[] pdfBytes = _cvService.GenerateCv(command, command.TemplateType);  // TemplateType artık command'in içinde
-
-            if (!ModelState.IsValid)
-                return BadRequest(ModelState);
-
-            if (pdfBytes == null || pdfBytes.Length == 0)
+            if (cvModel == null)
             {
-                return BadRequest("CV PDF yaratılamadı.");
+                return BadRequest("Geçersiz CV verisi.");
             }
 
-            var pdf = await Sender.Send(command);
-            return File(pdfBytes, "application/pdf", "cv.pdf");
-        }
+            // Veritabanına ekleme işlemi
+            _context.CvModel.Add(cvModel);
+            await _context.SaveChangesAsync();
 
-
-
-        //[HttpPut]
-        //public async Task<IActionResult> Update([FromBody] UpdateCv.CvCommand request)
-        //{
-        //    var response = await Sender.Send(request);
-        //    return Ok(response);
-        //}
-        [HttpDelete]
-        public async Task<IActionResult> Delete([FromQuery] int id)
-        {
-            var request = new DeleteCv.CvCommand() { Id = id };
-            var response = await Sender.Send(request);
-            return Ok(response);
+            return Ok(new { message = "CV başarıyla kaydedildi!" });
         }
     }
+    //[HttpPost("generate-pdf")]
+    //public async Task<IActionResult> GenerateCv([FromBody] CreateCv.CvCommand command)
+    //{
+    //    byte[] pdfBytes = _cvService.GenerateCv(command, command.TemplateType);  // TemplateType artık command'in içinde
+
+    //    if (!ModelState.IsValid)
+    //        return BadRequest(ModelState);
+
+    //    if (pdfBytes == null || pdfBytes.Length == 0)
+    //    {
+    //        return BadRequest("CV PDF yaratılamadı.");
+    //    }
+
+    //    var pdf = await Sender.Send(command);
+    //    return File(pdfBytes, "application/pdf", "cv.pdf");
+    //}
+
+
+
+    //[HttpPut]
+    //public async Task<IActionResult> Update([FromBody] UpdateCv.CvCommand request)
+    //{
+    //    var response = await Sender.Send(request);
+    //    return Ok(response);
+    //}
+    //[HttpDelete]
+    //public async Task<IActionResult> Delete([FromQuery] int id)
+    //{
+    //    var request = new DeleteCv.CvCommand() { Id = id };
+    //    var response = await Sender.Send(request);
+    //    return Ok(response);
+    //}
 }

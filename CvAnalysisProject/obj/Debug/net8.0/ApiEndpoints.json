@@ -1,31 +1,15 @@
 [
   {
     "ContainingType": "CvAnalysisSystemProject.Controller.CvController",
-    "Method": "Delete",
+    "Method": "CreateCv",
     "RelativePath": "api/Cv",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "CvAnalysisSystemProject.Controller.CvController",
-    "Method": "GenerateCv",
-    "RelativePath": "api/Cv/generate-pdf",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "command",
-        "Type": "CvAnalysisSystem.Application.CQRS.Cv.Handlers.Commands.CreateCv\u002BCvCommand",
+        "Name": "cvModel",
+        "Type": "CvAnalysisSystem.Domain.Entities.CvModel",
         "IsRequired": true
       }
     ],

@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CvAnalysisSystem.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+976f4a32608a7607c5d28b649ec19b813ec6177b")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+01329fd9e5c426e45e022a4f5afd88f5f76d6211")]
+>>>>>>> feature/OpenAiPdf
 [assembly: System.Reflection.AssemblyProductAttribute("CvAnalysisSystem.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CvAnalysisSystem.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

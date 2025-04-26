@@ -38,7 +38,50 @@
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
+<<<<<<< HEAD
     "Parameters": [],
+=======
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "CvAnalysisSystem.Domain.Entities.CvModel",
+        "IsRequired": true
+      }
+    ],
+>>>>>>> feature/OpenAiPdf
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CvAnalysisSystemProject.Controller.OpenAiController",
+    "Method": "Get",
+    "RelativePath": "api/OpenAi",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "EndpointName": "GetOpenAiInfo"
+  },
+  {
+    "ContainingType": "CvAnalysisSystemProject.Controller.OpenAiController",
+    "Method": "Post",
+    "RelativePath": "api/OpenAi",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "File",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "Question",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "AskGpt"
   }
 ]

@@ -8,7 +8,7 @@ public class RateLimitMiddleware
     private readonly RequestDelegate _next;
     private static readonly ConcurrentDictionary<string, List<DateTime>> _requestTimes = new();
     private static readonly TimeSpan _timeWindow = TimeSpan.FromMinutes(1); // 1 dəqiqəlik pəncərə
-    private const int _maxRequest = 4; // 1 dəqiqədə maksimum 4 sorğu
+    private const int _maxRequest = 100; // 1 dəqiqədə maksimum 4 sorğu
 
     public RateLimitMiddleware(RequestDelegate next)
     {

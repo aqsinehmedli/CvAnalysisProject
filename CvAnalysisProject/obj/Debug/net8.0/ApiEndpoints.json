@@ -1,5 +1,31 @@
 [
   {
+    "ContainingType": "CvAnalysisSystem.API.Controllers.ChatController",
+    "Method": "GetChatHistory",
+    "RelativePath": "api/Chat/history/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CvAnalysisSystem.API.Controllers.ChatController",
+    "Method": "GetChatUsers",
+    "RelativePath": "api/Chat/users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "CvAnalysisSystemProject.Controller.CvController",
     "Method": "Delete",
     "RelativePath": "api/Cv",

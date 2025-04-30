@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CvAnalysisSystem.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1dd3135e9dbe4c1205ae8b78cb16401cb5baed21")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+33eb763316f9a4a3138f4706a585e75bbf0e1088")]
 [assembly: System.Reflection.AssemblyProductAttribute("CvAnalysisSystem.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CvAnalysisSystem.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

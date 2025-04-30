@@ -2,33 +2,43 @@
 using CvAnalysisSystem.Application;
 using CvAnalysisSystemProject.Security;
 using CvAnalysisSystemProject.Middlewares;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 using Stripe;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container
+// 1. Add services to the container
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// Database bağlantısı
+// 2. Database bağlantısı
 var connectionString = builder.Configuration.GetConnectionString("MyConn");
 builder.Services.AddSqlServerServices(connectionString!);
 
-// Application xidmətləri
+// 3. Application xidmətləri
 builder.Services.AddApplicationServices();
 
-// Authentication xidməti
+// 4. Authentication xidməti (JWT ilə)
 builder.Services.AddAuthenticationDependency(builder.Configuration);
 
-// HttpContext üçün
+// 5. HttpContext üçün
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
-// CORS policy əlavə edilir
+// 6. SignalR əlavə et
+builder.Services.AddSignalR(options =>
+{
+    options.EnableDetailedErrors = true;
+});
+
+// 7. CORS policy
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowAll",
-        policy => policy
+    options.AddPolicy("AllowAll", policy =>
+    {
+        policy
             .WithOrigins(
                 "http://localhost:5173",
                 "http://localhost:3000",
@@ -37,42 +47,44 @@ builder.Services.AddCors(options =>
                 "http://localhost:5188"
             )
             .AllowAnyMethod()
-            .AllowAnyHeader());
+            .AllowAnyHeader()
+            .AllowCredentials(); // SignalR üçün vacib
+    });
 });
 
-// Stripe üçün ayarlar
+// 8. Stripe üçün ayarlar
 var stripeSettings = builder.Configuration.GetSection("Stripe");
 StripeConfiguration.ApiKey = stripeSettings["SecretKey"];
 
 var app = builder.Build();
 
-// Middleware konfiqurasiyası
+// 9. Middleware konfiqurasiyası
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 
-    // Development mühitindəyiksə, HTTPS redirect istifadə etmə (redirect problemi olmasın)
-    // app.UseHttpsRedirection(); // BU SƏTİRİ İSTİFADƏ ETMİRİK!
+    // HTTPS redirect dev-də lazım deyil
+    // app.UseHttpsRedirection();
 }
 else
 {
-    // Production mühitində HTTPS Redirect aktiv olsun
     app.UseHttpsRedirection();
 }
 
-// CORS burda aktivləşdirilir
+// 10. CORS aktivləşdir
 app.UseCors("AllowAll");
 
-// Authentication və Authorization
+// 11. Authentication & Authorization
 app.UseAuthentication();
 app.UseAuthorization();
 
-// Custom Middlewares
+// 12. Custom Middlewares
 app.UseMiddleware<RateLimitMiddleware>();
 app.UseMiddleware<ExceptionHandlerMiddleware>();
 
-// Controllerləri mapp edirik
+// 13. Controllerləri və SignalR hub'ı mapp et
 app.MapControllers();
+app.MapHub<CvAnalysisSystem.Application.Services.ChatHub>("/chatHub");
 
 app.Run();

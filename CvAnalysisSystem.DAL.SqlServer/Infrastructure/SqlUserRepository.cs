@@ -27,6 +27,7 @@ public class SqlUserRepository(AppDbContext context) : IUserRepository
 
     public async Task RegisterAsync(User user)
     {
+        // yoxlama apar ki bele email de adam varsa error versin
         user.CreatedDate = DateTime.Now;
         user.CreatedBy = 1;
         await _context.Users.AddAsync(user);

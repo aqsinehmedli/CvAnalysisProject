@@ -34,7 +34,7 @@ public class SqlUserRepository(AppDbContext context) : IUserRepository
         await _context.SaveChangesAsync();
     }
 
-  
+
 
     public async Task Remove(int id)
     {

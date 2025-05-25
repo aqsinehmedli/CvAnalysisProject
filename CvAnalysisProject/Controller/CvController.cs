@@ -54,5 +54,96 @@ namespace CvAnalysisSystemProject.Controller
             var response = await Sender.Send(request);
             return Ok(response);
         }
+
+
+
+        private static List<Cv> _cvs = new List<Cv>();
+        private static int _idCounter = 1;
+
+        // POST api/cv
+        // CV yaratmaq və PDF faylı upload etmək üçün endpoint
+        [HttpPost]
+        [Consumes("multipart/form-data")]
+        public async Task<IActionResult> CreateCv([FromForm] CvCreateRequest request)
+        {
+            if (request.PdfFile == null || request.PdfFile.Length == 0)
+                return BadRequest("PDF faylı daxil edilməyib.");
+
+            var uploadPath = Path.Combine(Directory.GetCurrentDirectory(), "UploadedPdfs");
+            if (!Directory.Exists(uploadPath))
+                Directory.CreateDirectory(uploadPath);
+
+            var fileName = $"{Guid.NewGuid()}_{request.PdfFile.FileName}";
+            var filePath = Path.Combine(uploadPath, fileName);
+
+            using (var stream = new FileStream(filePath, FileMode.Create))
+            {
+                await request.PdfFile.CopyToAsync(stream);
+            }
+
+            var cv = new Cv
+            {
+                Id = _idCounter++,
+                UserId = request.UserId,
+                PdfFilePath = fileName,
+                Education = request.Education,
+                WorkExperience = request.WorkExperience,
+                Skills = request.Skills,
+                Languages = request.Languages,
+                Certifications = request.Certifications,
+                Status = "Created",
+                UploadDate = DateTime.UtcNow,
+                LastUpdated = DateTime.UtcNow,
+                AiAnalysis = null,
+                IsDeleted = false,
+                DeletedDate = DateTime.MinValue
+            };
+
+            _cvs.Add(cv);
+
+            return Ok(cv);
+        }
+
+        // GET api/cv/{id}
+        // CV məlumatlarını əldə etmək üçün endpoint
+        [HttpGet("{id}")]
+        public IActionResult GetCv(int id)
+        {
+            var cv = _cvs.Find(c => c.Id == id && !c.IsDeleted);
+            if (cv == null)
+                return NotFound();
+
+            return Ok(cv);
+        }
+
+        // GET api/cv/download/{id}
+        // PDF faylını yükləmək üçün endpoint
+        [HttpGet("download/{id}")]
+        public IActionResult DownloadPdf(int id)
+        {
+            var cv = _cvs.Find(c => c.Id == id && !c.IsDeleted);
+            if (cv == null || string.IsNullOrEmpty(cv.PdfFilePath))
+                return NotFound();
+
+            var filePath = Path.Combine(Directory.GetCurrentDirectory(), "UploadedPdfs", cv.PdfFilePath);
+
+            if (!System.IO.File.Exists(filePath))
+                return NotFound();
+
+            var fileBytes = System.IO.File.ReadAllBytes(filePath);
+            return File(fileBytes, "application/pdf", $"{cv.UserId}_cv.pdf");
+        }
+    }
+
+    // Request model for CV creation with file upload
+    public class CvCreateRequest
+    {
+        public int UserId { get; set; }
+        public string Education { get; set; }
+        public string WorkExperience { get; set; }
+        public string Skills { get; set; }
+        public string Languages { get; set; }
+        public string Certifications { get; set; }
+        public Microsoft.AspNetCore.Http.IFormFile PdfFile { get; set; }
     }
 }

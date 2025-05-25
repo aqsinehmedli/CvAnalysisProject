@@ -25,8 +25,6 @@ public class RegisterValidator : AbstractValidator<Register.Command>
             .NotEmpty().WithMessage("Şifrə boş ola bilməz")
             .MinimumLength(6).WithMessage("Şifrə ən azı 6 simvol olmalıdır");
 
-        RuleFor(x => x.UserRoles)
-            .NotNull().WithMessage("İstifadəçi rolu seçilməlidir");
 
         RuleFor(x => x.Gender)
             .NotNull().WithMessage("Cins seçilməlidir");

@@ -23,7 +23,6 @@ public class Register
         public string Email { get; set; }
         public string MobilePhone { get; set; }
         public string Password { get; set; }
-        public int? UserRoles { get; set; }
         public int? Gender { get; set; }
         [DataType(DataType.Date)]
         [SwaggerSchema(Format = "date")]

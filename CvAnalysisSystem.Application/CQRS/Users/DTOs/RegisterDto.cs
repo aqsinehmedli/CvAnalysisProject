@@ -12,7 +12,6 @@ public record struct RegisterDto
     public string MobilePhone { get; set; }
     public string Email { get; set; }
     public string Location { get; set; }
-    public int? UserRoles { get; set; }
     public int? Gender { get; set; }
     [DataType(DataType.Date)]
     [SwaggerSchema(Format = "date")]

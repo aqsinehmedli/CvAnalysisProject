@@ -36,7 +36,6 @@ public class RefreshToken
                     new Claim(ClaimTypes.NameIdentifier , currentUser.Id.ToString()),
                     new Claim(ClaimTypes.Name , currentUser.Name),
                 new Claim(ClaimTypes.Email, currentUser.Email),
-                    new Claim(ClaimTypes.Role , currentUser.UserRoles.ToString())
                 ];
 
             JwtSecurityToken token = TokenService.CreateToken(authClaim, _configuration);

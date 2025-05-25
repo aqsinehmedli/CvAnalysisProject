@@ -22,7 +22,7 @@ namespace CvAnalysisSystemProject.Controller
         [HttpGet(Name = "GetOpenAiInfo")]
         public IActionResult Get()
         {
-            var credential = new ApiKeyCredential("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");
+            var credential = new ApiKeyCredential("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");
             ChatClient client = new(model: "gpt-4", credential: credential);
 
             var completion = client.CompleteChat("Say 'this is a test.'");
@@ -41,7 +41,7 @@ namespace CvAnalysisSystemProject.Controller
             if (string.IsNullOrWhiteSpace(fileContent))
                 return BadRequest("PDF faylından heç bir mətn oxunmadı.");
 
-            var credential = new ApiKeyCredential("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");
+            var credential = new ApiKeyCredential("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");
             ChatClient client = new(model: "gpt-4", credential: credential);
 
             string defaultPrompt = "Check my CV and write score from 100 and write what I should change for better.";

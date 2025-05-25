@@ -11,6 +11,5 @@ public class GetByEmailDto
     public string MobilePhone { get; set; }
     public string Email { get; set; }
     public string Location { get; set; }
-    public int UserRoles { get; set; }
     public int Gender { get; set; }
 }

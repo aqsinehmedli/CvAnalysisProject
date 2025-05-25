@@ -23,7 +23,6 @@ public class Update
         public string Location { get; set; }
         public string Password { get; set; }
         public int? Gender { get; set; }
-        public int? UserRoles { get; set; }
         public DateTime? BirthDate { get; set; }
     }
     public sealed class Handler(IUnitOfWork unitOfWork, IMapper mapper) : IRequestHandler<Command, Result<UpdateDto>>
@@ -49,14 +48,7 @@ public class Update
             {
                 currentUser.Gender = Gender.male;
             }
-            if (Enum.TryParse<UserRoles>(request.UserRoles.ToString(), out var userRolesValue))
-            {
-                currentUser.UserRoles = userRolesValue;
-            }
-            else
-            {
-                currentUser.UserRoles = UserRoles.User;
-            }
+           
             if (!request.BirthDate.HasValue)
             {
                 throw new BadRequestException("Birth date is required and cannot be null.");

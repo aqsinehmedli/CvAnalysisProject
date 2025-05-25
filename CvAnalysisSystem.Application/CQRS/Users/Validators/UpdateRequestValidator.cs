@@ -41,9 +41,6 @@ namespace CvAnalysisSystem.Application.CQRS.Users.Validators
                 .Must(g => g == null || (g >= 0 && g <= 1))
                 .WithMessage("Cinsiyyət dəyəri düzgün deyil");
 
-            RuleFor(x => x.UserRoles)
-                .Must(r => r == null || Enum.IsDefined(typeof(CvAnalysisSystem.Domain.Enums.UserRoles), r))
-                .WithMessage("İstifadəçi rolu düzgün deyil");
 
             RuleFor(x => x.BirthDate)
                 .NotNull().WithMessage("Doğum tarixi mütləqdir")

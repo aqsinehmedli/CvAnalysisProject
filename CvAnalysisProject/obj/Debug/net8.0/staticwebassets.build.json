@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "hDFBBbI3EDa6hs+ENV9Fl+MxNzbR9fVGWw/JQ7jrPNA=",
+  "Hash": "LN1CkcM5oJSlvRBc9ngNRtbdPbEXOHkW1+BF9hOrT5o=",
   "Source": "CvAnalysisSystemProject",
   "BasePath": "_content/CvAnalysisSystemProject",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

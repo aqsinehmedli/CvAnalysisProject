@@ -37,3 +37,16 @@ C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.Domain\obj\Debug\net8.0
 C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.Domain\obj\Debug\net8.0\refint\CvAnalysisSystem.Domain.dll
 C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.Domain\obj\Debug\net8.0\CvAnalysisSystem.Domain.pdb
 C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.Domain\obj\Debug\net8.0\ref\CvAnalysisSystem.Domain.dll
+C:\Users\Bayra_ak95\Desktop\CvAnalysisProject\CvAnalysisSystem.Domain\bin\Debug\net8.0\CvAnalysisSystem.Domain.deps.json
+C:\Users\Bayra_ak95\Desktop\CvAnalysisProject\CvAnalysisSystem.Domain\bin\Debug\net8.0\CvAnalysisSystem.Domain.dll
+C:\Users\Bayra_ak95\Desktop\CvAnalysisProject\CvAnalysisSystem.Domain\bin\Debug\net8.0\CvAnalysisSystem.Domain.pdb
+C:\Users\Bayra_ak95\Desktop\CvAnalysisProject\CvAnalysisSystem.Domain\obj\Debug\net8.0\CvAnalysisSystem.Domain.csproj.AssemblyReference.cache
+C:\Users\Bayra_ak95\Desktop\CvAnalysisProject\CvAnalysisSystem.Domain\obj\Debug\net8.0\CvAnalysisSystem.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bayra_ak95\Desktop\CvAnalysisProject\CvAnalysisSystem.Domain\obj\Debug\net8.0\CvAnalysisSystem.Domain.AssemblyInfoInputs.cache
+C:\Users\Bayra_ak95\Desktop\CvAnalysisProject\CvAnalysisSystem.Domain\obj\Debug\net8.0\CvAnalysisSystem.Domain.AssemblyInfo.cs
+C:\Users\Bayra_ak95\Desktop\CvAnalysisProject\CvAnalysisSystem.Domain\obj\Debug\net8.0\CvAnalysisSystem.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Bayra_ak95\Desktop\CvAnalysisProject\CvAnalysisSystem.Domain\obj\Debug\net8.0\CvAnalysisSystem.Domain.sourcelink.json
+C:\Users\Bayra_ak95\Desktop\CvAnalysisProject\CvAnalysisSystem.Domain\obj\Debug\net8.0\CvAnalysisSystem.Domain.dll
+C:\Users\Bayra_ak95\Desktop\CvAnalysisProject\CvAnalysisSystem.Domain\obj\Debug\net8.0\refint\CvAnalysisSystem.Domain.dll
+C:\Users\Bayra_ak95\Desktop\CvAnalysisProject\CvAnalysisSystem.Domain\obj\Debug\net8.0\CvAnalysisSystem.Domain.pdb
+C:\Users\Bayra_ak95\Desktop\CvAnalysisProject\CvAnalysisSystem.Domain\obj\Debug\net8.0\ref\CvAnalysisSystem.Domain.dll

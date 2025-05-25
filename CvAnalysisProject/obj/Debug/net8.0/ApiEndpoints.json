@@ -26,6 +26,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "CvAnalysisSystemProject.Controller.ContactController",
+    "Method": "SendContactMessage",
+    "RelativePath": "api/Contact",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "form",
+        "Type": "CvAnalysisSystem.Application.CQRS.Cv.DTOs.ContactFormDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "CvAnalysisSystemProject.Controller.CvController",
     "Method": "Delete",
     "RelativePath": "api/Cv",
@@ -52,6 +68,22 @@
       {
         "Name": "command",
         "Type": "CvAnalysisSystem.Application.CQRS.Cv.Handlers.Commands.CreateCv\u002BCvCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmailController",
+    "Method": "SendEmail",
+    "RelativePath": "api/Email/send",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "ContactFormModel",
         "IsRequired": true
       }
     ],

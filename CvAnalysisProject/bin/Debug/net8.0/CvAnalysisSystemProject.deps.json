@@ -1329,14 +1329,7 @@
         }
       },
       "System.Diagnostics.EventLog/8.0.0": {},
-      "System.Formats.Asn1/8.0.1": {
-        "runtime": {
-          "lib/net8.0/System.Formats.Asn1.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.724.31311"
-          }
-        }
-      },
+      "System.Formats.Asn1/8.0.1": {},
       "System.IdentityModel.Tokens.Jwt/8.6.0": {
         "dependencies": {
           "Microsoft.IdentityModel.JsonWebTokens": "8.6.0",
@@ -1463,7 +1456,10 @@
           "System.IdentityModel.Tokens.Jwt": "8.6.0"
         },
         "runtime": {
-          "CvAnalysisSystem.Application.dll": {}
+          "CvAnalysisSystem.Application.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "CvAnalysisSystem.Common/1.0.0": {
@@ -1472,7 +1468,10 @@
           "Stripe.net": "48.0.2"
         },
         "runtime": {
-          "CvAnalysisSystem.Common.dll": {}
+          "CvAnalysisSystem.Common.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "CvAnalysisSystem.DAL.SqlServer/1.0.0": {
@@ -1487,7 +1486,10 @@
           "Stripe.net": "48.0.2"
         },
         "runtime": {
-          "CvAnalysisSystem.DAL.SqlServer.dll": {}
+          "CvAnalysisSystem.DAL.SqlServer.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "CvAnalysisSystem.Domain/1.0.0": {
@@ -1496,7 +1498,10 @@
           "Stripe.net": "48.0.2"
         },
         "runtime": {
-          "CvAnalysisSystem.Domain.dll": {}
+          "CvAnalysisSystem.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "CvAnalysisSystem.Repository/1.0.0": {
@@ -1506,7 +1511,10 @@
           "Stripe.net": "48.0.2"
         },
         "runtime": {
-          "CvAnalysisSystem.Repository.dll": {}
+          "CvAnalysisSystem.Repository.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

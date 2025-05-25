@@ -6,6 +6,8 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using Stripe;
+using CvAnalysisSystem.Application.Services.Abstract;
+using CvAnalysisSystem.Application.Services.Concret;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,6 +15,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddTransient<IEmailService, SMTPEmailService>();
+
 
 // 2. Database bağlantısı
 var connectionString = builder.Configuration.GetConnectionString("MyConn");
@@ -88,3 +92,6 @@ app.MapControllers();
 app.MapHub<CvAnalysisSystem.Application.Services.ChatHub>("/chatHub");
 
 app.Run();
+
+
+

@@ -38,6 +38,7 @@ public static class DependencyInjections
         services.AddTransient<ICvTemplateStrategy, ClassicTemplateStrategy>();
         services.AddTransient<ICvTemplateStrategyResolver, CvTemplateResolver>();
         services.AddScoped<IPdfReaderService, PdfReaderService>();
+        services.AddTransient<IEmailService, SMTPEmailService>();
         services.AddCors(options =>
         {
             options.AddPolicy("AllowAllOrigins", builder =>

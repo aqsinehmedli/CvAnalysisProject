@@ -17,7 +17,6 @@ public class AppDbContext : DbContext
     public DbSet<Certifications> Certifications { get; set; }
     public DbSet<Language> Languages { get; set; }
     public DbSet<ChatMessage> ChatMessages { get; set; }
-
-
+    public object EmailVerifications { get; internal set; }
 }
 

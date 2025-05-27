@@ -1,11 +1,12 @@
-﻿using CvAnalysisSystem.DAL.SqlServer;
-using CvAnalysisSystem.Application;
-using CvAnalysisSystemProject.Security;
+﻿using CvAnalysisSystem.Application;
+using CvAnalysisSystem.Application.Services.Abstract;
+using CvAnalysisSystem.Application.Services.Concret;
+using CvAnalysisSystem.DAL.SqlServer;
+using CvAnalysisSystemProject.Infrastructure;
 using CvAnalysisSystemProject.Middlewares;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.IdentityModel.Tokens;
-using System.Text;
+using CvAnalysisSystemProject.Security;
 using Stripe;
+using static System.Net.WebRequestMethods;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -23,6 +24,8 @@ builder.Services.AddApplicationServices();
 
 // 4. Authentication xidməti (JWT ilə)
 builder.Services.AddAuthenticationDependency(builder.Configuration);
+builder.Services.AddScoped<IUserContext, HttpContextUser>();
+
 
 // 5. HttpContext üçün
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
@@ -42,13 +45,17 @@ builder.Services.AddCors(options =>
             .WithOrigins(
                 "http://localhost:5184",
                 "http://localhost:5185",
-                "http://localhost:5186"
+                "http://localhost:5193"
             )
             .AllowAnyMethod()
             .AllowAnyHeader()
             .AllowCredentials(); // SignalR üçün vacib
     });
 });
+
+// SMTP
+builder.Services.AddScoped<IEmailService, EmailService>();
+
 
 // 8. Stripe üçün ayarlar
 var stripeSettings = builder.Configuration.GetSection("Stripe");

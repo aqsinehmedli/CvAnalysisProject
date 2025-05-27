@@ -56,7 +56,7 @@ public class Register
     }
     catch (Exception ex)
     {
-        throw new InternalServerException($"Register failed: {ex.Message}");
+                throw new InternalServerException($"Register failed: {ex.Message}");
     }
 }
 

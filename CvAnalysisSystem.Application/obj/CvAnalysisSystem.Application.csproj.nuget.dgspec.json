@@ -66,6 +66,10 @@
               "target": "Package",
               "version": "[2.3.55.2, )"
             },
+            "AWSSDK.S3": {
+              "target": "Package",
+              "version": "[4.0.0.7, )"
+            },
             "AutoMapper": {
               "target": "Package",
               "version": "[14.0.0, )"
@@ -102,9 +106,9 @@
               "target": "Package",
               "version": "[9.0.2, )"
             },
-            "Microsoft.IdentityModel": {
+            "Microsoft.IdentityModel.Tokens": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[8.11.0, )"
             },
             "PdfPig": {
               "target": "Package",

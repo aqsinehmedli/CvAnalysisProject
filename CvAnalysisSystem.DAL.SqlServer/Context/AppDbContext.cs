@@ -6,6 +6,7 @@ namespace CvAnalysisSystem.DAL.SqlServer.Context;
 
 public class AppDbContext : DbContext
 {
+    public DbSet<EmailVerification> EmailVerifications { get; set; }
     public AppDbContext(DbContextOptions options) : base(options) { }
     public DbSet<User> Users { get; set; }
     public DbSet<RefreshToken> RefreshTokens { get; set; }

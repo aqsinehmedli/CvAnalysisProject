@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using CvAnalysisSystem.Application.Services.Abstract;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using static CvAnalysisSystem.Application.CQRS.Users.Handlers.Commands.Login;
@@ -9,13 +10,16 @@ namespace CvAnalysisSystemProject.Controller
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class UserController : BaseController
+    public class UserController(IUserService userService) : BaseController
     {
+        private readonly IUserService _userService = userService;
+
         [HttpPost("Register")]
         public async Task<IActionResult> Register([FromBody] Command request)
         {
             return Ok(await Sender.Send(request));
         }
+
         [HttpPost("Login")]
         [AllowAnonymous]
         public async Task<IActionResult> Login([FromBody] LoginRequest request)
@@ -39,5 +43,13 @@ namespace CvAnalysisSystemProject.Controller
             var request = new CvAnalysisSystem.Application.CQRS.Users.Handlers.Commands.Delete.Command() { Id = id };
             return Ok(await Sender.Send(request));
         }
+        [Authorize]
+        [HttpGet("Profile")]
+        public async Task<IActionResult> GetProfile()
+        {
+            var userProfile = await _userService.GetCurrentUser();
+            return Ok(userProfile);
+        }
+
     }
 }

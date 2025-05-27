@@ -44,7 +44,7 @@ namespace CvAnalysisSystemProject.Controller
             var credential = new ApiKeyCredential("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");
             ChatClient client = new(model: "gpt-4", credential: credential);
 
-            string defaultPrompt = "Check my CV and write score from 100 and write what I should change for better.";
+            string defaultPrompt = "Check my CV and write score from 100 and write what I should change for better. Just English";
             string userQuestion = string.IsNullOrWhiteSpace(dto.Question) ? defaultPrompt : dto.Question;
 
             string finalPrompt = $"CV Məzmunu:\n{fileContent}\n\nSual:\n{userQuestion}";

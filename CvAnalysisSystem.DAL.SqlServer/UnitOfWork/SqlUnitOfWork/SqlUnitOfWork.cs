@@ -23,6 +23,9 @@ namespace CvAnalysisSystem.DAL.SqlServer.UnitOfWork
         private RefreshTokenRepository? _refreshTokenRepository;
         public IRefreshTokenRepository RefreshTokenRepository => _refreshTokenRepository ?? new RefreshTokenRepository(_context);
 
+        private SqlEmailVerificationRepository? _emailVerificationRepository;
+        public IEmailVerificationRepository EmailVerificationRepository => _emailVerificationRepository ??= new SqlEmailVerificationRepository(_context);
+
         public async Task<int> SaveChange()
         {
             return await _context.SaveChangesAsync();

@@ -8,6 +8,7 @@ public interface IUnitOfWork
     public IRefreshTokenRepository RefreshTokenRepository { get; }
 
     public ICvRepository CvRepository { get; }
+    public IEmailVerificationRepository EmailVerificationRepository { get; }
     Task<int> SaveChange();
 
 

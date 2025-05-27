@@ -39,6 +39,7 @@ D:\CvAnalysisProject\CvAnalysisSystem.DAL.SqlServer\obj\Debug\net8.0\refint\CvAn
 D:\CvAnalysisProject\CvAnalysisSystem.DAL.SqlServer\obj\Debug\net8.0\CvAnalysisSystem.DAL.SqlServer.pdb
 D:\CvAnalysisProject\CvAnalysisSystem.DAL.SqlServer\obj\Debug\net8.0\ref\CvAnalysisSystem.DAL.SqlServer.dll
 C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.DAL.SqlServer\bin\Debug\net8.0\CvAnalysisSystem.DAL.SqlServer.deps.json
+C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.DAL.SqlServer\bin\Debug\net8.0\CvAnalysisSystem.DAL.SqlServer.runtimeconfig.json
 C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.DAL.SqlServer\bin\Debug\net8.0\CvAnalysisSystem.DAL.SqlServer.dll
 C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.DAL.SqlServer\bin\Debug\net8.0\CvAnalysisSystem.DAL.SqlServer.pdb
 C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.DAL.SqlServer\bin\Debug\net8.0\CvAnalysisSystem.Common.dll
@@ -57,6 +58,5 @@ C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.DAL.SqlServer\obj\Debug
 C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.DAL.SqlServer\obj\Debug\net8.0\CvAnalysisSystem.DAL.SqlServer.dll
 C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.DAL.SqlServer\obj\Debug\net8.0\refint\CvAnalysisSystem.DAL.SqlServer.dll
 C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.DAL.SqlServer\obj\Debug\net8.0\CvAnalysisSystem.DAL.SqlServer.pdb
-C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.DAL.SqlServer\obj\Debug\net8.0\ref\CvAnalysisSystem.DAL.SqlServer.dll
-C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.DAL.SqlServer\bin\Debug\net8.0\CvAnalysisSystem.DAL.SqlServer.runtimeconfig.json
 C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.DAL.SqlServer\obj\Debug\net8.0\CvAnalysisSystem.DAL.SqlServer.genruntimeconfig.cache
+C:\Users\user\Desktop\CvAnalysisProject\CvAnalysisSystem.DAL.SqlServer\obj\Debug\net8.0\ref\CvAnalysisSystem.DAL.SqlServer.dll

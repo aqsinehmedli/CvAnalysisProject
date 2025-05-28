@@ -1,6 +1,9 @@
 ﻿using CvAnalysisSystem.Application;
 using CvAnalysisSystem.Application.Services.Abstract;
 using CvAnalysisSystem.Application.Services.Concret;
+using CvAnalysisSystem.Application.Services.Implementations;
+using CvAnalysisSystem.Application.Services.Interfaces;
+using CvAnalysisSystem.Common.Email;
 using CvAnalysisSystem.DAL.SqlServer;
 using CvAnalysisSystemProject.Infrastructure;
 using CvAnalysisSystemProject.Middlewares;
@@ -53,8 +56,9 @@ builder.Services.AddCors(options =>
     });
 });
 
-// SMTP
+builder.Services.Configure<EmailSettings>(builder.Configuration.GetSection("Smtp"));
 builder.Services.AddScoped<IEmailService, EmailService>();
+
 
 
 // 8. Stripe üçün ayarlar

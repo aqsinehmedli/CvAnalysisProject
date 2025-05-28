@@ -1007,7 +1007,10 @@
           "Stripe.net": "48.0.2"
         },
         "runtime": {
-          "CvAnalysisSystem.Common.dll": {}
+          "CvAnalysisSystem.Common.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "CvAnalysisSystem.DAL.SqlServer/1.0.0": {
@@ -1022,7 +1025,10 @@
           "Stripe.net": "48.0.2"
         },
         "runtime": {
-          "CvAnalysisSystem.DAL.SqlServer.dll": {}
+          "CvAnalysisSystem.DAL.SqlServer.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "CvAnalysisSystem.Domain/1.0.0": {
@@ -1031,7 +1037,10 @@
           "Stripe.net": "48.0.2"
         },
         "runtime": {
-          "CvAnalysisSystem.Domain.dll": {}
+          "CvAnalysisSystem.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "CvAnalysisSystem.Repository/1.0.0": {
@@ -1041,7 +1050,10 @@
           "Stripe.net": "48.0.2"
         },
         "runtime": {
-          "CvAnalysisSystem.Repository.dll": {}
+          "CvAnalysisSystem.Repository.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

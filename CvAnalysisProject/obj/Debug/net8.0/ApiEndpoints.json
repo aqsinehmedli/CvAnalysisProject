@@ -58,6 +58,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "CvAnalysisSystemProject.Controllers.EmailController",
+    "Method": "SendEmail",
+    "RelativePath": "api/Email",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CvAnalysisSystem.Application.CQRS.Email.EmailRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "CvAnalysisSystemProject.Controller.OpenAiController",
     "Method": "Get",
     "RelativePath": "api/OpenAi",
@@ -130,6 +146,16 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CvAnalysisSystemProject.Controller.UserController",
+    "Method": "GetProfile",
+    "RelativePath": "api/User/Profile",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {

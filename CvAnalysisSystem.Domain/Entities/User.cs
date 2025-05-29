@@ -1,6 +1,5 @@
 ﻿using CvAnalysisSystem.Domain.BaseEntities;
 using CvAnalysisSystem.Domain.Enums;
-using System.Reflection;
 
 namespace CvAnalysisSystem.Domain.Entities;
 

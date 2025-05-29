@@ -8,6 +8,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="CQRS\Cv\Validators\**" />
+    <EmbeddedResource Remove="CQRS\Cv\Validators\**" />
+    <None Remove="CQRS\Cv\Validators\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="AutoMapper" Version="14.0.0" />
     <PackageReference Include="AWSSDK" Version="2.3.55.2" />
     <PackageReference Include="AWSSDK.S3" Version="4.0.0.7" />
@@ -20,7 +26,6 @@
     <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="9.0.2" />
     <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="8.11.0" />
     <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="8.1.1" />
-    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.6.0" />
     <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="5.0.17" />
     <PackageReference Include="PdfPig" Version="0.1.10" />
     <PackageReference Include="QuestPDF" Version="2025.1.7" />
@@ -32,10 +37,6 @@
     <ProjectReference Include="..\CvAnalysisSystem.DAL.SqlServer\CvAnalysisSystem.DAL.SqlServer.csproj" />
     <ProjectReference Include="..\CvAnalysisSystem.Domain\CvAnalysisSystem.Domain.csproj" />
     <ProjectReference Include="..\CvAnalysisSystem.Repository\CvAnalysisSystem.Repository.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="CQRS\Cv\Validators\" />
   </ItemGroup>
 
 </Project>

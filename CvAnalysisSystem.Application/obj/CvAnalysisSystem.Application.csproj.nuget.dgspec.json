@@ -125,10 +125,6 @@
             "Swashbuckle.AspNetCore.Annotations": {
               "target": "Package",
               "version": "[8.1.1, )"
-            },
-            "System.IdentityModel.Tokens.Jwt": {
-              "target": "Package",
-              "version": "[8.6.0, )"
             }
           },
           "imports": [
@@ -379,6 +375,10 @@
             "Stripe.net": {
               "target": "Package",
               "version": "[48.0.2, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.11.0, )"
             }
           },
           "imports": [

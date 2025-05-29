@@ -999,10 +999,10 @@
           }
         }
       },
-      "Microsoft.IdentityModel.JsonWebTokens/8.6.0": {
+      "Microsoft.IdentityModel.JsonWebTokens/8.11.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.IdentityModel.Tokens": "8.6.0"
+          "Microsoft.IdentityModel.Tokens": "8.11.0"
         },
         "compile": {
           "lib/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll": {
@@ -1480,11 +1480,11 @@
           }
         }
       },
-      "System.IdentityModel.Tokens.Jwt/8.6.0": {
+      "System.IdentityModel.Tokens.Jwt/8.11.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.IdentityModel.JsonWebTokens": "8.6.0",
-          "Microsoft.IdentityModel.Tokens": "8.6.0"
+          "Microsoft.IdentityModel.JsonWebTokens": "8.11.0",
+          "Microsoft.IdentityModel.Tokens": "8.11.0"
         },
         "compile": {
           "lib/net8.0/System.IdentityModel.Tokens.Jwt.dll": {
@@ -1799,7 +1799,8 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Microsoft.AspNetCore.SignalR": "1.2.0",
-          "Stripe.net": "48.0.2"
+          "Stripe.net": "48.0.2",
+          "System.IdentityModel.Tokens.Jwt": "8.11.0"
         },
         "compile": {
           "bin/placeholder/CvAnalysisSystem.Domain.dll": {}
@@ -3022,10 +3023,10 @@
         "microsoft.identitymodel.abstractions.nuspec"
       ]
     },
-    "Microsoft.IdentityModel.JsonWebTokens/8.6.0": {
-      "sha512": "g/CFN/OzAhJb9a94ep6/xv4b9fOUL8heFkKDwC/HNb17tUDOIPN5iVawisfZ0p1xjJlmVyYWIggnECqIfX8Rfw==",
+    "Microsoft.IdentityModel.JsonWebTokens/8.11.0": {
+      "sha512": "rLvApg2vqs/Kz5kVHwHUMAe3owInYrsPX8QP8CQktubX9R63P+J47nR/IOS4n6ddJCvGInUGRBKqcBGJtuA4Rw==",
       "type": "package",
-      "path": "microsoft.identitymodel.jsonwebtokens/8.6.0",
+      "path": "microsoft.identitymodel.jsonwebtokens/8.11.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3042,7 +3043,7 @@
         "lib/net9.0/Microsoft.IdentityModel.JsonWebTokens.xml",
         "lib/netstandard2.0/Microsoft.IdentityModel.JsonWebTokens.dll",
         "lib/netstandard2.0/Microsoft.IdentityModel.JsonWebTokens.xml",
-        "microsoft.identitymodel.jsonwebtokens.8.6.0.nupkg.sha512",
+        "microsoft.identitymodel.jsonwebtokens.8.11.0.nupkg.sha512",
         "microsoft.identitymodel.jsonwebtokens.nuspec"
       ]
     },
@@ -3645,10 +3646,10 @@
         "version.txt"
       ]
     },
-    "System.IdentityModel.Tokens.Jwt/8.6.0": {
-      "sha512": "PbhxMaAejQ5pVStTsMPzja0Q2FOeEIOQy8isxw2tTxduqIjWRJ+P78bWGpaXH67Tkeb+2t91YBj2stXEw6vyZQ==",
+    "System.IdentityModel.Tokens.Jwt/8.11.0": {
+      "sha512": "fDPoJMD4/puOlYaOESFCZNKy8X5Cw7URr9ibcHe0Qq3SrGhku9xVSxeXSNAP9RRahFQ/GbLfqO9AN1XD3Nxacw==",
       "type": "package",
-      "path": "system.identitymodel.tokens.jwt/8.6.0",
+      "path": "system.identitymodel.tokens.jwt/8.11.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3665,7 +3666,7 @@
         "lib/net9.0/System.IdentityModel.Tokens.Jwt.xml",
         "lib/netstandard2.0/System.IdentityModel.Tokens.Jwt.dll",
         "lib/netstandard2.0/System.IdentityModel.Tokens.Jwt.xml",
-        "system.identitymodel.tokens.jwt.8.6.0.nupkg.sha512",
+        "system.identitymodel.tokens.jwt.8.11.0.nupkg.sha512",
         "system.identitymodel.tokens.jwt.nuspec"
       ]
     },
@@ -4304,8 +4305,7 @@
       "PdfPig >= 0.1.10",
       "QuestPDF >= 2025.1.7",
       "Stripe.net >= 48.0.2",
-      "Swashbuckle.AspNetCore.Annotations >= 8.1.1",
-      "System.IdentityModel.Tokens.Jwt >= 8.6.0"
+      "Swashbuckle.AspNetCore.Annotations >= 8.1.1"
     ]
   },
   "packageFolders": {
@@ -4433,10 +4433,6 @@
           "Swashbuckle.AspNetCore.Annotations": {
             "target": "Package",
             "version": "[8.1.1, )"
-          },
-          "System.IdentityModel.Tokens.Jwt": {
-            "target": "Package",
-            "version": "[8.6.0, )"
           }
         },
         "imports": [

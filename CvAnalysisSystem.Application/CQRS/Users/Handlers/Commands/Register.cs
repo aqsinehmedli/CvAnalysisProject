@@ -35,30 +35,23 @@ public class Register
         private readonly IMapper _mapper = mapper;
 
 
-       public async Task<Result<RegisterDto>> Handle(Command request, CancellationToken cancellationToken)
-{
-    try
-    {
-        var isExist = await _unitOfWork.UserRepository.GetByEmailAsync(request.Email);
-        if (isExist != null) 
-        { 
-            throw new BadRequestException("User already registered with provided email!"); 
+        public async Task<Result<RegisterDto>> Handle(Command request, CancellationToken cancellationToken)
+        {
+            var isExist = await _unitOfWork.UserRepository.GetByEmailAsync(request.Email);
+            if (isExist != null)
+            {
+                throw new BadRequestException("User already registered with provided email!");
+            }
+
+            var newUser = _mapper.Map<User>(request);
+            var hashPassword = PasswordHasher.ComputeStringToSha256Hash(request.Password);
+            newUser.PasswordHash = hashPassword;
+            await _unitOfWork.UserRepository.RegisterAsync(newUser);
+            await _unitOfWork.SaveChange(); // SAVE burada çağırılmalıdır!
+
+            var response = _mapper.Map<RegisterDto>(newUser);
+            return new Result<RegisterDto> { Data = response, IsSuccess = true, Errors = [] };
         }
-
-        var newUser = _mapper.Map<User>(request);
-        var hashPassword = PasswordHasher.ComputeStringToSha256Hash(request.Password);
-        newUser.PasswordHash = hashPassword;
-        await _unitOfWork.UserRepository.RegisterAsync(newUser);
-        await _unitOfWork.SaveChange(); // SAVE burada çağırılmalıdır!
-
-        var response = _mapper.Map<RegisterDto>(newUser);
-        return new Result<RegisterDto> { Data = response, IsSuccess = true, Errors = [] };
-    }
-    catch (Exception ex)
-    {
-                throw new InternalServerException($"Register failed: {ex.Message}");
-    }
-}
 
     }
 }

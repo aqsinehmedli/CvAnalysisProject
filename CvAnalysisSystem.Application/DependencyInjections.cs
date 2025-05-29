@@ -38,7 +38,6 @@ public static class DependencyInjections
         services.AddTransient<ICvTemplateStrategy, ClassicTemplateStrategy>();
         services.AddTransient<ICvTemplateStrategyResolver, CvTemplateResolver>();
         services.AddScoped<IPdfReaderService, PdfReaderService>();
-        services.AddScoped<IUserService,UserService>();  
 
         services.AddCors(options =>
         {
@@ -47,6 +46,10 @@ public static class DependencyInjections
                        .AllowAnyMethod()
                        .AllowAnyHeader());
         });
+
+
+
+
         return services;
     }
 

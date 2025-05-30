@@ -1,4 +1,4 @@
-﻿CREATE TABLE Skills (
+﻿  CREATE TABLE Skills (
     Id INT PRIMARY KEY IDENTITY(1,1),
     CvModelId INT NOT NULL,
     SkillName NVARCHAR(100),

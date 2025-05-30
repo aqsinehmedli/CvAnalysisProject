@@ -58,6 +58,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "EmailController",
+    "Method": "SendEmail",
+    "RelativePath": "api/Email/send",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "ContactFormModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "CvAnalysisSystemProject.Controller.OpenAiController",
     "Method": "Get",
     "RelativePath": "api/OpenAi",
@@ -134,18 +150,12 @@
   },
   {
     "ContainingType": "CvAnalysisSystemProject.Controller.UserController",
-    "Method": "RefreshToken",
-    "RelativePath": "api/User/RefreshToken",
-    "HttpMethod": "POST",
+    "Method": "GetProfile",
+    "RelativePath": "api/User/Profile",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [
-      {
-        "Name": "request",
-        "Type": "CvAnalysisSystem.Application.CQRS.Users.Handlers.Commands.RefreshToken\u002BRefreshTokenReuqest",
-        "IsRequired": true
-      }
-    ],
+    "Parameters": [],
     "ReturnTypes": []
   },
   {

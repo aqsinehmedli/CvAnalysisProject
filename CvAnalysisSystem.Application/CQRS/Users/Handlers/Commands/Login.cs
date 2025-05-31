@@ -43,7 +43,7 @@ public class Login
                     new Claim(ClaimTypes.Name, user.Name),
                     new Claim(ClaimTypes.Email, user.Email),
                 };
-                
+
                 JwtSecurityToken token = TokenService.CreateToken(authClaim, _configuration);
                 string tokenString = new JwtSecurityTokenHandler().WriteToken(token);
 

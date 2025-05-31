@@ -1,8 +1,9 @@
-﻿namespace CvAnalysisSystem.Application.Services.Abstract
-{
-    public interface IEmailService
-    {
-        Task SendEmailAsync(string toEmail, string subject, string body);
-    }
-}
+﻿using CvAnalysisSystem.Application.CQRS.Email;
+using System.Threading.Tasks;
 
+namespace CvAnalysisSystem.Application.Services.Interfaces;
+
+public interface IEmailService
+{
+    Task SendEmailAsync(EmailRequestDto request);
+}

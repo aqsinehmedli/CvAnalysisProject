@@ -58,16 +58,16 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "EmailController",
+    "ContainingType": "CvAnalysisSystemProject.Controllers.EmailController",
     "Method": "SendEmail",
-    "RelativePath": "api/Email/send",
+    "RelativePath": "api/Email",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "model",
-        "Type": "ContactFormModel",
+        "Name": "request",
+        "Type": "CvAnalysisSystem.Application.CQRS.Email.EmailRequestDto",
         "IsRequired": true
       }
     ],

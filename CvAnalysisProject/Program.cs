@@ -2,6 +2,9 @@
 using CvAnalysisSystem.Application.Security;
 using CvAnalysisSystem.Application.Services.Abstract;
 using CvAnalysisSystem.Application.Services.Concret;
+using CvAnalysisSystem.Application.Services.Implementations;
+using CvAnalysisSystem.Application.Services.Interfaces;
+using CvAnalysisSystem.Common.Email;
 using CvAnalysisSystem.DAL.SqlServer;
 using CvAnalysisSystemProject;
 using CvAnalysisSystemProject.Middlewares;
@@ -61,6 +64,10 @@ builder.Services.AddCors(options =>
     });
 });
 
+builder.Services.Configure<EmailSettings>(builder.Configuration.GetSection("Smtp"));
+builder.Services.AddScoped<IEmailService, EmailService>();
+// STRIPE AÇARI KONFİQURASİYASI BURADA ƏLAVƏ OLUNUR
+Stripe.StripeConfiguration.ApiKey = builder.Configuration["Stripe:SecretKey"];
 builder.Services.AddScoped<IEmailService, EmailService>();
 
 var app = builder.Build();

@@ -1,43 +1,33 @@
-﻿using MailKit.Net.Smtp;
-using MimeKit;
+﻿using CvAnalysisSystem.Application.CQRS.Email;
+using CvAnalysisSystem.Application.Services.Abstract;
+using CvAnalysisSystem.Application.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
+using System.Threading.Tasks;
 
-[ApiController]
+namespace CvAnalysisSystemProject.Controllers;
+
 [Route("api/[controller]")]
+[ApiController]
 public class EmailController : ControllerBase
 {
-    [HttpPost("send")]
-    public IActionResult SendEmail([FromBody] ContactFormModel model)
+    private readonly IEmailService _emailService;
+
+    public EmailController(IEmailService emailService)
+    {
+        _emailService = emailService;
+    }
+
+    [HttpPost]
+    public async Task<IActionResult> SendEmail([FromBody] EmailRequestDto request)
     {
         try
         {
-            var email = new MimeMessage();
-            email.From.Add(MailboxAddress.Parse("senseninemail@gmail.com")); // göndərən email
-            email.To.Add(MailboxAddress.Parse("aqsinhmdli03@gmail.com"));   // qəbul edən email
-            email.Subject = $"Yeni mesaj {model.FullName} tərəfindən";
-            email.Body = new TextPart(MimeKit.Text.TextFormat.Plain)
-            {
-                Text = $"Ad: {model.FullName}\nEmail: {model.Email}\nMesaj: {model.Message}"
-            };
-
-            using var smtp = new SmtpClient();
-            smtp.Connect("smtp.gmail.com", 587, MailKit.Security.SecureSocketOptions.StartTls);
-            smtp.Authenticate("senseninemail@gmail.com", "gmail_app_password"); // Gmail app parolu
-            smtp.Send(email);
-            smtp.Disconnect(true);
-
-            return Ok(new { message = "Email göndərildi." });
+            await _emailService.SendEmailAsync(request);
+            return Ok("Email uğurla göndərildi.");
         }
         catch (Exception ex)
         {
-            return StatusCode(500, new { message = "Email göndərilə bilmədi.", error = ex.Message });
+            return StatusCode(500, $"Xəta baş verdi: {ex.Message}");
         }
     }
-}
-
-public class ContactFormModel
-{
-    public string FullName { get; set; }
-    public string Email { get; set; }
-    public string Message { get; set; }
 }

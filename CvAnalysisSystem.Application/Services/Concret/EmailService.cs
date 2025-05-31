@@ -1,49 +1,43 @@
-﻿using CvAnalysisSystem.Application.Services.Abstract;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Logging;
+﻿using CvAnalysisSystem.Application.CQRS.Email;
+using CvAnalysisSystem.Application.Services.Interfaces;
+using CvAnalysisSystem.Common.Email;
+using Microsoft.Extensions.Options;
 using System.Net;
 using System.Net.Mail;
+using System.Threading.Tasks;
 
-namespace CvAnalysisSystem.Application.Services.Concret
+namespace CvAnalysisSystem.Application.Services.Implementations;
+
+public class EmailService : IEmailService
 {
-    public class EmailService(IConfiguration configuration, ILogger<EmailService> logger) : IEmailService
+    private readonly EmailSettings _emailSettings;
+
+    public EmailService(IOptions<EmailSettings> emailSettings)
     {
-        private readonly IConfiguration _configuration = configuration;
-        private readonly ILogger<EmailService> _logger = logger;
+        _emailSettings = emailSettings.Value;
+    }
 
-        public async Task SendEmailAsync(string toEmail, string subject, string body)
+    public async Task SendEmailAsync(EmailRequestDto request)
+    {
+        if (string.IsNullOrWhiteSpace(request.ToEmail))
+            throw new ArgumentNullException(nameof(request.ToEmail), "Email ünvanı boş ola bilməz");
+
+        var message = new MailMessage
         {
-            var smtpHost = _configuration["Smtp:Host"];
-            var smtpPort = int.Parse(_configuration["Smtp:Port"]);
-            var smtpUser = _configuration["Smtp:Username"];
-            var smtpPass = _configuration["Smtp:Password"];
-            var fromEmail = _configuration["Smtp:From"];
+            From = new MailAddress(_emailSettings.From),
+            Subject = request.Subject,
+            Body = request.Body,
+            IsBodyHtml = true
+        };
 
-            var message = new MailMessage
-            {
-                From = new MailAddress(fromEmail),
-                Subject = subject,
-                Body = body,
-                IsBodyHtml = true
-            };
+        message.To.Add(new MailAddress(request.ToEmail));
 
-            message.To.Add(toEmail);
+        using var client = new SmtpClient(_emailSettings.Host, _emailSettings.Port)
+        {
+            Credentials = new NetworkCredential(_emailSettings.Username, _emailSettings.Password),
+            EnableSsl = true
+        };
 
-            using var client = new SmtpClient(smtpHost, smtpPort)
-            {
-                Credentials = new NetworkCredential(smtpUser, smtpPass),
-                EnableSsl = true
-            };
-
-            try
-            {
-                await client.SendMailAsync(message);
-            }
-            catch (Exception ex)
-            {
-                _logger.LogError(ex, "an ocurred Error while sending email");
-                throw;
-            }
-        }
+        await client.SendMailAsync(message);
     }
 }

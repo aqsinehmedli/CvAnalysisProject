@@ -1459,7 +1459,7 @@
         },
         "runtime": {
           "CvAnalysisSystem.Application.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -1471,7 +1471,7 @@
         },
         "runtime": {
           "CvAnalysisSystem.Common.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -1489,7 +1489,7 @@
         },
         "runtime": {
           "CvAnalysisSystem.DAL.SqlServer.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -1502,7 +1502,7 @@
         },
         "runtime": {
           "CvAnalysisSystem.Domain.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -1515,7 +1515,7 @@
         },
         "runtime": {
           "CvAnalysisSystem.Repository.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }

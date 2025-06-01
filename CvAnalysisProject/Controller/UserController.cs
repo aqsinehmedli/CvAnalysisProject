@@ -13,7 +13,6 @@ public class UserController(IUserService userService) : BaseController
     private readonly IUserService _userService = userService;
 
     [HttpPost("Register")]
-    [Authorize]
     public async Task<IActionResult> Register([FromBody] Command request)
     {
         return Ok(await Sender.Send(request));

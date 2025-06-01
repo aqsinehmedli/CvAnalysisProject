@@ -2,6 +2,7 @@
 using CvAnalysisSystem.Application.Security;
 using CvAnalysisSystem.Application.Services.Abstract;
 using CvAnalysisSystem.Application.Services.Concret;
+using CvAnalysisSystem.Application.Services.Concrete;
 using CvAnalysisSystem.Application.Services.Implementations;
 using CvAnalysisSystem.Application.Services.Interfaces;
 using CvAnalysisSystem.Common.Email;
@@ -57,7 +58,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy("AllowAll", policy =>
     {
         policy
-            .WithOrigins("http://localhost:5184", "http://localhost:5185", "http://localhost:5193")
+            .WithOrigins("http://localhost:5173", "http://localhost:5174", "http://localhost:5175")
             .AllowAnyMethod()
             .AllowAnyHeader()
             .AllowCredentials();
@@ -66,6 +67,7 @@ builder.Services.AddCors(options =>
 
 builder.Services.Configure<EmailSettings>(builder.Configuration.GetSection("Smtp"));
 builder.Services.AddScoped<IEmailService, EmailService>();
+builder.Services.AddScoped<IUserService, UserService>();
 // STRIPE AÇARI KONFİQURASİYASI BURADA ƏLAVƏ OLUNUR
 Stripe.StripeConfiguration.ApiKey = builder.Configuration["Stripe:SecretKey"];
 builder.Services.AddScoped<IEmailService, EmailService>();
